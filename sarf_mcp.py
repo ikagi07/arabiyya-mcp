@@ -5626,6 +5626,20 @@ def _harakat_differ(a: str, b: str, n: int) -> bool:
     return any(vowel(p) and vowel(q) and vowel(p) != vowel(q) for p, q in zip(ca[:-1], cb[:-1]))
 
 
+def _tasri_rawi(hemi: str, u: list, r: int) -> int:
+    """موضع الروي للتصريع: الهاء الأخيرة غير المضبوطة بعد حرف غير مضبوط تُعدّ هاءَ وصل إذا كانت ضميرًا بعد غير حرف مدّ
+    («جدُّهُ»: الروي الدال)، وتبقى رويًّا إذا كانت من أصل الكلمة («وجه») أو بعد حرف مدّ («أبوه»)."""
+    n = len(u)
+    if r != n - 1 or n < 2 or u[r][0] != "ه" or u[r][1] or u[r - 1][1] or u[r - 1][0] in "اوي":
+        return r
+    try:
+        an = _analyzer().analyze(_strip_tashkeel(hemi.split()[-1]))
+        a = max(an, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99)) if an else {}
+    except Exception:
+        return r
+    return r - 1 if str(a.get("enc0", "0")).startswith("3ms") else r
+
+
 def _roots_of(w: str) -> set:
     try:
         return {a.get("root") for a in _analyzer().analyze(_strip_tashkeel(w)) if a.get("root") and "#" not in (a.get("root") or "")}
@@ -5718,6 +5732,10 @@ def detect_badi(text: str) -> dict:
         if poetry and a_:
             us, hs = _qafiya_hypotheses(s_)
             ua, ha = _qafiya_hypotheses(a_)
+            if hs:
+                hs = [_tasri_rawi(s_, us, hs[0])]
+            if ha:
+                ha = [_tasri_rawi(a_, ua, ha[0])]
             if us and ua and hs and ha and us[hs[0]][0] == ua[ha[0]][0] and (us[hs[0]][1] == ua[ha[0]][1] or not us[hs[0]][1] or not ua[ha[0]][1]):
                 found["التصريع"].append({"الموضع": where, "آخر الصدر": s_.split()[-1], "آخر العجز": a_.split()[-1]})
     # لزوم ما لا يلزم: التزام حرف قبل الروي في القصيدة

@@ -56,6 +56,10 @@ class TestBadiRound2(unittest.TestCase):
         # المهمة 11: تحرير التحبير ص255، «قبله/قبل» ترديد لا جناس
         self.assertEqual([k for k in jinas("قل لمن ساد ثم ساد أبوه * قبله ثم قبل ذلك جده") if "قبله" in k[0]], [])
 
+    def test_ha_wasl_vs_rawi(self):
+        # المهمة 12: تحرير التحبير ص255، «أبوه» رويّها الهاء و«جده» رويّها الدال، فلا تصريع
+        self.assertEqual(found("قل لمن ساد ثم ساد أبوه * قبله ثم قبل ذلك جده", "التصريع"), [])
+
 
 if __name__ == "__main__":
     unittest.main()
