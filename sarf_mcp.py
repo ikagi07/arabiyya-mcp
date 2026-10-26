@@ -5581,12 +5581,40 @@ _ANTONYMS = [("حياة", "موت"), ("حي", "ميت"), ("ليل", "نهار"),
              ("سعيد", "شقي"), ("ربح", "خسر"), ("ربح", "خساره"), ("بدايه", "نهايه"), ("كثير", "قليل"), ("كثره", "قله"), ("ملك", "مملوك")]
 
 
+ANTONYM_TIERS = "AB"   # A ويكاموس الإنجليزي، B ويكاموس العربي (المتبادل)، C الشبكة الدلالية العربية (أضعفها)
+
+
+def _general_antonyms(tiers: str = None) -> list:
+    """أزواج الأضداد العامة من data/badi/antonyms_general.tsv (CC BY-SA، انظر DATA_LICENSES.md):
+    اللفظان ولمّتاهما كما يخرجهما CAMeL."""
+    import csv
+    tiers = ANTONYM_TIERS if tiers is None else tiers
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "badi", "antonyms_general.tsv")
+    out = []
+    try:
+        with open(path, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                if r.get("tier") in tiers:
+                    out.append((r["word1"], r["word2"]))
+                    if r.get("word1_lex") and r.get("word2_lex"):
+                        out.append((r["word1_lex"], r["word2_lex"]))
+    except OSError:
+        pass
+    return out
+
+
 @lru_cache(maxsize=1)
 def _antonym_index():
     idx = {}
-    for a, b in _ANTONYMS:
-        idx.setdefault(_norm(a), set()).add(_norm(b))
-        idx.setdefault(_norm(b), set()).add(_norm(a))
+    for a, b in list(_ANTONYMS) + _general_antonyms():
+        a, b = _norm(a), _norm(b)
+        if len(a) < 2 or len(b) < 2 or a == b:
+            continue
+        # الألف في آخر الناقص تُكتب ياءً في لمّة CAMeL («احيا» = «احيي»)
+        for x in {a, a[:-1] + "ي" if a.endswith("ا") and len(a) > 2 else a}:
+            for y in {b, b[:-1] + "ي" if b.endswith("ا") and len(b) > 2 else b}:
+                idx.setdefault(x, set()).add(y)
+                idx.setdefault(y, set()).add(x)
     return idx
 
 

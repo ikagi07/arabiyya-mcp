@@ -1,0 +1,940 @@
+word1	word2	pos	source	source_ref	in_gold	gold_item	in_tool	tier	word1_voc	word2_voc	word1_lex	word2_lex
+ابد	ازل	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%A8%D8%AF#Arabic	no		no	A	أبد	أَزَل	بدا	ازل
+ابدي	اخفي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%A8%D8%AF%D9%89#Arabic	no		no	A	أبدى	أَخْفَى	ابدي	اخفي
+ابرم	نقض	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%A8%D8%B1%D9%85#Arabic	no		no	A	أبرم	نَقَضَ	ابرم	قضي
+ابطل	احق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%A8%D8%B7%D9%84#Arabic	no		no	A	أبطل	أَحَقَّ	بطل	حق
+ابغض	احب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%A8%D8%BA%D8%B6#Arabic	no		no	A	أبغض	أَحَبَّ	ابغض	احب
+اتاح	صعب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AA%D8%A7%D8%AD#Arabic	no		no	A	أتاح	صَعَّبَ	اتاح	صعب
+اتاح	عسر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AA%D8%A7%D8%AD#Arabic	no		no	A	أتاح	عَسَّرَ	اتاح	عسر
+اتاح	ضيق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AA%D8%A7%D8%AD#Arabic	no		no	A	أتاح	ضَيَّقَ	اتاح	ضيق
+اتفق	اختلف	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A7%D8%AA%D9%81%D9%82#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A7%D9%90%D8%AE%D9%92%D8%AA%D9%8E%D9%84%D9%8E%D9%81%D9%8E&oldid=1091228	no		no	A	اتفق	اِخْتَلَفَ	اتفق	اختلف
+اثبت	نفي	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A3%D8%AB%D8%A8%D8%AA#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%AB%D9%92%D8%A8%D9%8E%D8%AA%D9%8E&oldid=1090503	no		no	A	أثبت	نَفَى	اثبت	نفي
+اثره	اشراك	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AB%D8%B1%D8%A9#Arabic	no		no	A	أثرة	إِشْرَاك	اثر	اشراك
+اجباري	اختياري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D8%AC%D8%A8%D8%A7%D8%B1%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%D9%8A#Arabic	no		no	A	إجباري	اِخْتِيَارِيّ	اجبار	اختيار
+اجتمع	افترق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%AC%D8%AA%D9%85%D8%B9#Arabic	no		no	A	اجتمع	اِفْتَرَقَ	اجتمع	افترق
+اجتمع	تفرق	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A7%D8%AC%D8%AA%D9%85%D8%B9#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A7%D9%90%D8%AC%D9%92%D8%AA%D9%8E%D9%85%D9%8E%D8%B9%D9%8E&oldid=1091032	no		no	A	اجتمع	تَفَرَّقَ	اجتمع	فرق
+اجل	عجل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AC%D9%84#Arabic	no		no	A	أجل	عَجَّلَ	اجل	عجل
+احترم	انتهك	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%AD%D8%AA%D8%B1%D9%85#Arabic	no		no	A	احترم	اِنْتَهَكَ	احترم	انتهي
+احزن	افرح	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AD%D8%B2%D9%86#Arabic	no		no	A	أحزن	أَفْرَحَ	حزن	فرح
+احسن	اساء	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AD%D8%B3%D9%86#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%B3%D8%A7%D8%A1#Arabic	no		no	A	أحسن	أَسَاءَ	احسن	اساء
+احمر	اسود	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AD%D9%85%D8%B1#Arabic	no		no	A	أحمر	أَسْوَد	احمر	ساد
+احيا	امات	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AD%D9%8A%D8%A7#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%85%D8%A7%D8%AA#Arabic	yes	badi2-018 ميتا/أحييناه	yes	A	أحيا	أَمَاتَ	حي	امات
+اختلاف	اجماع	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81#Arabic | https://en.wiktionary.org/wiki/%D8%A5%D8%AC%D9%85%D8%A7%D8%B9#Arabic	no		no	A	اختلاف	إِجْمَاع	اختلاف	اجماع
+اختياري	الزامي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%A5%D9%84%D8%B2%D8%A7%D9%85%D9%8A#Arabic	no		no	A	اختياري	إِلْزَامِيّ	اختيار	الزام
+اختياري	اساسي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%D9%8A#Arabic	no		no	A	اختياري	أَسَاسِيّ	اختيار	اساس
+اختياري	عاجل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%AE%D8%AA%D9%8A%D8%A7%D8%B1%D9%8A#Arabic	no		no	A	اختياري	عَاجِل	اختيار	عاجل
+اخفاء	اظهار	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D8%AE%D9%81%D8%A7%D8%A1#Arabic | https://en.wiktionary.org/wiki/%D8%A5%D8%B8%D9%87%D8%A7%D8%B1#Arabic	no		no	A	إخفاء	إِظْهَار	اخفاء	ظهر
+ادكن	فاتح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AF%D9%83%D9%86#Arabic	no		no	A	أدكن	فَاتِح	اد	فاتح
+ادني	اقصي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%AF%D9%86%D9%89#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%82%D8%B5%D9%89#Arabic	no		no	A	أدنى	أَقْصَى	اد	اقصي
+ارشد	اضل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B1%D8%B4%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%B6%D9%84#Arabic	no		no	A	أرشد	أَضَلَّ	ارشد	اضل
+ارشد	ضلل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B1%D8%B4%D8%AF#Arabic	no		no	A	أرشد	ضَلَّلَ	ارشد	ضلل
+استحسن	استقبح	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%AD%D8%B3%D9%86#Arabic	no		no	A	استحسن	اِسْتَقْبَحَ	استحسن	استقبح
+استحضر	نسي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%AD%D8%B6%D8%B1#Arabic	no		no	A	استحضر	نَسِيَ	استحضر	نسي
+استحضر	سلا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%AD%D8%B6%D8%B1#Arabic	no		no	A	استحضر	سَلَا	استحضر	سل
+استخف	استثقل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%AE%D9%81#Arabic	no		no	A	استخف	اِسْتَثْقَلَ	استخف	استثقل
+استطاع	عجز	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B7%D8%A7%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%AC%D8%B2#Arabic	no		no	A	استطاع	عَجَزَ	استطاع	عجز
+استكثر	استقل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D9%83%D8%AB%D8%B1#Arabic	no		no	A	استكثر	اِسْتَقَلَّ	استكثر	استقل
+استورد	صدر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D9%88%D8%B1%D8%AF#Arabic	no		no	A	استورد	صَدَّرَ	استورد	صدر
+استيراد	تصدير	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1#Arabic	no		no	A	استيراد	تَصْدِير	استيراد	تصدير
+اسر	جهر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B3%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%AC%D9%87%D8%B1#Arabic	no		no	A	أسر	جَهَرَ	اسر	جهر
+اصاب	اخطا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D8%A7%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%AE%D8%B7%D8%A3#Arabic	no		no	A	أصاب	أَخْطَأَ	اصاب	اخطا
+اصل	فرع	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84#Arabic | https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%B9#Arabic	no		no	A	أصل	فَرْع	وصل	فرع
+اصلح	افسد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%81%D8%B3%D8%AF#Arabic	no		no	A	أصلح	أَفْسَدَ	صلح	افسد
+اصلح	اتلف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	أَتْلَفَ	صلح	اتلف
+اصلح	خرب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	خَرَّبَ	صلح	خرب
+اصلح	كسر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	كَسَرَ	صلح	سر
+اصلح	حطم	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic | omw-arb:omw-arb-01369758-v / omw-arb-00260648-v (PWN omw-en-01369758-v ↔ omw-en-00260648-v: break/repair)	no		no	A	أصلح	حَطَّمَ	صلح	حطم
+اصلح	عطل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	عَطَّلَ	صلح	عطل
+اصلح	الب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	أَلَّبَ	صلح	الب
+اصلح	هيج	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	هَيَّجَ	صلح	هيج
+اصلح	نفر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%84%D8%AD#Arabic	no		no	A	أصلح	نَفَّرَ	صلح	فر
+اصم	سميع	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D9%85%D9%8A%D8%B9#Arabic	no		no	A	أصم	سَمِيع	اصم	سميع
+اصم	اسمع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%85#Arabic	no		no	A	أصم	أَسْمَعَ	اصم	سمع
+اصيل	دخيل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D9%8A%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%AF%D8%AE%D9%8A%D9%84#Arabic	no		no	A	أصيل	دَخِيل	اصيل	دخيل
+اضر	نفع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B6%D8%B1#Arabic	no		no	A	أضر	نَفَعَ	ضر	نفع
+اضر	افاد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B6%D8%B1#Arabic	no		no	A	أضر	أَفَادَ	ضر	افاد
+اطاع	عصي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B7%D8%A7%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%B5%D9%89#Arabic	no		no	A	أطاع	عَصَى	اطاع	عص
+اطلق	قيد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B7%D9%84%D9%82#Arabic	no		no	A	أطلق	قَيَّدَ	اطلق	قيد
+اظلم	اضاء	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%A3%D8%B8%D9%84%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%B6%D8%A7%D8%A1#Arabic | omw-arb:omw-arb-00312380-v / omw-arb-00280930-v (PWN omw-en-00312380-v ↔ omw-en-00280930-v: darken/lighten)	no		no	A	أظلم	أَضَاءَ	اظلم	اضاء
+اعار	استعار	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%A3%D8%B9%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%B1#Arabic | omw-arb:omw-arb-02324026-v / omw-arb-02324182-v (PWN omw-en-02324026-v ↔ omw-en-02324182-v: borrow/lend)	no		no	A	أعار	اِسْتَعَارَ	اعار	استعار
+اعراب	اعجام	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D8%B9%D8%B1%D8%A7%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%A5%D8%B9%D8%AC%D8%A7%D9%85#Arabic	no		no	A	إعراب	إِعْجَام	عرب	عجمي
+اعراب	بناء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D8%B9%D8%B1%D8%A7%D8%A8#Arabic	no		no	A	إعراب	بِنَاء	عرب	بناء
+اعلال	تصحيح	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D8%B9%D9%84%D8%A7%D9%84#Arabic	no		no	A	إعلال	تَصْحِيح		تصحيح
+اعلن	اسر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B9%D9%84%D9%86#Arabic	no		no	A	أعلن	أَسَرَّ	اعلن	اسر
+اعمي	بصير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%B9%D9%85%D9%89#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%B5%D9%8A%D8%B1#Arabic	no		no	A	أعمى	بَصِير	اعمي	بصير
+اغلبيه	اقليه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D8%BA%D9%84%D8%A8%D9%8A%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%82%D9%84%D9%8A%D8%A9#Arabic	no		no	A	أغلبية	أَقَلِّيَّة	اغلب	اقليه
+افرط	فرط	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%81%D8%B1%D8%B7#Arabic	no		no	A	أفرط	فَرَّطَ	فرط	فرط
+افلح	خاب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%81%D9%84%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%A8#Arabic	no		no	A	أفلح	خَابَ	افلح	خاب
+افني	اوجد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%81%D9%86%D9%89#Arabic	no		no	A	أفنى	أَوْجَدَ	فني	وجد
+افني	خلق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%81%D9%86%D9%89#Arabic	no		no	A	أفنى	خَلَقَ	فني	خلق
+افني	ادام	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%81%D9%86%D9%89#Arabic	no		no	A	أفنى	أَدَامَ	فني	ادام
+افني	ابقي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%81%D9%86%D9%89#Arabic	yes	badi2-015 يفني/يبقي	no	A	أفنى	أَبْقَى	فني	بقي
+اقتصاد	اسراف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF#Arabic	no		no	A	اقتصاد	إِسْرَاف	اقتصاد	سرف
+اقتصاد	سرف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF#Arabic	no		no	A	اقتصاد	سَرَف	اقتصاد	سرف
+اقتصاد	تبذير	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF#Arabic	no		no	A	اقتصاد	تَبْذِير	اقتصاد	تبذير
+اقتصد	اسرف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%82%D8%AA%D8%B5%D8%AF#Arabic	no		no	A	اقتصد	أَسْرَفَ	اقتصد	اسرف
+اكبر	اصغر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%83%D8%A8%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%B5%D8%BA%D8%B1#Arabic	no		no	A	أكبر	أَصْغَر	اكبر	اصغر
+اكثريه	اقليه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%83%D8%AB%D8%B1%D9%8A%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%82%D9%84%D9%8A%D8%A9#Arabic	no		no	A	أكثرية	أَقَلِيَّة	اكثريه	اقليه
+اكرام	اذلال	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D9%83%D8%B1%D8%A7%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%A5%D8%B0%D9%84%D8%A7%D9%84#Arabic	no		no	A	إكرام	إِذْلَال	اكرام	اذلال
+الفصحي	العاميه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%81%D8%B5%D8%AD%D9%89#Arabic	no		no	A	الفصحى	الْعَامِّيَّة	فصحي	عامي
+الفصحي	الدارجه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%81%D8%B5%D8%AD%D9%89#Arabic	no		no	A	الفصحى	الدَّارِجَة	فصحي	دارج
+الفصحي	لهجه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%81%D8%B5%D8%AD%D9%89#Arabic	no		no	A	الفصحى	لَهْجَة	فصحي	لهجه
+الم	لذه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%84%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%84%D8%B0%D8%A9#Arabic	no		no	A	ألم	لَذَّة	الم	لذه
+النار	جنه	name	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%86%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	النار	جَنَّة	نار	جنه
+النار	فردوس	name	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%86%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	النار	فِرْدَوْس	نار	فردوس
+النار	نعيم	name	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%86%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	النار	نَعِيم	نار	نعيم
+امامي	خلفي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%85%D8%A7%D9%85%D9%8A#Arabic	no		no	A	أمامي	خَلْفِيّ	امام	خلف
+امر	نهي	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A3%D9%85%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%86%D9%87%D9%8A#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%85%D9%8E%D8%B1%D9%8E&oldid=1091435	no		no	A	أمر	نَهَى	امر	نهي
+امن	كفر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A2%D9%85%D9%86#Arabic | https://en.wiktionary.org/wiki/%D9%83%D9%81%D8%B1#Arabic	no		no	A	آمن	كَفَرَ	امن	كفر
+امن	كذب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A2%D9%85%D9%86#Arabic	no		no	A	آمن	كَذَّبَ	امن	كذب
+امهل	عاقب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%85%D9%87%D9%84#Arabic	no		no	A	أمهل	عَاقَب	امهل	عاقب
+امهل	ادب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%85%D9%87%D9%84#Arabic	no		no	A	أمهل	أَدَّبَ	امهل	ادب
+امهل	عزر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%85%D9%87%D9%84#Arabic	no		no	A	أمهل	عَزَّرَ	امهل	عزر
+امهل	حد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%85%D9%87%D9%84#Arabic	no		no	A	أمهل	حَدَّ	امهل	حد
+انام	ايقظ	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%A7%D9%85#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%86%D9%8E%D8%A7%D9%85&oldid=1140707	no		no	A	أنام	أَيْقَظَ	نام	ايقظ
+انتصار	هزيمه	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%87%D8%B2%D9%8A%D9%85%D8%A9#Arabic | omw-arb:omw-arb-07475364-n / omw-arb-07473441-n (PWN omw-en-07475364-n ↔ omw-en-07473441-n: defeat/victory)	no		no	A	انتصار	هَزِيمَة	انتصار	هزيمه
+انتهاء	ابتداء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1#Arabic	no		no	A	انتهاء	اِبْتِدَاء	انتهاء	ابتداء
+انثي	ذكر	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%AB%D9%89#Arabic | https://en.wiktionary.org/wiki/%D8%B0%D9%83%D8%B1#Arabic | omw-arb:omw-arb-01320872-n / omw-arb-01321230-n (PWN omw-en-01320872-n ↔ omw-en-01321230-n: female/male) | omw-arb:omw-arb-09619168-n / omw-arb-09624168-n (PWN omw-en-09619168-n ↔ omw-en-09624168-n: female/male)	no		yes	A	أنثى	ذَكَر	انثي	ذكر
+انسل	انسحب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%B3%D9%84#Arabic	no		no	A	انسل	اِنْسَحَبَ	انسل	انسحب
+انطباق	انفتاح	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%B7%D8%A8%D8%A7%D9%82#Arabic	no		no	A	انطباق	اِنْفِتَاح	انطباق	انفتاح
+انيون	كاتيون	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%86%D9%8A%D9%88%D9%86#Arabic | https://en.wiktionary.org/wiki/%D9%83%D8%A7%D8%AA%D9%8A%D9%88%D9%86#Arabic	no		no	A	أنيون	كَاتْيُون	اني	
+اهان	اكرم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%87%D8%A7%D9%86#Arabic	no		no	A	أهان	أَكْرَمَ	اهان	كرم
+اهان	شرف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%87%D8%A7%D9%86#Arabic	no		no	A	أهان	شَرَّفَ	اهان	شرف
+اهان	امتدح	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%87%D8%A7%D9%86#Arabic	no		no	A	أهان	اِمْتَدَحَ	اهان	امتدح
+اهل	اعزب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%84#Arabic	no		no	A	آهل	أَعْزَب	اهل	اعزب
+اهل	وحشي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%84#Arabic	no		no	A	آهل	وَحْشِيّ	اهل	وحشي
+اهل	بري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%84#Arabic	no		no	A	آهل	بَرِّيّ	اهل	بري
+اهمل	اعجم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%87%D9%85%D9%84#Arabic	no		no	A	أهمل	أَعْجَمَ	اهمل	اعجم
+اول	اخر	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A3%D9%88%D9%84#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A2%D8%AE%D9%90%D8%B1&oldid=1140417	no		yes	A	أول	آخِر	اول	اخر
+اولي	اخره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%88%D9%84%D9%89#Arabic | https://en.wiktionary.org/wiki/%D8%A2%D8%AE%D8%B1%D8%A9#Arabic	no		no	A	أولى	آخِرَة	اول	اخر
+ايثار	انانيه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%AB%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%A7%D9%86%D9%8A%D8%A9#Arabic	no		no	A	إيثار	أَنَانِيّة	ايثار	اناني
+ايثار	اثره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%AB%D8%A7%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%AB%D8%B1%D8%A9#Arabic	no		no	A	إيثار	أَثَرَة	ايثار	اثر
+ايجابي	سلبي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A8%D9%8A#Arabic	no		no	A	إيجابي	سَلْبِيّ	ايجابي	سلبي
+ايجابيه	سلبيه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A8%D9%8A%D8%A9#Arabic	no		no	A	إيجابية	سَلْبِيَّة	ايجابي	سلبي
+ايس	رجا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%8A%D8%B3#Arabic	no		no	A	أيس	رَجَا	ايس	رجا
+ايس	امل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A3%D9%8A%D8%B3#Arabic	no		no	A	أيس	أَمَلَ	ايس	امل
+ايسر	ايمن	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A3%D9%8A%D8%B3%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%8A%D9%92%D9%85%D9%8E%D9%86&oldid=1077671	no		no	A	أيسر	أَيْمَن	ايسر	ايمن
+بءس	حبذا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%A6%D8%B3#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D8%B0%D8%A7#Arabic	no		no	A	بئس	حَبَّذَا	بءس	حبذا
+باد	بقي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AF#Arabic	no		no	A	باد	بَقِيَ	اد	بقي
+باد	دام	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%AF#Arabic	no		no	A	باد	دَامَ	اد	دام
+باساء	سراء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%A3%D8%B3%D8%A7%D8%A1#Arabic	no		no	A	بأساء	سَرَّاء	بءس	سراء
+بدا	خفي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%AF%D8%A7#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D9%81%D9%89#Arabic	no		no	A	بدا	خَفَى	بدا	خفي
+بدا	غاب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%AF%D8%A7#Arabic	no		no	A	بدا	غَابَ	بدا	غاب
+بر	جو	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%AC%D9%88#Arabic	no		no	A	بر	جَوّ	بر	جو
+بر	فجر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B1#Arabic	no		no	A	بر	فَجَرَ	بر	فجر
+بر	فاجر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AC%D8%B1#Arabic	no		no	A	بر	فَاجِر	بر	جري
+براني	جواني	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D8%A7%D9%86%D9%8A#Arabic	no		no	A	براني	جَوَّانِيّ	برا	جوان
+بسيط	معقد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B3%D9%8A%D8%B7#Arabic	no		no	A	بسيط	مُعَقَّد	بسيط	معقد
+بسيط	مركب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B3%D9%8A%D8%B7#Arabic	no		no	A	بسيط	مُرَكَّب	بسيط	مركب
+بشر	انذر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B4%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%B0%D8%B1#Arabic	no		no	A	بشر	أَنْذَرَ	شر	انذر
+بشير	نذير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B4%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%86%D8%B0%D9%8A%D8%B1#Arabic	no		no	A	بشير	نَذِير	بشير	نذير
+بشير	منذر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B4%D9%8A%D8%B1#Arabic	no		no	A	بشير	مُنْذِر	بشير	منذر
+بعث	امات	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AB#Arabic	no		no	A	بعث	أَمَاتَ	بعث	امات
+بعدءذ	قبلءذ	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF%D8%A6%D8%B0#Arabic | https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84%D8%A6%D8%B0#Arabic	no		no	A	بعدئذ	قَبْلَئِذٍ		قبلءذ
+بعدذاك	قبلذاك	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF%D8%B0%D8%A7%D9%83#Arabic | https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84%D8%B0%D8%A7%D9%83#Arabic	no		no	A	بعدذاك	قَبْلَذَاكَ		
+بقاء	فناء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D9%82%D8%A7%D8%A1#Arabic	yes	badi2-015 يفني/يبقي	no	A	بقاء	فَنَاء	بقاء	ناءي
+بقاء	زوال	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D9%82%D8%A7%D8%A1#Arabic	no		no	A	بقاء	زَوَال	بقاء	زوال
+بقي	فني	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%A8%D9%82%D9%8A#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%81%D9%8E%D9%86%D9%90%D9%8A%D9%8E&oldid=1091077	yes	badi2-015 يفني/يبقي	no	A	بقي	فَنِيَ	بقي	فني
+بني	هدم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%89#Arabic	no		no	A	بنى	هَدَمَ	بنيه	هدم
+تجمع	تفرق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AC%D9%85%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D9%81%D8%B1%D9%82#Arabic	no		no	A	تجمع	تَفَرَّقَ	جمع	فرق
+تحاب	تباغض	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%A7%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%A8%D8%A7%D8%BA%D8%B6#Arabic	no		no	A	تحاب	تَبَاغَضَ	تحاب	تباغض
+تحاب	تشانا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%A7%D8%A8#Arabic	no		no	A	تحاب	تَشَانَأَ	تحاب	شاو
+تحاب	تماقت	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%A7%D8%A8#Arabic	no		no	A	تحاب	تَمَاقَتَ	تحاب	
+تحتاني	فوقاني	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%AA%D8%A7%D9%86%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D9%81%D9%88%D9%82%D8%A7%D9%86%D9%8A#Arabic	no		no	A	تحتاني	فَوْقَانِيّ	تحتاني	وقي
+تحتاني	علوي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%AA%D8%A7%D9%86%D9%8A#Arabic	no		no	A	تحتاني	عُلْوِيّ	تحتاني	علو
+تحريري	شفهي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1%D9%8A#Arabic	no		no	A	تحريري	شَفَهِيّ	تحرير	شفهي
+تخصيص	تعميم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D9%85%D9%8A%D9%85#Arabic	no		no	A	تخصيص	تَعْمِيم	تخصيص	تعميم
+تخلف	تقدم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AE%D9%84%D9%81#Arabic	no		no	A	تخلف	تَقَدُّم	خلف	قدم
+تداخل	تباعد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AF%D8%A7%D8%AE%D9%84#Arabic	no		no	A	تداخل	تَبَاعَدَ	تداخل	تباعد
+تداخل	تنافر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%AF%D8%A7%D8%AE%D9%84#Arabic	no		no	A	تداخل	تَنَافَرَ	تداخل	تنافر
+تذاكي	تغابي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B0%D8%A7%D9%83%D9%89#Arabic	no		no	A	تذاكى	تَغَابَى		تغابي
+ترهيب	ترغيب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D9%87%D9%8A%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D8%BA%D9%8A%D8%A8#Arabic	no		no	A	ترهيب	تَرْغِيب	ترهيب	ترغيب
+تسني	تعذر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B3%D9%86%D9%89#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D8%B0%D8%B1#Arabic	no		no	A	تسنى	تَعَذَّرَ	تسني	تعذر
+تسني	استحال	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B3%D9%86%D9%89#Arabic	no		no	A	تسنى	اِسْتَحَالَ	تسني	استحال
+تشاءم	تفاءل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B4%D8%A7%D8%A1%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B4%D8%A7%D8%A4%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D9%81%D8%A7%D8%A1%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D9%81%D8%A7%D8%A4%D9%84#Arabic	no		no	A	تشاءم	تَفَاءَلَ	تشاءم	تفاءل
+تشبيه	تنزيه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B4%D8%A8%D9%8A%D9%87#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D9%86%D8%B2%D9%8A%D9%87#Arabic	no		no	A	تشبيه	تَنْزِيه	تشبيه	تنزيه
+تشديد	تخفيف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B4%D8%AF%D9%8A%D8%AF#Arabic	no		no	A	تشديد	تَخْفِيف	تشديد	تخفيف
+تصحيح	تضعيف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B5%D8%AD%D9%8A%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B6%D8%B9%D9%8A%D9%81#Arabic	no		no	A	تصحيح	تَضْعِيف	تصحيح	ضعف
+تصديق	تصور	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B5%D8%AF%D9%8A%D9%82#Arabic	no		no	A	تصديق	تَصَوُّر	تصديق	تصور
+تعادل	تغاير	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D8%A7%D8%AF%D9%84#Arabic	no		no	A	تعادل	تَغَايَرَ	تعادل	تغاير
+تعادل	تفاوت	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D8%A7%D8%AF%D9%84#Arabic	no		no	A	تعادل	تَفَاوَتَ	تعادل	تفاوت
+تعالم	تجاهل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D8%A7%D9%84%D9%85#Arabic	no		no	A	تعالم	تَجَاهَلَ		تجاهل
+تقارب	تباعد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D9%82%D8%A7%D8%B1%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%A8%D8%A7%D8%B9%D8%AF#Arabic	no		no	A	تقارب	تَبَاعَدَ	تقارب	تباعد
+تقليدي	عصري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D9%82%D9%84%D9%8A%D8%AF%D9%8A#Arabic	no		no	A	تقليدي	عَصْرِيّ	تقليدي	عصر
+تكبر	تواضع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D9%83%D8%A8%D8%B1#Arabic	no		no	A	تكبر	تَوَاضَعَ	كبر	تواضع
+تنازلي	تصاعدي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D9%86%D8%A7%D8%B2%D9%84%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF%D9%8A#Arabic	no		no	A	تنازلي	تَصَاعُدِيّ	تنازل	تصاعد
+توسط	غلو	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D9%88%D8%B3%D8%B7#Arabic	no		no	A	توسط	غُلُو	توسط	غلو
+توسط	تطرف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AA%D9%88%D8%B3%D8%B7#Arabic	no		no	A	توسط	تَطَرُّف	توسط	تطرف
+ثابت	متغير	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%BA%D9%8A%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AB%D9%8E%D8%A7%D8%A8%D9%90%D8%AA&oldid=1076453	no		no	A	ثابت	مُتَغَيِّر	ثابت	متغير
+ثقل	خف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AB%D9%82%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D9%81#Arabic	no		no	A	ثقل	خَفَّ	ثقل	خف
+ثقيل	خفيف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AB%D9%82%D9%8A%D9%84#Arabic	no		no	A	ثقيل	خَفِيف	ثقيل	خفيف
+جاهل	عالم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D9%87%D9%84#Arabic	no		yes	A	جاهل	عَالِم	جاهل	عالم
+جاهليه	عالميه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D9%87%D9%84%D9%8A%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9#Arabic	no		no	A	جاهلية	عَالِمِيَّة	جاهليه	عالم
+جبر	قدر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%B1#Arabic	no		no	A	جبر	قَدَر	جبر	قدر
+جحيم	نعيم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D8%AD%D9%8A%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	جحيم	نَعِيم	جحيم	نعيم
+جزر	مد	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D8%B2%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%AF#Arabic	no		no	A	جزر	مَدّ	جزر	مد
+جزع	صبر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D8%B2%D8%B9#Arabic	no		no	A	جزع	صَبْر	جزع	صبر
+جمع	فرق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%85%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%82#Arabic	no		yes	A	جمع	فَرَّقَ	جمع	فرقه
+جمع	مفرد	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%85%D8%B9#Arabic	no		no	A	جمع	مُفْرَد	جمع	مفرد
+جمع	طرح	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AC%D9%85%D8%B9#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D9%85%D9%92%D8%B9&oldid=1080408 | https://ar.wiktionary.org/w/index.php?title=%D8%B7%D9%8E%D8%B1%D9%92%D8%AD&oldid=1080549	no		no	A	جمع	طَرْح	جمع	طرح
+جمع	تفريق	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%85%D8%B9#Arabic	no		no	A	جمع	تَفْرِيق	جمع	تفريق
+جنه	سعير	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	جنة	سَعِير	جنه	سعير
+جنه	لظي	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	جنة	لَظَىٰ	جنه	لظي
+جنه	جهنم	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D9%86%D9%8E%D9%91%D8%A9&oldid=1080463	no		no	A	جنة	جَهَنَّم	جنه	جهنم
+جنه	جحيم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	جنة	جَحِيم	جنه	جحيم
+جنه	حطمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	جنة	حُطَمَة	جنه	حطم
+جنه	سقر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	جنة	سَقَر	جنه	سقر
+جنه	هاويه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%86%D8%A9#Arabic	no		no	A	جنة	هَاوِيَة	جنه	هاويه
+جهر	همس	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%87%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%87%D9%85%D8%B3#Arabic	no		no	A	جهر	هَمَسَ	جهر	همس
+جهل	علم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%87%D9%84#Arabic	no		yes	A	جهل	عَلِمَ	جهل	علم
+جوع	شبع	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%88%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%B4%D8%A8%D8%B9#Arabic	no		yes	A	جوع	شِبَع	جوع	شبع
+جيد	رديء	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AC%D9%8A%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D8%B1%D8%AF%D9%8A%D8%A1#Arabic	no		no	A	جيد	رَدِيء	جيد	رديء
+حار	بارد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%B1#Arabic	no		yes	A	حار	بَارِد	حار	بارد
+حامض	قاعده	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%85%D8%B6#Arabic	no		no	A	حامض	قَاعِدَة	حامض	قاعده
+حامض	قلوي	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%85%D8%B6#Arabic	no		no	A	حامض	قَلَوِيّ	حامض	قلو
+حب	بغض	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%BA%D8%B6#Arabic	no		yes	A	حب	بُغْض	حب	غض
+حب	بغضاء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%A8#Arabic	no		no	A	حب	بَغْضَاء	حب	بغض
+حب	كره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%A8#Arabic	no		no	A	حب	كُرْه	حب	كره
+حديث	قديم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%AF%D9%8A%D8%AB#Arabic	no		yes	A	حديث	قَدِيم	حديث	قديم
+حرب	سلام	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A8#Arabic | omw-arb:omw-arb-13970236-n / omw-arb-13981403-n (PWN omw-en-13970236-n ↔ omw-en-13981403-n: peace/war)	no		no	A	حرب	سَلَام	حرب	سلام
+حركه	سكون	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%83%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D9%83%D9%88%D9%86#Arabic	no		no	A	حركة	سُكُون	حركه	سكون
+حركه	سكنه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%83%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D9%83%D9%86%D8%A9#Arabic	no		no	A	حركة	سَكْنَة	حركه	سكن
+حرم	احل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%AD%D9%84#Arabic	yes	badi-012 يحل/يحرم	no	A	حرم	أَحَلَّ	حرم	حل
+حزن	فرح	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B2%D9%86#Arabic	no		yes	A	حزن	فَرِحَ	حزن	فرح
+حزين	فرح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B2%D9%8A%D9%86#Arabic	no		no	A	حزين	فَرِح	حزين	فرح
+حزين	فرحان	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B2%D9%8A%D9%86#Arabic	no		no	A	حزين	فَرْحَان	حزين	فرحان
+حسن	ساء	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%86#Arabic	no		no	A	حسن	سَاءَ	حسن	ساء
+حسن	قبح	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%86#Arabic	yes	badi-013 أحسن/أقبح	no	A	حسن	قَبُحَ	حسن	قبح
+حسنه	سيءه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%86%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D9%8A%D8%A6%D8%A9#Arabic	no		no	A	حسنة	سَيِّئَة	حسن	سيء
+حسي	حركي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%83%D9%8A#Arabic	no		no	A	حسي	حَرَكِيّ	حس	حركي
+حسي	معنوي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D8%B3%D9%8A#Arabic	no		no	A	حسي	مَعْنَوِيّ	حس	معنوي
+حق	باطل	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AD%D9%82#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B7%D9%84#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D9%82%D9%91&oldid=1080870	yes	badi2-016 حق/باطل	yes	A	حق	بَاطِل	حق	باطل
+حقيقه	باطل	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%82%D9%8A%D9%82%D8%A9#Arabic	no		no	A	حقيقة	بَاطِل	حقيقه	باطل
+حقيقه	كذب	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%AD%D9%82%D9%8A%D9%82%D8%A9#Arabic | omw-arb:omw-arb-13960464-n / omw-arb-13956488-n (PWN omw-en-13960464-n ↔ omw-en-13956488-n: falsity/truth)	no		no	A	حقيقة	كَذِب	حقيقه	كذب
+حقيقه	كذبه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%82%D9%8A%D9%82%D8%A9#Arabic	no		no	A	حقيقة	كَذْبَة	حقيقه	كذبه
+حقيقه	مجاز	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%82%D9%8A%D9%82%D8%A9#Arabic	no		no	A	حقيقة	مَجَاز	حقيقه	مجاز
+حقيقي	مجازي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%82%D9%8A%D9%82%D9%8A#Arabic	no		no	A	حقيقي	مَجَازِيّ	حقيقي	مجاز
+حل	عقد	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D9%84%D9%8E%D9%91&oldid=1094627	no		no	A	حل	عَقَدَ	حل	عقد
+حل	ربط	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	رَبَطَ	حل	ربط
+حل	سلسل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	سَلْسَلَ	حل	سلسل
+حل	ركب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	رَكَّبَ	حل	ركبه
+حل	لصق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	لَصَقَ	حل	لصق
+حل	صمغ	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	صَمَّغَ	حل	صمغ
+حل	صلب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	صَلَّبَ	حل	صلب
+حل	جمد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	جَمَّدَ	حل	جمد
+حل	ثلج	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%84#Arabic	no		no	A	حل	ثَلَّجَ	حل	ثلج
+حلال	حرام	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AD%D9%84%D8%A7%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A7%D9%85#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D9%84%D9%8E%D8%A7%D9%84&oldid=1080949	yes	badi-012 يحل/يحرم	no	A	حلال	حَرَام	حلال	حرام
+حمد	ذم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%AF#Arabic	no		no	A	حمد	ذَمَّ	حمد	ذم
+حمد	انكر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%AF#Arabic	no		no	A	حمد	أَنْكَرَ	حمد	انكر
+حمد	عاب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%AF#Arabic	no		no	A	حمد	عَابَ	حمد	عاب
+حمد	ذمم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%AF#Arabic	no		no	A	حمد	ذَمَّمَ	حمد	ذمه
+حمد	شنع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%AF#Arabic	no		no	A	حمد	شَنَّعَ	حمد	شنع
+حمض	قلوي	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%B6#Arabic	no		no	A	حمض	قَلَوِيّ	حمض	قلو
+حمض	خله	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%B6#Arabic	no		no	A	حمض	خِلَّة	حمض	خله
+حميد	ذميم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AD%D9%85%D9%8A%D8%AF#Arabic	no		no	A	حميد	ذَمِيم	حميد	ذميم
+حي	ميت	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%AD%D9%8A#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D9%8A%D9%91&oldid=1081085 | omw-arb:omw-arb-07945657-n / omw-arb-07945818-n (PWN omw-en-07945657-n ↔ omw-en-07945818-n: dead/living)	yes	badi2-018 ميتا/أحييناه	yes	A	حي	مَيِّت	حي	ميت
+خارجي	مرجءي	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A#Arabic	no		no	A	خارجي	مُرْجِئِيّ	خارجي	مرجء
+خاصه	عامه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%B5%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85%D8%A9#Arabic	no		no	A	خاصة	عَامَّة	خاص	عام
+خال	ممتلء	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%85%D8%AA%D9%84%D8%A6#Arabic	no		no	A	خال	مُمْتَلِئ	خال	ممتلء
+خبر	انشاء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%A8%D8%B1#Arabic	no		no	A	خبر	إِنْشَاء	خبر	انشاء
+خسر	كسب	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%AE%D8%B3%D8%B1#Arabic | omw-arb:omw-arb-01099592-v / omw-arb-01100145-v (PWN omw-en-01099592-v ↔ omw-en-01100145-v: lose/win)	no		no	A	خسر	كَسَبَ	خسر	كسب
+خسر	فاز	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B3%D8%B1#Arabic	no		no	A	خسر	فَازَ	خسر	فاز
+خشن	ناعم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D9%86#Arabic | https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B9%D9%85#Arabic	no		no	A	خشن	نَاعِم	خشن	ناعم
+خشن	لين	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D9%86#Arabic	no		no	A	خشن	لَيِّن	خشن	ين
+خشن	رفيق	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D9%86#Arabic	no		no	A	خشن	رَفِيق	خشن	رفيق
+خشن	لطيف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B4%D9%86#Arabic	no		no	A	خشن	لَطِيف	خشن	لطيف
+خصب	انضب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B5%D8%A8#Arabic	no		no	A	خصب	أَنْضَبَ	خصب	نضب
+خصب	استنفد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B5%D8%A8#Arabic	no		no	A	خصب	اِسْتَنْفَدَ	خصب	استنفد
+خطا	صواب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D8%B7%D8%A3#Arabic | https://en.wiktionary.org/wiki/%D8%B5%D9%88%D8%A7%D8%A8#Arabic	no		no	A	خطأ	صَوَاب	خط	صواب
+خفي	ظهر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D9%81%D9%89#Arabic	no		no	A	خفى	ظَهَرَ	خفي	ظهر
+خلاف	وفاق	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D9%84%D8%A7%D9%81#Arabic	no		no	A	خلاف	وِفَاق	خلاف	فاق
+خلخال	معضد	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D9%84%D8%AE%D8%A7%D9%84#Arabic	no		no	A	خلخال	مِعْضَد	خلخال	معضد
+خلخال	دملوج	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AE%D9%84%D8%AE%D8%A7%D9%84#Arabic	no		no	A	خلخال	دُمْلُوج	خلخال	
+خير	شرير	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AE%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D9%8A%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B4%D9%90%D8%B1%D9%90%D9%91%D9%8A%D8%B1&oldid=1082556	no		no	A	خير	شِرِّير	خير	شرير
+داخليه	خارجيه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9#Arabic	no		no	A	داخلية	خَارِجِيَّة	داخلي	خارجي
+داكن	فاتح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D9%83%D9%86#Arabic	no		no	A	داكن	فَاتِح	داكن	فاتح
+دبلجه	سترجه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D8%A8%D9%84%D8%AC%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D8%AA%D8%B1%D8%AC%D8%A9#Arabic	no		no	A	دبلجة	سَتْرَجَة		رجا
+دثر	ثمد	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D8%AB%D8%B1#Arabic	no		no	A	دثر	ثَمَد	دثر	
+دثر	وشل	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D8%AB%D8%B1#Arabic	no		no	A	دثر	وَشَل	دثر	شل
+دنيا	اخره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D9%86%D9%8A%D8%A7#Arabic | https://en.wiktionary.org/wiki/%D8%A2%D8%AE%D8%B1%D8%A9#Arabic	no		yes	A	دنيا	آخِرة	دنيا	اخر
+دنيوي	اخروي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D9%86%D9%8A%D9%88%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%AE%D8%B1%D9%88%D9%8A#Arabic	no		no	A	دنيوي	أُخْرَوِيّ	دنيوي	اخروي
+دنيوي	ديني	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D9%86%D9%8A%D9%88%D9%8A#Arabic	no		no	A	دنيوي	دِينِيّ	دنيوي	ديني
+دنيوي	روحي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%AF%D9%86%D9%8A%D9%88%D9%8A#Arabic	no		no	A	دنيوي	رُوحِيّ	دنيوي	روح
+دون	فوق	adv	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%AF%D9%88%D9%86#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AF%D9%8F%D9%88%D9%86&oldid=1081591	no		no	A	دون	فَوْقُ	دون	فوق
+ذاءب	مذيب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B0%D8%A7%D8%A6%D8%A8#Arabic	no		no	A	ذائب	مُذِيب	ذاءب	
+ذاءب	مذوب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B0%D8%A7%D8%A6%D8%A8#Arabic	no		no	A	ذائب	مُذَوِّب	ذاءب	
+ذكور	نسي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B0%D9%83%D9%88%D8%B1#Arabic	no		no	A	ذكور	نَسِيّ	ذكر	نسي
+ذكور	نساء	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B0%D9%83%D9%88%D8%B1#Arabic	no		no	A	ذكور	نَسَّاء	ذكر	نساء
+راسي	افقي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D8%A3%D8%B3%D9%8A#Arabic	no		no	A	رأسي	أُفُقِيّ	راس	افق
+ربح	خسر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D8%A8%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%B3%D8%B1#Arabic	no		yes	A	ربح	خَسِرَ	ربح	خسر
+رجا	يءس	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D8%AC%D8%A7#Arabic | https://en.wiktionary.org/wiki/%D9%8A%D8%A6%D8%B3#Arabic	no		no	A	رجا	يَئِسَ	رجا	يءس
+رجعه	ذهاب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D8%AC%D8%B9%D8%A9#Arabic	no		no	A	رجعة	ذَهَاب	رجع	ذهاب
+رجعيه	تقدم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D8%AC%D8%B9%D9%8A%D8%A9#Arabic	no		no	A	رجعية	تَقَدُّم	رجعي	قدم
+رضي	سخط	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D8%B6%D9%8A#Arabic	no		no	A	رضي	سَخِطَ	رضي	سخط
+رفق	عنف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%82#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D9%86%D9%81#Arabic	no		no	A	رفق	عُنْف	رفقه	عنف
+رفق	شده	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%82#Arabic	no		no	A	رفق	شِدَّة	رفقه	شده
+رفق	قسوه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%82#Arabic	no		no	A	رفق	قَسْوَة	رفقه	قسوه
+رفيع	دنيء	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D8%B9#Arabic	no		no	A	رفيع	دَنِيء	رفيع	دنيء
+رفيع	منحط	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D8%B9#Arabic	no		no	A	رفيع	مُنْحَطّ	رفيع	منحط
+رفيع	حقير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D8%B9#Arabic	no		no	A	رفيع	حَقِير	رفيع	حقير
+رفيع	سافل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D8%B9#Arabic	no		no	A	رفيع	سَافِل	رفيع	سافل
+رفيع	سميك	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D8%B9#Arabic	no		no	A	رفيع	سَمِيك	رفيع	سمي
+رفيع	ثخين	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D8%B9#Arabic	no		no	A	رفيع	ثَخِين	رفيع	ثخين
+رفيق	عنيف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D9%82#Arabic	no		no	A	رفيق	عَنِيف	رفيق	عنيف
+رفيق	شديد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D9%82#Arabic	no		no	A	رفيق	شَدِيد	رفيق	شديد
+رفيق	قاس	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D9%82#Arabic	no		no	A	رفيق	قَاسٍ	رفيق	قاسي
+رفيق	غليظ	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D9%82#Arabic	no		no	A	رفيق	غَلِيظ	رفيق	غليظ
+زاد	نقص	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B2%D8%A7%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D9%86%D9%82%D8%B5#Arabic	no		no	A	زاد	نَقَصَ	زاد	نقص
+زفير	شهيق	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B2%D9%81%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%B4%D9%87%D9%8A%D9%82#Arabic	no		no	A	زفير	شَهِيق	زفير	شهيق
+زوجي	فردي	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%B2%D9%88%D8%AC%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%8A#Arabic | omw-arb:omw-arb-00913387-a / omw-arb-00913454-a (PWN omw-en-00913387-a ↔ omw-en-00913454-a: even/odd)	no		no	A	زوجي	فَرْدِيّ	زوج	فرد
+زياده	نقص	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9#Arabic	no		no	A	زيادة	نَقْص	زياده	نقص
+زياده	نقصان	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9#Arabic	no		no	A	زيادة	نُقْصَان	زياده	نقصان
+ساء	حبذا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%A1#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%A8%D8%B0%D8%A7#Arabic	no		no	A	ساء	حَبَّذَا	ساء	حبذا
+سابق	لاحق	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%A8%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%84%D8%A7%D8%AD%D9%82#Arabic	no		no	A	سابق	لَاحِق	سابق	لاحق
+سابق	تالي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%A8%D9%82#Arabic	no		no	A	سابق	تَالِي	سابق	تالي
+ساخن	بارد	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%AE%D9%86#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B3%D9%8E%D8%A7%D8%AE%D9%90%D9%86&oldid=1082077 | omw-arb:omw-arb-01251128-a / omw-arb-01247240-a (PWN omw-en-01251128-a ↔ omw-en-01247240-a: cold/hot) | omw-arb:omw-arb-01257612-a / omw-arb-01256332-a (PWN omw-en-01257612-a ↔ omw-en-01256332-a: cold/hot)	no		no	A	ساخن	بَارِد	ساخن	بارد
+ساكن	متحرك	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%83%D9%86#Arabic	no		no	A	ساكن	مُتَحَرِّك	كان	متحرك
+سالب	موجب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%84%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%AC%D8%A8#Arabic	no		no	A	سالب	مُوجَب	لب	موجب
+سبق	ولي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%88%D9%84%D9%8A#Arabic	no		no	A	سبق	وَلِيَ	سبق	ل
+سبق	تبع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D9%82#Arabic	no		no	A	سبق	تَبِعَ	سبق	تبع
+سبق	تلا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D9%82#Arabic	no		no	A	سبق	تَلَا	سبق	تلا
+سجين	عليون	name	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%AC%D9%8A%D9%86#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%8A%D9%88%D9%86#Arabic	no		no	A	سجين	عِلِّيُون	سجين	عليون
+سحيق	قريب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%AD%D9%8A%D9%82#Arabic	no		no	A	سحيق	قَرِيب	سحيق	قريب
+سر	علن	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%86#Arabic	no		no	A	سر	عَلَن	سر	علن
+سعاده	شقاوه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9#Arabic	no		no	A	سعادة	شَقَاوَة	سعاده	شقاوه
+سعاده	شقاء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9#Arabic	no		no	A	سعادة	شَقَاء	سعاده	شقاء
+سعيد	شقي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%B9%D9%8A%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D8%B4%D9%82%D9%8A#Arabic	no		yes	A	سعيد	شَقِيّ	سعيد	شق
+سعير	الجنه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D8%B9%D9%8A%D8%B1#Arabic	no		no	A	سعير	اَلْجَنَّة	سعير	جنه
+سفلي	علوي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%81%D9%84%D9%8A#Arabic	no		no	A	سفلي	عُلْوِيّ	سفلي	علو
+سفلي	فوقاني	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%81%D9%84%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D9%81%D9%88%D9%82%D8%A7%D9%86%D9%8A#Arabic	no		no	A	سفلي	فَوْقَانِيّ	سفلي	وقي
+سلب	ايجاب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A8#Arabic	no		no	A	سلب	إِيجَاب	سلب	ايجاب
+سلبي	موجب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D8%A8%D9%8A#Arabic	no		no	A	سلبي	مُوجَب	سلبي	موجب
+سلف	ولي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%81#Arabic	no		no	A	سلف	وَلِيَ	سلف	ل
+سلف	تبع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%81#Arabic	no		no	A	سلف	تَبِعَ	سلف	تبع
+سلف	تلا	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%81#Arabic	no		no	A	سلف	تَلَا	سلف	تلا
+سلف	خلف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%81#Arabic	no		no	A	سلف	خَلَف	سلف	خلف
+سلم	حرب	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A8#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B3%D9%90%D9%84%D9%92%D9%85&oldid=1141830	no		yes	A	سلم	حَرْب	سلم	حرب
+سلمي	حربي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%85%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A8%D9%8A#Arabic	no		no	A	سلمي	حَرْبِيّ	سلمي	حرب
+سليم	سقيم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%8A%D9%85#Arabic	no		no	A	سليم	سَقِيم	سليم	سقيم
+سليم	عليل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%84%D9%8A%D9%85#Arabic	no		no	A	سليم	عَلِيل	سليم	عليل
+سماع	قياس	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%A7%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D9%82%D9%8A%D8%A7%D8%B3#Arabic	no		no	A	سماع	قِيَاس	سماع	قياس
+سماعي	قياسي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%A7%D8%B9%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D9%82%D9%8A%D8%A7%D8%B3%D9%8A#Arabic	no		no	A	سماعي	قِيَاسِيّ	سماع	قياسي
+سنه	بدعه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%86%D8%A9#Arabic	no		no	A	سنة	بِدْعَة	سنه	بدع
+سنه	زندقه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B3%D9%86%D8%A9#Arabic	no		no	A	سنة	زَنْدَقَة	سنه	زندقه
+سهل	صعب	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%B3%D9%87%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%B5%D8%B9%D8%A8#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B3%D9%8E%D9%87%D9%92%D9%84&oldid=1082315 | omw-arb:omw-arb-00744916-a / omw-arb-00749230-a (PWN omw-en-00744916-a ↔ omw-en-00749230-a: difficult/easy)	no		yes	A	سهل	صَعْب	سهل	صعب
+شبع	جاع	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D8%A8%D8%B9#Arabic	no		no	A	شبع	جَاعَ	شبع	جاع
+شجاع	جبان	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%B4%D8%AC%D8%A7%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%A7%D9%86#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D8%A8%D9%8E%D8%A7%D9%86&oldid=1434248	no		yes	A	شجاع	جَبَان	شجاع	جب
+شجيع	جبان	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D8%AC%D9%8A%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%AC%D8%A8%D8%A7%D9%86#Arabic	no		no	A	شجيع	جَبَان	شجيع	جب
+شدد	خفف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D8%AF%D8%AF#Arabic	no		no	A	شدد	خفَّفَ	شدد	خفف
+شر	خير	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%B4%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D9%8A%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B4%D9%8E%D8%B1%D9%91&oldid=1082547	no		yes	A	شر	خَيْر	شر	خير
+شرف	عار	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D9%81#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%B1#Arabic	no		no	A	شرف	عَار	شرف	عار
+شرير	بطل	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D9%8A%D8%B1#Arabic	no		no	A	شرير	بَطَلَ	شرير	بطل
+شعوري	لاشعوري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D8%B9%D9%88%D8%B1%D9%8A#Arabic	no		no	A	شعوري	لَاشُعُورِيّ	شعور	لاشعور
+شكر	جحود	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D9%83%D8%B1#Arabic	no		no	A	شكر	جُحُود	شكر	جحود
+شمال	يمين	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B4%D9%85%D8%A7%D9%84#Arabic | https://en.wiktionary.org/wiki/%D9%8A%D9%85%D9%8A%D9%86#Arabic	no		yes	A	شمال	يَمِين	شمال	يمين
+صاح	سكران	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D8%AD#Arabic	no		no	A	صاح	سَكْرَان	صاح	سكران
+صباح	مساء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D8%A7%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%A7%D8%A1#Arabic	no		yes	A	صباح	مَسَاء	صباح	مساء
+صباح	غسق	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D8%A7%D8%AD#Arabic	no		no	A	صباح	غَسَق	صباح	غسق
+صباحا	مساء	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D8%A7%D8%AD%D8%A7#Arabic	no		no	A	صباحا	مَسَاءً	صباح	مساء
+صبوح	غبوق	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%A8%D9%88%D8%AD#Arabic	no		no	A	صبوح	غَبُوق	صبوح	
+صحيح	باطل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AD%D9%8A%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B7%D9%84#Arabic	no		no	A	صحيح	بَاطِل	صحيح	باطل
+صحيح	خطا	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AD%D9%8A%D8%AD#Arabic	no		no	A	صحيح	خَطَأ	صحيح	خط
+صدر	عجز	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D8%B1#Arabic	no		no	A	صدر	عَجْز	صدر	عجز
+صدر	دبر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D8%B1#Arabic	no		no	A	صدر	دُبْر	صدر	دبر
+صدر	مءخر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D8%B1#Arabic	no		no	A	صدر	مُؤَخَّرَ	صدر	مءخر
+صدق	كذب	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%83%D8%B0%D8%A8#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B5%D9%90%D9%91%D8%AF%D9%92%D9%82&oldid=1082750	no		yes	A	صدق	كَذَبَ	صدق	كذب
+صدوق	كذوب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D9%88%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%83%D8%B0%D9%88%D8%A8#Arabic	no		no	A	صدوق	كَذُوب	صدوق	كذوب
+صديق	كذاب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D9%8A%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%83%D8%B0%D8%A7%D8%A8#Arabic	no		no	A	صديق	كَذَّاب	صديق	كذاب
+صغيره	كبيره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%83%D8%A8%D9%8A%D8%B1%D8%A9#Arabic	no		no	A	صغيرة	كَبِيرَة	صغير	كبير
+ضحل	عميق	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%B6%D8%AD%D9%84#Arabic | omw-arb:omw-arb-00690058-a / omw-arb-00691696-a (PWN omw-en-00690058-a ↔ omw-en-00691696-a: deep/shallow)	no		no	A	ضحل	عَمِيق	ضحل	عميق
+ضراء	سراء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B6%D8%B1%D8%A7%D8%A1#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D8%B1%D8%A7%D8%A1#Arabic	no		no	A	ضراء	سَرَّاء	ضراء	سراء
+ضعيف	سمين	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B6%D8%B9%D9%8A%D9%81#Arabic	no		no	A	ضعيف	سَمِين	ضعيف	سمي
+ضعيف	متين	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B6%D8%B9%D9%8A%D9%81#Arabic	no		no	A	ضعيف	مَتِين	ضعيف	متين
+ضعيف	بدين	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B6%D8%B9%D9%8A%D9%81#Arabic	no		no	A	ضعيف	بَدِين	ضعيف	دين
+ضل	اهتدي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B6%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%A7%D9%87%D8%AA%D8%AF%D9%89#Arabic	no		no	A	ضل	اِهْتَدَى	ضل	اهتدي
+ضيق	وسيع	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B6%D9%8A%D9%82#Arabic	no		no	A	ضيق	وَسِيع	ضيق	وسيع
+ضيق	رحب	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D8%B6%D9%8A%D9%82#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B1%D9%8F%D8%AD%D9%92%D8%A8&oldid=1081817	no		no	A	ضيق	رَحْب	ضيق	رحب
+طالح	صالح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D9%84%D8%AD#Arabic	no		no	A	طالح	صَالِح	طالح	صالح
+طالما	قلما	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D9%84%D9%85%D8%A7#Arabic | https://en.wiktionary.org/wiki/%D9%82%D9%84%D9%85%D8%A7#Arabic	no		no	A	طالما	قَلَّمَا	طالما	قل
+طردي	عكسي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D8%AF%D9%8A#Arabic	no		no	A	طردي	عَكْسِيّ	طرد	عكس
+طلوع	غروب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B7%D9%84%D9%88%D8%B9#Arabic	no		no	A	طلوع	غُرُوب	طلوع	غروب
+طيب	خبيث	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B7%D9%8A%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%A8%D9%8A%D8%AB#Arabic	yes	badi-012 الطيبات/الخبائث	no	A	طيب	خَبِيث	طيب	خبيث
+طيبات	خباءث	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B7%D9%8A%D8%A8%D8%A7%D8%AA#Arabic	yes	badi-012 الطيبات/الخبائث	no	A	طيبات	خَبَائِث	طيب	
+ظاهر	باطن	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%B8%D8%A7%D9%87%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B7%D9%86#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B8%D9%8E%D8%A7%D9%87%D9%90%D8%B1&oldid=1083117	no		yes	A	ظاهر	بَاطِن	ظاهر	باطن
+ظمء	روي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B8%D9%85%D8%A6#Arabic	no		no	A	ظمئ	رَوِيَ	ظمء	روي
+ظمء	ارتوي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B8%D9%85%D8%A6#Arabic	no		no	A	ظمئ	اِرْتَوَى	ظمء	ارتوي
+ظمان	ريان	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B8%D9%85%D8%A2%D9%86#Arabic	no		no	A	ظمآن	رَيَّان	ظما	ريان
+ظني	قطعي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B8%D9%86%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D9%82%D8%B7%D8%B9%D9%8A#Arabic	no		no	A	ظني	قَطْعِيّ	ظن	قطع
+عاءل	غني	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%A6%D9%84#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%A7%D8%A6%D9%90%D9%84&oldid=1083246	no		no	A	عائل	غَنِيّ	عاءل	غني
+عادل	ظالم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%AF%D9%84#Arabic	no		no	A	عادل	ظَالِم	عادل	ظالم
+عادي	صادق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%AF%D9%89#Arabic	no		no	A	عادى	صَادَقَ	عادي	صادق
+عادي	صافي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%AF%D9%89#Arabic	no		no	A	عادى	صَافَى	عادي	صافي
+عادي	حالف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%AF%D9%89#Arabic	no		no	A	عادى	حَالَفَ	عادي	حالف
+عادي	والي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%AF%D9%89#Arabic	no		no	A	عادى	وَالَى	عادي	الي
+عاقب	اثاب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%82%D8%A8#Arabic	no		no	A	عاقب	أَثَابَ	عاقب	اثاب
+عامه	فلاسفه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85%D8%A9#Arabic	no		no	A	عامة	فَلَاسِفَة	عام	اسف
+عامه	علماء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85%D8%A9#Arabic	no		no	A	عامة	عُلَمَاء	عام	عالم
+عامه	مثقفون	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85%D8%A9#Arabic	no		no	A	عامة	مُثَقَّفُون	عام	مثقف
+عجز	قدر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%AC%D8%B2#Arabic	no		no	A	عجز	قَدَرَ	عجز	قدر
+عداوه	صداقه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D8%A7%D9%88%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D8%A7%D9%82%D8%A9#Arabic	no		no	A	عداوة	صَدَاقَة	عداوه	صداقه
+عدم	وجود	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%85#Arabic	no		no	A	عدم	وُجُود	عدم	وجود
+عدو	صديق	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic | https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D9%8A%D9%82#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B5%D9%8E%D8%AF%D9%90%D9%8A%D9%92%D9%82&oldid=1082794	no		yes	A	عدو	صَدِيق	عدو	صديق
+عدو	حليف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic	no		no	A	عدو	حَلِيف	عدو	حليف
+عدو	خليل	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic	no		no	A	عدو	خَلِيل	عدو	خليل
+عدو	نصير	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%88#Arabic	no		no	A	عدو	نَصِير	عدو	صار
+عذاب	رحمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B0%D8%A7%D8%A8#Arabic	no		no	A	عذاب	رَحْمَة	عذاب	رحمه
+عذاب	نعيم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B0%D8%A7%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	عذاب	نَعِيم	عذاب	نعيم
+عذب	ملح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B0%D8%A8#Arabic	no		no	A	عذب	مِلْح	عذب	ملح
+عذر	لام	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B0%D8%B1#Arabic	no		no	A	عذر	لَامَ	عذر	ام
+عرب	عجم	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%AC%D9%85#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%AC%D9%8E%D9%85&oldid=1083370	no		no	A	عرب	عَجَم	عرب	عجم
+عربي	اعجمي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A#Arabic	no		no	A	عربي	أَعْجَمِيّ	عربي	اعجم
+عربي	عجمي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A#Arabic	no		no	A	عربي	عَجَمِيّ	عربي	عجمي
+عرض	صرح	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%B6#Arabic	no		no	A	عرض	صَرَّحَ	عرض	صرح
+عرف	انكر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D9%81#Arabic	no		no	A	عرف	أَنْكَرَ	عرف	انكر
+عرف	جهل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D9%81#Arabic	no		no	A	عرف	جَهِلَ	عرف	جهل
+عزه	ذله	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B2%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B0%D9%84%D8%A9#Arabic	no		no	A	عزة	ذِلَّة	عزه	ذل
+عزيز	ذليل	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D8%B9%D8%B2%D9%8A%D8%B2#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%B2%D9%90%D9%8A%D8%B2&oldid=1083566	no		yes	A	عزيز	ذَلِيل	عزيز	ذليل
+عطشان	ريان	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B7%D8%B4%D8%A7%D9%86#Arabic	no		no	A	عطشان	رَيَّان	عطشان	ريان
+عطشان	مسقي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B7%D8%B4%D8%A7%D9%86#Arabic	no		no	A	عطشان	مَسْقِيّ	عطشان	مسقي
+عظم	تصغر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B8%D9%85#Arabic	no		no	A	عظم	تَصَغُّر	عظم	صغر
+عظيم	حقير	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D8%B9%D8%B8%D9%8A%D9%85#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%B8%D9%90%D9%8A%D9%85&oldid=1083595	no		yes	A	عظيم	حَقِير	عظيم	حقير
+عظيم	هين	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D8%B8%D9%8A%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%87%D9%8A%D9%86#Arabic	no		no	A	عظيم	هَيِّن	عظيم	هين
+عقاب	ثواب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D9%82%D8%A7%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%AB%D9%88%D8%A7%D8%A8#Arabic	no		yes	A	عقاب	ثَوَاب	عقاب	ثواب
+علني	سري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%86%D9%8A#Arabic	no		no	A	علني	سِرِّيّ	علني	سر
+عمد	خطا	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D9%85%D8%AF#Arabic	no		no	A	عمد	خَطَأ	عماد	خط
+عمودي	افقي	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%88%D8%AF%D9%8A#Arabic | omw-arb:omw-arb-01232635-a / omw-arb-01233347-a (PWN omw-en-01232635-a ↔ omw-en-01233347-a: horizontal/vertical)	no		no	A	عمودي	أُفُقِيّ	عمود	افق
+عميل	خادم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%8A%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%AF%D9%85#Arabic	no		no	A	عميل	خَادِم	عميل	خادم
+عنف	لطف	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D9%86%D9%81#Arabic	no		no	A	عنف	لُطْف	عنف	لطف
+عنف	لين	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%B9%D9%86%D9%81#Arabic	no		no	A	عنف	لِين	عنف	ين
+غاب	حضر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D8%A7%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D8%B6%D8%B1#Arabic	no		yes	A	غاب	حَضَرَ	غاب	حضر
+غامق	فاتح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D8%A7%D9%85%D9%82#Arabic	no		no	A	غامق	فَاتِح	غامق	فاتح
+غدر	اوفي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D8%AF%D8%B1#Arabic	no		no	A	غدر	أَوْفَى	غدر	وفي
+غدر	وفي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D8%AF%D8%B1#Arabic	no		no	A	غدر	وَفَى	غدر	في
+غسق	فجر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D8%B3%D9%82#Arabic	no		no	A	غسق	فَجْر	غسق	فجر
+غيابا	حضوريا	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D9%8A%D8%A7%D8%A8%D8%A7#Arabic	no		no	A	غيابا	حُضُورِيًّا	غياب	
+غيابي	حضوري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D8%BA%D9%8A%D8%A7%D8%A8%D9%8A#Arabic	no		no	A	غيابي	حُضُورِيّ	غياب	حضور
+فاءده	مضره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%A6%D8%AF%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B6%D8%B1%D8%A9#Arabic	no		no	A	فائدة	مَضَرَّة	فاءده	مضر
+فاءده	ضرر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%A6%D8%AF%D8%A9#Arabic	no		no	A	فائدة	ضَرَر	فاءده	ضرر
+فاتحه	خاتمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AA%D8%AD%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%AA%D9%85%D8%A9#Arabic	no		no	A	فاتحة	خَاتِمَة	فاتحه	خاتم
+فاجر	بار	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AC%D8%B1#Arabic	no		no	A	فاجر	بَارّ	جري	بار
+فاجر	تقي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AC%D8%B1#Arabic	no		no	A	فاجر	تَقِيّ	جري	وقي
+فاجر	متق	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AC%D8%B1#Arabic	no		no	A	فاجر	مُتَّقٍ	جري	متقي
+فال	شءم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%A3%D9%84#Arabic	no		no	A	فأل	شُؤْم	ال	شءم
+فتح	اغلق	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D9%81%D8%AA%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%BA%D9%84%D9%82#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%BA%D9%92%D9%84%D9%8E%D9%82%D9%8E&oldid=1090556 | https://ar.wiktionary.org/w/index.php?title=%D9%81%D9%8E%D8%AA%D9%8E%D8%AD%D9%8E&oldid=1091374 | omw-arb:omw-arb-01345109-v / omw-arb-01346003-v (PWN omw-en-01345109-v ↔ omw-en-01346003-v: close/open)	no		no	A	فتح	أَغْلَقَ	فتح	اغلق
+فرامبواز	باطس	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%A7%D9%85%D8%A8%D9%88%D8%A7%D8%B2#Arabic	no		no	A	فرامبواز	بَاطُس	فرامبواز	
+فردوس	سعير	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	سَعِير	فردوس	سعير
+فردوس	لظي	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	لَظَىٰ	فردوس	لظي
+فردوس	جهنم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	جَهَنَّم	فردوس	جهنم
+فردوس	جحيم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	جَحِيم	فردوس	جحيم
+فردوس	حطمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	حُطَمَة	فردوس	حطم
+فردوس	سقر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	سَقَر	فردوس	سقر
+فردوس	هاويه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic	no		no	A	فردوس	هَاوِيَة	فردوس	هاويه
+فردوس	درك	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AF%D9%88%D8%B3#Arabic | https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D9%83#Arabic	no		no	A	فردوس	دَرْك	فردوس	درك
+فضل	نقص	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B6%D9%84#Arabic	no		no	A	فضل	نَقْص	فضل	نقص
+فضله	عمده	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B6%D9%84%D8%A9#Arabic	no		no	A	فضلة	عُمْدَة	فضل	عماد
+فضيله	رذيله	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D8%B6%D9%8A%D9%84%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%B1%D8%B0%D9%8A%D9%84%D8%A9#Arabic	no		no	A	فضيلة	رَذِيلَة	فضيله	رذيله
+فقير	غني	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%82%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%BA%D9%86%D9%8A#Arabic	no		yes	A	فقير	غَنِيّ	فقير	غني
+فقير	ثري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%82%D9%8A%D8%B1#Arabic	no		no	A	فقير	ثَرِيّ	فقير	ثري
+فلاح	خيبه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%84%D8%A7%D8%AD#Arabic	no		no	A	فلاح	خَيْبَة	لاح	خيبه
+فلح	خاب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%84%D8%AD#Arabic	no		no	A	فلح	خَابَ	فلح	خاب
+فلح	فشل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%84%D8%AD#Arabic	no		no	A	فلح	فَشِلَ	فلح	فشل
+فلق	غسق	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%84%D9%82#Arabic | https://en.wiktionary.org/wiki/%D8%BA%D8%B3%D9%82#Arabic	no		no	A	فلق	غَسَق	فلق	غسق
+فلق	عشاء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%81%D9%84%D9%82#Arabic	no		no	A	فلق	عِشَاء	فلق	عشاء
+قاريه	باديه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%A7%D8%B1%D9%8A%D8%A9#Arabic	no		no	A	قارية	بَادِيَة	قاري	بادي
+قاعده	حمض	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%A7%D8%B9%D8%AF%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D8%AD%D9%85%D8%B6#Arabic	no		no	A	قاعدة	حَمْض	قاعده	حمض
+قبض	بسط	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%A8%D8%B6#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%B3%D8%B7#Arabic	no		no	A	قبض	بَسَطَ	قبض	بسط
+قبل	رفض	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%B1%D9%81%D8%B6#Arabic | omw-arb:omw-arb-00686447-v / omw-arb-00685683-v (PWN omw-en-00686447-v ↔ omw-en-00685683-v: accept/reject)	no		no	A	قبل	رَفَضَ	قبل	رفض
+قبل	بعد	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF#Arabic	no		no	A	قبل	بَعْدُ	قبل	بعد
+قدري	جبري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%AF%D8%B1%D9%8A#Arabic	no		no	A	قدري	جَبْرِيّ	قدر	جبري
+قذاره	نظافه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%B0%D8%A7%D8%B1%D8%A9#Arabic	no		no	A	قذارة	نَظَافَة	قذاره	نظيف
+قذاره	طهاره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%B0%D8%A7%D8%B1%D8%A9#Arabic	no		no	A	قذارة	طَهَارَة	قذاره	طهاره
+قذر	نظف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%B0%D8%B1#Arabic	no		no	A	قذر	نَظُفَ	قذر	نظف
+قذر	طهر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%B0%D8%B1#Arabic	no		no	A	قذر	طَهُرَ	قذر	طهر
+قذر	نقي	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%B0%D8%B1#Arabic	no		no	A	قذر	نَقِيَ	قذر	نقي
+قريب	بعيد	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D9%82%D8%B1%D9%8A%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D9%8A%D8%AF#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%B9%D9%90%D9%8A%D9%92%D8%AF&oldid=1078025 | omw-arb:omw-arb-00442361-a / omw-arb-00444519-a (PWN omw-en-00442361-a ↔ omw-en-00444519-a: far/near)	no		yes	A	قريب	بَعِيد	قريب	عيد
+قريب	غريب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D8%B1%D9%8A%D8%A8#Arabic	no		no	A	قريب	غَرِيب	قريب	غريب
+قمه	حضيض	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D9%85%D8%A9#Arabic	no		no	A	قمة	حَضِيض	قمه	حضيض
+قمه	قاع	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D9%85%D8%A9#Arabic	no		no	A	قمة	قَاع	قمه	قاع
+قنن	جرم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D9%86%D9%86#Arabic	no		no	A	قنن	جَرَّمَ	قنن	جرم
+قوميه	اقلميه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D9%88%D9%85%D9%8A%D8%A9#Arabic	no		no	A	قومية	إِقْلِمِيَّة	قومي	
+قوي	ضعف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D9%88%D9%8A#Arabic	no		no	A	قوي	ضَعُفَ	قوه	ضعف
+قوي	ضعيف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%82%D9%88%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%B6%D8%B9%D9%8A%D9%81#Arabic	no		yes	A	قوي	ضَعِيف	قوه	ضعيف
+كبير	صغير	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D9%83%D8%A8%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%B5%D8%BA%D9%8A%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%83%D8%A8%D9%8A%D8%B1&oldid=1085005	no		yes	A	كبير	صَغِير	كبير	صغير
+كبير	شاب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%A8%D9%8A%D8%B1#Arabic	no		no	A	كبير	شَابّ	كبير	شاب
+كتابي	شفهي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8%D9%8A#Arabic	no		no	A	كتابي	شَفَهِيّ	كتاب	شفهي
+كثير	قليل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%AB%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%82%D9%84%D9%8A%D9%84#Arabic	yes	badi2-014 قليلا/كثيرا	yes	A	كثير	قَلِيل	كثير	قليل
+كر	فر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1#Arabic	no		no	A	كر	فَرَّ	كر	فر
+كرم	لءم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%85#Arabic	no		yes	A	كرم	لَؤُمَ	كرم	لءم
+كرم	بخل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%85#Arabic	no		no	A	كرم	بَخِلَ	كرم	بخل
+كره	احب	verb	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%87#Arabic | omw-arb:omw-arb-01776727-v / omw-arb-01777210-v (PWN omw-en-01776727-v ↔ omw-en-01777210-v: dislike/like)	no		no	A	كره	أَحَبَّ	كره	احب
+كره	حبب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%87#Arabic	no		no	A	كره	حَبَّبَ	كره	حبب
+كرها	طوعا	adv	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%87%D8%A7#Arabic | https://en.wiktionary.org/wiki/%D8%B7%D9%88%D8%B9%D8%A7#Arabic	no		no	A	كرها	طَوْعًا	كر	طوعا
+كريم	لءيم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%8A%D9%85#Arabic	no		yes	A	كريم	لَئِيم	كريم	لءيم
+كريم	بخيل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%8A%D9%85#Arabic	no		no	A	كريم	بَخِيل	كريم	خيل
+كفر	شكر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D9%81%D8%B1#Arabic	no		no	A	كفر	شَكَرَ	كفر	شكر
+كفور	شكور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D9%81%D9%88%D8%B1#Arabic	no		no	A	كفور	شَكُور	فور	شكر
+كمي	جبان	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%83%D9%85%D9%8A#Arabic	no		no	A	كمي	جَبَان	كم	جب
+لءيم	نبيل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D8%A6%D9%8A%D9%85#Arabic	no		no	A	لئيم	نَبِيل	لءيم	نبيل
+لازم	متعد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D8%A7%D8%B2%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%B9%D8%AF#Arabic	no		no	A	لازم	مُتَعَدٍّ	ازمه	متعدي
+لخص	اطال	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D8%AE%D8%B5#Arabic	no		no	A	لخص	أَطَالَ	خص	اطال
+لخص	اطنب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D8%AE%D8%B5#Arabic	no		no	A	لخص	أَطْنَب	خص	اطنب
+ليبرالي	محافظ	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D9%84%D9%8A%D8%A8%D8%B1%D8%A7%D9%84%D9%8A#Arabic | omw-arb:omw-arb-09957156-n / omw-arb-10256756-n (PWN omw-en-09957156-n ↔ omw-en-10256756-n: conservative/liberal)	no		no	A	ليبرالي	مُحَافِظ	ليبرالي	محافظ
+ليل	نهار	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%84#Arabic | https://en.wiktionary.org/wiki/%D9%86%D9%87%D8%A7%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%86%D9%8E%D9%87%D9%8E%D8%A7%D8%B1&oldid=1086702	no		yes	A	ليل	نَهَار	ليل	نهار
+لين	صلب	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%86#Arabic | omw-arb:omw-arb-01150915-a / omw-arb-01152746-a (PWN omw-en-01150915-a ↔ omw-en-01152746-a: hard/soft)	no		no	A	لين	صُلْب	ين	صلب
+لين	شديد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%86#Arabic	no		no	A	لين	شَدِيد	ين	شديد
+لين	عنيف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%86#Arabic	no		no	A	لين	عَنِيف	ين	عنيف
+لين	قاس	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%86#Arabic	no		no	A	لين	قَاسٍ	ين	قاسي
+مءناث	مذكار	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%A6%D9%86%D8%A7%D8%AB#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B0%D9%83%D8%A7%D8%B1#Arabic	no		no	A	مئناث	مِذْكَار		
+ماتن	شارح	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%AA%D9%86#Arabic	no		no	A	ماتن	شَارِح		شارح
+ماهول	خاو	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%A3%D9%87%D9%88%D9%84#Arabic	no		no	A	مأهول	خَاوٍ	ماهول	خاوي
+ماهول	مهجور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%A3%D9%87%D9%88%D9%84#Arabic	no		no	A	مأهول	مَهْجُور	ماهول	مهجور
+مباح	محظور	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%B8%D9%88%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D8%AD%D9%92%D8%B8%D9%8F%D9%88%D9%92%D8%B1&oldid=1085521	no		no	A	مباح	مَحْظُور	مباح	محظور
+مباح	حرام	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%AD#Arabic	no		no	A	مباح	حَرَام	مباح	حرام
+متاخر	مبكر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%A3%D8%AE%D8%B1#Arabic	no		no	A	متأخر	مُبَكِّر	متاخر	مبكر
+متاخر	بكير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%A3%D8%AE%D8%B1#Arabic	no		no	A	متأخر	بَكِير	متاخر	بكير
+متاخر	بكور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%A3%D8%AE%D8%B1#Arabic	no		no	A	متأخر	بَكُور	متاخر	كور
+متاخر	باكور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%A3%D8%AE%D8%B1#Arabic	no		no	A	متأخر	بَاكُور	متاخر	كور
+متاخر	متقدم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%A3%D8%AE%D8%B1#Arabic	no		no	A	متأخر	مُتَقَدِّم	متاخر	متقدم
+متخلف	متقدم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%AE%D9%84%D9%81#Arabic	no		no	A	متخلف	مُتَقَدِّم	متخلف	متقدم
+متخلف	متطور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%AE%D9%84%D9%81#Arabic	no		no	A	متخلف	مُتَطَوِّر	متخلف	متطور
+متقطع	متصل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%82%D8%B7%D8%B9#Arabic	no		no	A	متقطع	مُتَّصِل	متقطع	متصل
+متقطع	متواصل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%82%D8%B7%D8%B9#Arabic	no		no	A	متقطع	مُتَوَاصِل	متقطع	متواصل
+متكبر	متواضع	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%83%D8%A8%D8%B1#Arabic	no		no	A	متكبر	مُتَوَاضِع	متكبر	متواضع
+متن	شرح	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%86#Arabic	no		no	A	متن	شَرْح	متن	شرح
+متنافر	متناسق	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%86%D8%A7%D9%81%D8%B1#Arabic	no		no	A	متنافر	مُتَنَاسِق		متناسق
+متنافر	متناغم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%86%D8%A7%D9%81%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%86%D8%A7%D8%BA%D9%85#Arabic	no		no	A	متنافر	مُتَنَاغِم		
+مثبت	منفي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AB%D8%A8%D8%AA#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%81%D9%8A#Arabic	no		no	A	مثبت	مَنْفِيّ	مثبت	منفي
+مجرد	مزيد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AC%D8%B1%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B2%D9%8A%D8%AF#Arabic	no		no	A	مجرد	مَزِيد	مجرد	مزيد
+محاسن	مساوء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%A7%D8%B3%D9%86#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%A7%D9%88%D8%A6#Arabic	no		no	A	محاسن	مَسَاوِئ	محاسن	مساءه
+محسوس	معقول	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%B3%D9%88%D8%B3#Arabic	no		no	A	محسوس	مَعْقُول	محسوس	معقول
+محظور	مسموح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%B8%D9%88%D8%B1#Arabic	no		no	A	محظور	مَسْمُوح	محظور	مسموح
+محق	مبطل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AD%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%B7%D9%84#Arabic	no		no	A	محق	مُبْطِل	محق	مبطل
+مد	قصر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AF#Arabic	no		no	A	مد	قَصَرَ	مد	قصر
+مدح	ذم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AF%D8%AD#Arabic	no		no	A	مدح	ذَمَّ	مدح	ذم
+مدح	ذمم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%AF%D8%AD#Arabic	no		no	A	مدح	ذَمَّمَ	مدح	ذمه
+مرض	صحه	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D9%85%D8%B1%D8%B6#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D8%B1%D9%8E%D8%B6&oldid=1085637	no		no	A	مرض	صِحَّة	مرض	صحه
+مرض	عافيه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B1%D8%B6#Arabic	no		no	A	مرض	عَافِيَة	مرض	عافيه
+مرهب	مرغب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B1%D9%87%D8%A8#Arabic	no		no	A	مرهب	مُرَغِّب		
+مساوي	محاسن	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%A7%D9%88%D9%8A#Arabic	no		no	A	مساوي	مَحَاسِن	مساوي	محاسن
+مستانس	وحشي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AA%D8%A3%D9%86%D8%B3#Arabic	no		no	A	مستأنس	وَحْشِيّ	مستانس	وحشي
+مستانس	بري	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AA%D8%A3%D9%86%D8%B3#Arabic	no		no	A	مستأنس	بَرِّيّ	مستانس	بري
+مستحب	مكروه	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%AA%D8%AD%D8%A8#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%83%D8%B1%D9%88%D9%87#Arabic	no		no	A	مستحب	مَكْرُوه	مستحب	مكري
+مسير	مخير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B3%D9%8A%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%AE%D9%8A%D8%B1#Arabic	no		no	A	مسير	مُخَيَّر	مسير	مخير
+مشرك	موحد	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B4%D8%B1%D9%83#Arabic	no		no	A	مشرك	مُوَحِّد	مشرك	موحد
+مشهور	مغمور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B4%D9%87%D9%88%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%BA%D9%85%D9%88%D8%B1#Arabic	no		no	A	مشهور	مَغْمُور	مشهور	مغمور
+مصلحه	مفسده	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B5%D9%84%D8%AD%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%81%D8%B3%D8%AF%D8%A9#Arabic	no		no	A	مصلحة	مَفْسَدَة	مصلحه	مفسد
+مضره	منفعه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B6%D8%B1%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%81%D8%B9%D8%A9#Arabic	no		no	A	مضرة	مَنْفَعَة	مضر	منفعه
+مطلق	مقيد	adj	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D9%85%D8%B7%D9%84%D9%82#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%82%D9%8A%D8%AF#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8F%D8%B7%D9%92%D9%84%D9%8E%D9%82&oldid=1085847	no		no	A	مطلق	مُقَيَّد	مطلق	مقيد
+مظلم	منير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B8%D9%84%D9%85#Arabic	no		no	A	مظلم	مُنِير	مظلم	منير
+مظلم	مضيء	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B8%D9%84%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B6%D9%8A%D8%A1#Arabic	no		no	A	مظلم	مُضِيء	مظلم	مضيء
+معرفه	نكره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B9%D8%B1%D9%81%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%86%D9%83%D8%B1%D8%A9#Arabic	no		no	A	معرفة	نَكِرَة	معرفه	كره
+معروف	منكر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B9%D8%B1%D9%88%D9%81#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%83%D8%B1#Arabic	no		no	A	معروف	مُنْكَر	معروف	منكر
+معصيه	طاعه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D8%B9%D8%B5%D9%8A%D8%A9#Arabic	no		no	A	معصية	طَاعَة	معصيه	طاعه
+مفتوح	مغلق	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%81%D8%AA%D9%88%D8%AD#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%BA%D9%84%D9%82#Arabic	no		no	A	مفتوح	مُغْلَق	مفتوح	مغلق
+مفرد	مركب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%81%D8%B1%D8%AF#Arabic	no		no	A	مفرد	مُرَكَّب	مفرد	مركب
+مفسد	مصلح	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%81%D8%B3%D8%AF#Arabic	no		no	A	مفسد	مُصْلِح	مفسد	مصلح
+مقطع	مطلع	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%82%D8%B7%D8%B9#Arabic	no		no	A	مقطع	مَطْلَع	مقطع	مطلع
+مقنن	مجرم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%82%D9%86%D9%86#Arabic	no		no	A	مقنن	مُجَرَّم	مقنن	مجرم
+مقنن	ممنوع	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%82%D9%86%D9%86#Arabic	no		no	A	مقنن	مَمْنُوع	مقنن	ممنوع
+مقنن	محرم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%82%D9%86%D9%86#Arabic	no		no	A	مقنن	مُحَرَّم	مقنن	محرم
+مقنن	محظور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%82%D9%86%D9%86#Arabic	no		no	A	مقنن	مَحْظُور	مقنن	محظور
+ملموس	معقول	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%84%D9%85%D9%88%D8%B3#Arabic	no		no	A	ملموس	مَعْقُول	ملموس	معقول
+ملموس	مجرد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%84%D9%85%D9%88%D8%B3#Arabic	no		no	A	ملموس	مُجَرَّد	ملموس	مجرد
+ملموس	معنوي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%84%D9%85%D9%88%D8%B3#Arabic	no		no	A	ملموس	مَعْنَوِيّ	ملموس	معنوي
+ملوم	معذور	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%84%D9%88%D9%85#Arabic	no		no	A	ملوم	مَعْذُور	ملوم	
+ممات	محيا	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%85%D8%A7%D8%AA#Arabic	no		no	A	ممات	مَحْيًا	ممات	محيا
+ممتلء	فارغ	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%85%D8%AA%D9%84%D8%A6#Arabic	no		no	A	ممتلئ	فَارِغ	ممتلء	فارغ
+ممكن	مستحيل	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%85%D9%83%D9%86#Arabic	no		no	A	ممكن	مُسْتَحِيل	ممكن	مستحيل
+ممكن	محال	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%85%D9%83%D9%86#Arabic	no		no	A	ممكن	مُحَال	ممكن	محل
+ممنوع	مسموح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%85%D9%86%D9%88%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B3%D9%85%D9%88%D8%AD#Arabic	no		no	A	ممنوع	مَسْمُوح	ممنوع	مسموح
+ممنوع	مباح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%85%D9%86%D9%88%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%A8%D8%A7%D8%AD#Arabic	no		no	A	ممنوع	مُبَاح	ممنوع	مباح
+مهمل	معجم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%87%D9%85%D9%84#Arabic	no		no	A	مهمل	مُعْجَم	مهمل	معجم
+موافق	مخالف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%A7%D9%81%D9%82#Arabic	no		no	A	موافق	مُخَالِف	موافق	مخالف
+موت	حياه	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%AA#Arabic | https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D9%8A%D9%8E%D8%A7%D8%A9&oldid=1081087	yes	badi2-018 ميتا/أحييناه	yes	A	موت	حَيَاة	موت	حياه
+موجود	معدوم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%AC%D9%88%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B9%D8%AF%D9%88%D9%85#Arabic	no		no	A	موجود	مَعْدُوم	موجود	معدوم
+مورد	مصدر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%B1%D8%AF#Arabic	no		no	A	مورد	مَصْدَر	مورد	مصدر
+موقد	منطفء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%88%D9%82%D8%AF#Arabic	no		no	A	موقد	مُنْطَفِئ	موقد	منطفء
+ميمنه	ميسره	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D9%85%D9%8A%D9%85%D9%86%D8%A9#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D9%8A%D9%92%D8%B3%D9%8E%D8%B1%D9%8E%D8%A9&oldid=1086095	no		no	A	ميمنة	مَيْسَرَة	ميمنه	ميسر
+ميمنه	مشامه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%85%D9%8A%D9%85%D9%86%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D8%B4%D8%A3%D9%85%D8%A9#Arabic	no		no	A	ميمنة	مَشْأَمَة	ميمنه	
+نافع	ضار	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81%D8%B9#Arabic	no		no	A	نافع	ضَارّ	نافع	ضراوه
+نافع	مضر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%81%D8%B9#Arabic	no		no	A	نافع	مُضِرّ	نافع	مضر
+نبطي	فصيح	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%A8%D8%B7%D9%8A#Arabic	no		no	A	نبطي	فَصِيح	نبطي	فصيح
+نتيجه	مقدمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AA%D9%8A%D8%AC%D8%A9#Arabic | https://en.wiktionary.org/wiki/%D9%85%D9%82%D8%AF%D9%85%D8%A9#Arabic	no		no	A	نتيجة	مُقَدِّمَة	نتيجه	مقدم
+نثر	شعر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AB%D8%B1#Arabic	no		no	A	نثر	شِعْر	نثر	شعر
+نجاسه	طهاره	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%A7%D8%B3%D8%A9#Arabic	no		no	A	نجاسة	طَهَارَة	نجس	طهاره
+نجح	فشل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%AD#Arabic	no		no	A	نجح	فَشِلَ	نجح	فشل
+نجح	اخفق	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%AD#Arabic	no		no	A	نجح	أَخْفَقَ	نجح	اخفق
+نجح	رسب	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%AD#Arabic	no		no	A	نجح	رَسَبَ	نجح	رسب
+نجس	طهر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%B3#Arabic	no		no	A	نجس	طَهَرَ	نجس	طهر
+نجس	طاهر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%B3#Arabic | https://en.wiktionary.org/wiki/%D8%B7%D8%A7%D9%87%D8%B1#Arabic	no		no	A	نجس	طَاهِر	نجس	طاهر
+نذري	بشري	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B0%D8%B1%D9%89#Arabic	no		no	A	نذرى	بُشْرَى	نذر	بشري
+نذير	مبشر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B0%D9%8A%D8%B1#Arabic	no		no	A	نذير	مُبَشِّر	نذير	مبشر
+نشاط	كسل	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B4%D8%A7%D8%B7#Arabic	no		no	A	نشاط	كَسَل	نشاط	كسل
+نصر	هزيمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B5%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D9%87%D8%B2%D9%8A%D9%85%D8%A9#Arabic	no		no	A	نصر	هَزِيمَة	نصر	هزيمه
+نظري	عملي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A#Arabic	no		no	A	نظري	عَمَلِيّ	نظر	عمل
+نظم	نثر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B8%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%86%D8%AB%D8%B1#Arabic	no		no	A	نظم	نَثْر	نظم	نثر
+نعم	بءس	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%A8%D8%A6%D8%B3#Arabic	no		no	A	نعم	بِئْسَ	نعم	بءس
+نعم	ساء	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%85#Arabic | https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%A1#Arabic	no		no	A	نعم	سَاءَ	نعم	ساء
+نعيم	سعير	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	نعيم	سَعِير	نعيم	سعير
+نعيم	لظي	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	نعيم	لَظَىٰ	نعيم	لظي
+نعيم	جهنم	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	نعيم	جَهَنَّم	نعيم	جهنم
+نعيم	حطمه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	نعيم	حُطَمَة	نعيم	حطم
+نعيم	سقر	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	نعيم	سَقَر	نعيم	سقر
+نعيم	هاويه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D8%B9%D9%8A%D9%85#Arabic	no		no	A	نعيم	هَاوِيَة	نعيم	هاويه
+نفع	ضر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D9%81%D8%B9#Arabic	no		yes	A	نفع	ضَرَّ	نفع	ضر
+نفي	اثبات	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%86%D9%81%D9%8A#Arabic | https://en.wiktionary.org/wiki/%D8%A5%D8%AB%D8%A8%D8%A7%D8%AA#Arabic	no		no	A	نفي	إِثْبَات	نفي	اثبات
+هدوء	جاش	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%88%D8%A1#Arabic	no		no	A	هدوء	جَأْش	هدوء	جاش
+هدوء	اضطراب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%88%D8%A1#Arabic	no		no	A	هدوء	اِضْطِراب	هدوء	اضطراب
+هدي	اضل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%89#Arabic | https://en.wiktionary.org/wiki/%D8%A3%D8%B6%D9%84#Arabic	no		no	A	هدى	أَضَلَّ	هدي	اضل
+هزل	جد	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%87%D8%B2%D9%84#Arabic	no		no	A	هزل	جَدَّ	هزل	جد
+واسع	ضيق	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%A7%D8%B3%D8%B9#Arabic | https://en.wiktionary.org/wiki/%D8%B6%D9%8A%D9%82#Arabic	no		no	A	واسع	ضَيِّق	سعي	ضيق
+وافق	خالف	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%81%D9%82#Arabic | https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%D9%81#Arabic	no		no	A	وافق	خَالَفَ	وافق	خالف
+واقعي	خيالي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%82%D8%B9%D9%8A#Arabic	no		no	A	واقعي	خَيَالِيّ	واقع	خيال
+والده	والد	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%AF%D8%A9#Arabic	no		no	A	والدة	وَالِد	والد	والد
+والده	اب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D8%AF%D8%A9#Arabic	no		no	A	والدة	أَب	والد	اب
+وجد	عدم	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%AC%D8%AF#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D9%85#Arabic	no		no	A	وجد	عُدِمَ	وجد	عدم
+ورد	صدر	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%B1%D8%AF#Arabic	no		no	A	ورد	صَدَّرَ	رد	صدر
+وسخ	نظيف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%B3%D8%AE#Arabic	no		no	A	وسخ	نَظِيف	وسخ	نظيف
+وسخ	نقي	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%B3%D8%AE#Arabic	no		no	A	وسخ	نَقِيّ	وسخ	نقي
+وسخ	طاهر	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%B3%D8%AE#Arabic	no		no	A	وسخ	طَاهِر	وسخ	طاهر
+وضيع	شريف	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%88%D8%B6%D9%8A%D8%B9#Arabic	no		no	A	وضيع	شَرِيف	وضيع	شريف
+يءس	امل	verb	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D8%A6%D8%B3#Arabic	no		no	A	يئس	أَمَلَ	يءس	امل
+يابس	رطب	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D8%A7%D8%A8%D8%B3#Arabic	no		no	A	يابس	رَطْب	يابس	رطب
+يابسه	ماء	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D8%A7%D8%A8%D8%B3%D8%A9#Arabic	no		no	A	يابسة	مَاء	يابس	ماء
+يسر	عسر	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://en.wiktionary.org/wiki/%D9%8A%D8%B3%D8%B1#Arabic | https://en.wiktionary.org/wiki/%D8%B9%D8%B3%D8%B1#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%8A%D9%8E%D8%B3%D9%8F%D8%B1%D9%8E&oldid=1091548	no		yes	A	يسر	عُسْر	سار	عسر
+يسير	عسير	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D8%B3%D9%8A%D8%B1#Arabic	no		no	A	يسير	عَسِير	سار	عسير
+يقظ	ناءم	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%82%D8%B8#Arabic	yes	badi2-017 أيقظتك/نم	no	A	يقظ	نَائِم	يقظ	ناءم
+يقظ	راقد	adj	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%82%D8%B8#Arabic | https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D9%82%D8%AF#Arabic	yes	badi-008 أيقاظ/رقود	no	A	يقظ	رَاقِد	يقظ	راقد
+يقظه	منام	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%82%D8%B8%D8%A9#Arabic	no		no	A	يقظة	مَنَام	يقظ	منام
+يقين	ريب	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%82%D9%8A%D9%86#Arabic	no		no	A	يقين	رَيْب	يقين	ريب
+يقين	شك	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%82%D9%8A%D9%86#Arabic	no		no	A	يقين	شَكّ	يقين	شك
+يقين	شبهه	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%82%D9%8A%D9%86#Arabic	no		no	A	يقين	شُبْهَة	يقين	شبه
+يمين	يسار	noun	English Wiktionary (Arabic entry, Antonyms)	https://en.wiktionary.org/wiki/%D9%8A%D9%85%D9%8A%D9%86#Arabic | https://en.wiktionary.org/wiki/%D9%8A%D8%B3%D8%A7%D8%B1#Arabic	no		no	A	يمين	يَسَار	يمين	يسار
+يوم	ليله	noun	English Wiktionary (Arabic entry, Antonyms) | Arabic Wiktionary (section معاني مضادة/أضداد)	https://en.wiktionary.org/wiki/%D9%8A%D9%88%D9%85#Arabic | https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%84%D8%A9#Arabic | https://ar.wiktionary.org/w/index.php?title=%D9%84%D9%8E%D9%8A%D9%92%D9%84%D9%8E%D8%A9&oldid=1085357 | https://ar.wiktionary.org/w/index.php?title=%D9%8A%D9%8E%D9%88%D9%92%D9%85&oldid=1088587	no		no	A	يوم	لَيْلَة	يوم	ليل
+اجبر	اكسر		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%AC%D9%92%D8%A8%D9%8E%D8%B1%D9%8E&oldid=1090463	no		no	B	أَجْبَرَ	أَكْسَرَ	اجبر	كسر
+ادبر	اقبل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%AF%D9%92%D8%A8%D9%8E%D8%B1%D9%8E&oldid=1090440 | https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%82%D9%92%D8%A8%D9%8E%D9%84%D9%8E&oldid=1090464	yes	badi2-015 مقبل/مدبر	yes	B	أَدْبَرَ	أَقْبَلَ	دبر	قبل
+ارض	بحر		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%B1%D9%92%D8%B6&oldid=1077192	no		no	B	أَرْض	بَحْر	ارض	حر
+استدبر	استقبل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A7%D9%90%D8%B3%D9%92%D8%AA%D9%8E%D8%AF%D9%92%D8%A8%D9%8E%D8%B1%D9%8E&oldid=1091803	no		no	B	اِسْتَدْبَرَ	اسْتَقْبَلَ	استدبر	استقبل
+اصدر	اورد		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%B5%D9%92%D8%AF%D9%8E%D8%B1%D9%8E&oldid=1090441	no		no	B	أَصْدَرَ	أوْرَدَ	اصدر	اورد
+اغبر	باقي		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D8%BA%D9%92%D8%A8%D9%8E%D8%B1&oldid=1077359	no		no	B	أَغْبَر	باقي	اغبر	باقي
+اقام	اجلس		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%82%D9%8E%D8%A7%D9%85%D9%8E&oldid=1090456	no		no	B	أَقَامَ	أَجْلَسَ	اقام	جلس
+اقام	عوج		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%82%D9%8E%D8%A7%D9%85%D9%8E&oldid=1090456	no		no	B	أَقَامَ	عَوَجَ	اقام	عوج
+الاهل	مكان		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A7%D9%84%D8%A2%D9%87%D9%84&oldid=1430681	no		no	B	الآهل	مكان	اهل	مكان
+امال	اقام		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%85%D9%8E%D8%A7%D9%84%D9%8E&oldid=1090644	no		no	B	أَمَالَ	أقَامَ	امل	اقام
+امن	خاف		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%85%D9%90%D9%86%D9%8E&oldid=1091555 | https://ar.wiktionary.org/w/index.php?title=%D8%AE%D9%8E%D8%A7%D9%81%D9%8E&oldid=1091165	no		no	B	أَمِنَ	خَافَ	امن	خاف
+امن	خان		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%85%D9%8F%D9%86%D9%8E&oldid=1091531	no		no	B	أَمُنَ	خَانَ	امن	خان
+انزل	اصعد		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%86%D9%92%D8%B2%D9%8E%D9%84%D9%8E&oldid=1090545	no		no	B	أَنْزَلَ	أَصْعَدَ	نزل	صعد
+ايقظ	نومه		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A3%D9%8E%D9%8A%D9%92%D9%82%D9%8E%D8%B8%D9%8E&oldid=1090654	no		no	B	أَيْقَظَ	نَوَّمَه	ايقظ	نوم
+باديه	حاضره		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%A7%D8%AF%D9%90%D9%8A%D9%8E%D8%A9&oldid=1077836 | https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D8%A7%D8%B6%D9%90%D8%B1%D9%8E%D8%A9&oldid=1080575	no		no	B	بَادِيَة	حَاضِرَة	بادي	حاضر
+باديه	ريف		Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%A7%D8%AF%D9%90%D9%8A%D9%8E%D8%A9&oldid=1077836 | https://ar.wiktionary.org/w/index.php?title=%D8%B1%D9%90%D9%8A%D9%81&oldid=1082011	no		no	B	بَادِيَة	رِيف	بادي	ريف
+برد	سخن		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%B1%D9%8E%D8%AF%D9%8E&oldid=1091726	no		no	B	بَرَدَ	سَخَنَ	رد	ساخ
+برد	تحمس		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%B1%D9%8E%D8%AF%D9%8E&oldid=1091726	no		no	B	بَرَدَ	تَحَمَّسَ	رد	تحمس
+بعد	قرب		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%B9%D9%90%D8%AF%D9%8E&oldid=1094526	no		yes	B	بَعِدَ	قَرُبَ	بعد	قرب
+بلد	فطن		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D9%84%D9%8F%D8%AF%D9%8E&oldid=1091512	no		no	B	بَلُدَ	فَطُنَ	بلد	طن
+بلد	ذكا		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D9%84%D9%8F%D8%AF%D9%8E&oldid=1091512	no		no	B	بَلُدَ	ذَكَا	بلد	ذكا
+بلد	نشط		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D9%84%D9%8F%D8%AF%D9%8E&oldid=1091512	no		no	B	بَلُدَ	نَشَطَ	بلد	نشط
+بناء	هدم		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%90%D9%86%D9%8E%D8%A7%D8%A1&oldid=1078061	no		no	B	بِنَاء	هَدْم	بناء	هدم
+بناء	هدام		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D9%86%D9%8E%D9%91%D8%A7%D8%A1&oldid=1078060	no		no	B	بَنَّاء	هَدَّام	بناء	هدام
+تيسر	تعسر		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AA%D9%8E%D9%8A%D9%8E%D8%B3%D9%8E%D9%91%D8%B1%D9%8E&oldid=1091157	no		no	B	تَيَسَّرَ	تَعَسَّرَ	تيسر	تعسر
+ثابت	متحرك		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AB%D9%8E%D8%A7%D8%A8%D9%90%D8%AA&oldid=1076453	no		no	B	ثَابِت	مُتَحَرِّك	ثابت	متحرك
+جبر	كسر		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D8%A8%D9%92%D8%B1&oldid=1080251 | https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D8%A8%D9%8E%D8%B1%D9%8E&oldid=1091632	no		no	B	جَبْر	كَسْر	جبر	سر
+جبر	كسره		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D8%A8%D9%8E%D8%B1%D9%8E&oldid=1091632	no		no	B	جَبَرَ	كسره	جبر	سر
+جري	مشي		Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D8%B1%D9%8E%D9%89&oldid=1091499 | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D8%B4%D9%92%D9%8A&oldid=1085763	no		no	B	جَرَى	مَشَى	جري	مشي
+جنوب	شمال		Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D8%AC%D9%8E%D9%86%D9%8F%D9%88%D8%A8&oldid=1080527 | https://ar.wiktionary.org/w/index.php?title=%D8%B4%D9%8E%D9%85%D9%8E%D8%A7%D9%84&oldid=1082600	no		no	B	جَنُوب	شَمَال	جنوب	شمال
+حر	برد		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D8%B1%D9%91&oldid=1080667 | https://ar.wiktionary.org/w/index.php?title=%D8%A8%D9%8E%D8%B1%D9%8E%D8%AF%D9%8E&oldid=1091726	no		yes	B	حَرّ	بَرْد	حر	رد
+حرر	عبد		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AD%D8%B1%D8%B1&oldid=1430828	no		no	B	حرر	ْعَبْدِ	حرر	عبد
+حضاره	بداوه		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D8%B6%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9&oldid=1080861	no		no	B	حَضَارَة	بداوة	حضاره	بدا
+حلال	مال		Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D8%AD%D9%8E%D9%84%D9%8E%D8%A7%D9%84&oldid=1080949 | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D8%A7%D9%84&oldid=1085407	no		no	B	حَلَال	مَال	حلال	مال
+خفض	رفع		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AE%D9%8E%D9%81%D9%8E%D8%B6%D9%8E&oldid=1091627	no		yes	B	خَفَضَ	رَفَعَ	خفض	رفع
+دبر	قبل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AF%D9%8F%D8%A8%D9%8F%D8%B1&oldid=1081359	no		no	B	دُبُر	قُبُل	دبر	قبل
+دبره	قبله		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AF%D9%90%D8%A8%D9%92%D8%B1%D9%8E%D8%A9&oldid=1081366	no		no	B	دِبْرَة	قِبْلَة	دبر	قبل
+دقيق	غليظ		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%AF%D9%8E%D9%82%D9%90%D9%8A%D9%92%D9%82&oldid=1081508	no		no	B	دَقِيْق	غَلِيْظ	دقيق	غليظ
+ريف	كل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B1%D9%90%D9%8A%D9%81&oldid=1082011	no		no	B	رِيف	كل	ريف	اكل
+سخن	بارد		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B3%D9%8F%D8%AE%D9%92%D9%86&oldid=1082149	no		no	B	سُخْن	بارد	ساخ	بارد
+سد	فتح		Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D8%B3%D9%8E%D8%AF%D9%8E%D9%91&oldid=1091423 | https://ar.wiktionary.org/w/index.php?title=%D9%81%D9%8E%D8%AA%D9%8E%D8%AD%D9%8E&oldid=1091374	no		no	B	سَدَّ	فَتَحَ	سد	فتح
+سكن	اضطرب		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B3%D9%8E%D9%83%D9%8E%D9%86%D9%8E&oldid=1091448	no		no	B	سَكَنَ	اِضْطَرَبَ	سكن	اضطرب
+شريره	خيره		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B4%D9%90%D8%B1%D9%90%D9%91%D9%8A%D9%92%D8%B1%D9%8E%D8%A9&oldid=1082558	no		no	B	شِرِّيْرَة	خَيِّرَة	شرير	خير
+صلاح	خراب		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B5%D9%8E%D9%84%D9%8E%D8%A7%D8%AD&oldid=1082868	no		no	B	صَلَاح	خراب	صلاح	خراب
+صلاح	فساد		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B5%D9%8E%D9%84%D9%8E%D8%A7%D8%AD&oldid=1082868	no		no	B	صَلَاح	فساد	صلاح	ساد
+ضرب	قسمه		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B6%D9%8E%D8%B1%D9%92%D8%A8&oldid=1082965 | https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%90%D8%B3%D9%92%D9%85%D9%8E%D8%A9&oldid=1084617	no		no	B	ضَرْب	قسمة	ضرب	قسم
+ظلام	نور		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B8%D9%8E%D9%84%D8%A7%D9%85&oldid=1083173 | https://ar.wiktionary.org/w/index.php?title=%D9%86%D9%8F%D9%88%D8%B1&oldid=1142477	no		yes	B	ظَلام	نُوْر	ظلام	نور
+عدل	جور		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%AF%D9%92%D9%84&oldid=1083409	no		no	B	عَدْل	جَوْر	عدل	جور
+عرض	نحف		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%B1%D9%8F%D8%B6%D9%8E&oldid=1091529	no		no	B	عَرُضَ	نَحُفَ	عرض	حف
+عرض	جوهر		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D8%B1%D9%8E%D8%B6&oldid=1083524	no		no	B	عَرَض	جوهر	عرض	جوهر
+عظامي	عصامي		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%90%D8%B8%D9%8E%D8%A7%D9%85%D9%90%D9%8A%D9%91&oldid=1083593	no		no	B	عِظَامِيّ	عصامي	عظيم	عصامي
+عقل	حمق		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D9%82%D9%92%D9%84&oldid=1095876	no		no	B	عَقْل	حُمْق	عقل	احمق
+عماره	خراب		Arabic Wiktionary (definition «ضد ...») | Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D9%85%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9&oldid=1083786 | https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%90%D9%85%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9&oldid=1083787	no		no	B	عَمَارَة	خراب	عماره	خراب
+عين	فرض		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%B9%D9%8E%D9%8A%D9%92%D9%86&oldid=1142009	no		no	B	عَيْن	فرض	عين	فرض
+غث	سمن		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%BA%D9%8E%D8%AB%D9%8E%D9%91&oldid=1091713	no		no	B	غَثَّ	سمن	غث	سام
+غثيث	سمين		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%BA%D9%8E%D8%AB%D9%90%D9%8A%D9%92%D8%AB&oldid=1083998	no		no	B	غَثِيْث	سَمِيْن	غثيث	سمي
+غرب	شرق		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D8%BA%D9%8E%D8%B1%D9%92%D8%A8&oldid=1084031	no		yes	B	غَرْب	شَرْق	غرب	شرق
+فريق	جميع		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%81%D9%8E%D8%B1%D9%90%D9%8A%D9%92%D9%82&oldid=1084169	no		no	B	فَرِيْق	جَمِيْع	فريق	جميع
+فريق	ملاقي		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%81%D9%8E%D8%B1%D9%90%D9%8A%D9%92%D9%82&oldid=1084169	no		no	B	فَرِيْق	ملاقي	فريق	ملاق
+فقر	غني		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%81%D9%8E%D9%82%D9%92%D8%B1&oldid=1084273	no		yes	B	فَقْر	غِنَى	فقر	غني
+قبيح	حسن		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%82%D8%A8%D9%8A%D8%AD&oldid=1156741	yes	badi-013 أحسن/أقبح	no	B	قبيح	حَسَن	قبيح	حسن
+قبيحه	جميله		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%8E%D8%A8%D9%90%D9%8A%D9%92%D8%AD%D9%8E%D8%A9&oldid=1156750	no		no	B	قَبِيْحَة	جَمِيْلَة	قبيح	جميل
+قصر	طال		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%8E%D8%B5%D9%8E%D8%B1%D9%8E&oldid=1094621 | https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%8E%D8%B5%D9%8F%D8%B1%D9%8E&oldid=1091547	no		no	B	قَصَرَ	طال	قصر	طال
+قصر	طول	verb	Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%90%D8%B5%D9%8E%D8%B1&oldid=1084629 | https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%8E%D8%B5%D9%8E%D9%91%D8%B1%D9%8E&oldid=1090447 | omw-arb:omw-arb-00317700-v / omw-arb-00316768-v (PWN omw-en-00317700-v ↔ omw-en-00316768-v: lengthen/shorten)	no		no	B	قِصَر	طول	قصر	طول
+قصير	طويل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%8E%D8%B5%D9%90%D9%8A%D9%92%D8%B1&oldid=1084684	no		yes	B	قَصِيْر	طويل	قصير	طويل
+قوه	ضعف	noun	Arabic Wiktionary (definition «ضد ...») | Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	https://ar.wiktionary.org/w/index.php?title=%D9%82%D9%8F%D9%88%D9%8E%D9%91%D8%A9&oldid=1084890 | omw-arb:omw-arb-05190804-n / omw-arb-05204637-n (PWN omw-en-05190804-n ↔ omw-en-05204637-n: power/powerlessness) | omw-arb:omw-arb-05029706-n / omw-arb-05040275-n (PWN omw-en-05029706-n ↔ omw-en-05040275-n: strength/weakness)	no		yes	B	قُوَّة	ضُعْف	قوه	ضعف
+كثافه	لطافه		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%83%D9%8E%D8%AB%D9%8E%D8%A7%D9%81%D9%8E%D8%A9&oldid=1085104	no		no	B	كَثَافَة	لطافة	كثافه	طاف
+مر	حلو		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8F%D8%B1%D9%91&oldid=1085611	yes	badi-009 حلو/مر	yes	B	مُرّ	حُلْو	مر	حلو
+معرفه	جهل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D8%B9%D9%92%D8%B1%D9%90%D9%81%D9%8E%D8%A9&oldid=1085885	no		no	B	مَعْرِفَة	جَهْل	معرفه	جهل
+معقول	مطلق		Arabic Wiktionary (section معاني مضادة/أضداد)	https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D8%B9%D9%92%D9%82%D9%8F%D9%88%D9%92%D9%84&oldid=1085891 | https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8F%D8%B7%D9%92%D9%84%D9%8E%D9%82&oldid=1085847	no		no	B	مَعْقُوْل	مُطْلَق	معقول	مطلق
+منع	اعطي		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%85%D9%8E%D9%86%D9%8E%D8%B9%D9%8E&oldid=1091164	no		yes	B	مَنَعَ	أَعْطَى	منع	اعطي
+نبا	خبر		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%86%D9%8E%D8%A8%D9%8E%D8%A3&oldid=1086127	no		no	B	نَبَأ	خَبَر	نبا	خبر
+نزل	صعد		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%86%D9%8E%D8%B2%D9%8E%D9%84%D9%8E&oldid=1091602	no		no	B	نَزَلَ	صَعَدَ	نزل	صعيد
+نور	ضوء		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%86%D9%8F%D9%88%D8%B1&oldid=1142477	no		no	B	نُور	ضوء	نور	ضوء
+هجر	وصل		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%87%D9%8E%D8%AC%D9%8E%D8%B1%D9%8E&oldid=1086747	no		yes	B	هَجَرَ	وصل	هجر	وصل
+واتر	مواصله		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%88%D9%8E%D8%A7%D8%AA%D9%8E%D8%B1%D9%8E&oldid=1091086	no		no	B	وَاتَرَ	مواصلة	واتر	مواصله
+وجه	ظهر		Arabic Wiktionary (section معاني مضادة/أضداد) | Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%88%D9%8E%D8%AC%D9%92%D9%87&oldid=1086932	no		no	B	وَجْه	ظَهْر	وجه	ظهر
+ياسر	يامن		Arabic Wiktionary (definition «ضد ...»)	https://ar.wiktionary.org/w/index.php?title=%D9%8A%D9%8E%D8%A7%D8%B3%D9%8E%D8%B1%D9%8E&oldid=1091275	no		no	B	يَاسَرَ	يَامَنَ	ياسر	امن
+اب	ام	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-10080869-n / omw-arb-10332385-n (PWN omw-en-10080869-n ↔ omw-en-10332385-n: father/mother)	no		no	C	أبّ	أُمّ	اب	ام
+ابتداء	انهاء	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-15265518-n / omw-arb-15266911-n (PWN omw-en-15265518-n ↔ omw-en-15266911-n: beginning/end)	no		no	C	اِبْتِداء	إِنْهاء	ابتداء	انهاء
+ابتهاج	اسي	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07527352-n / omw-arb-07534430-n (PWN omw-en-07527352-n ↔ omw-en-07534430-n: joy/sorrow)	no		no	C	اِبْتِهاج	أسى	ابتهاج	اسي
+ابتهج	شكي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00859153-v / omw-arb-00907147-v (PWN omw-en-00859153-v ↔ omw-en-00907147-v: cheer/complain)	no		no	C	إبْتهج	شكى	ابتهج	شك
+ابقي	انهي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02679899-v / omw-arb-02680814-v (PWN omw-en-02679899-v ↔ omw-en-02680814-v: continue/discontinue)	no		no	C	أبْقى	أنْهى	بقي	انهي
+ابقي	فقد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02202384-v / omw-arb-02287789-v (PWN omw-en-02202384-v ↔ omw-en-02287789-v: keep/lose)	no		no	C	أبْقى	فقد	بقي	قد
+ابن	صغيره	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-10285313-n / omw-arb-10084295-n (PWN omw-en-10285313-n ↔ omw-en-10084295-n: boy/girl)	no		no	C	إِبْن	صغِيرة	ابن	صغير
+ابن	والدان	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-09918248-n / omw-arb-10399491-n (PWN omw-en-09918248-n ↔ omw-en-10399491-n: child/parent)	no		no	C	إِبْن	والِدَان	ابن	والد
+اتفق	انشق	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00805376-v / omw-arb-00804802-v (PWN omw-en-00805376-v ↔ omw-en-00804802-v: agree/disagree)	no		no	C	اِتّفق	إِنْشقّ	اتفق	انشق
+اتي	غادر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02005948-v / omw-arb-02009433-v (PWN omw-en-02005948-v ↔ omw-en-02009433-v: arrive/leave)	no		no	C	أتى	غادر	اتي	غادر
+اثاره	هدوء	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07513508-n / omw-arb-07514968-n (PWN omw-en-07513508-n ↔ omw-en-07514968-n: agitation/calmness)	no		no	C	إِثارة	هُدُوء	اثار	هدوء
+اجابه	استعلام	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07200527-n / omw-arb-07193596-n (PWN omw-en-07200527-n ↔ omw-en-07193596-n: answer/question)	no		no	C	إِجَابَة	اِسْتِعْلام	اجاب	استعلام
+اجاز	انكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00806502-v / omw-arb-00807178-v (PWN omw-en-00806502-v ↔ omw-en-00807178-v: approve/disapprove)	no		no	C	أجاز	أنْكر	اجاز	انكر
+اجتنب	جابه	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00811375-v / omw-arb-00812298-v (PWN omw-en-00811375-v ↔ omw-en-00812298-v: avoid/confront)	no		no	C	اِجْتنب	جابه	اجتنب	جاب
+اجير	مشغل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-10053808-n / omw-arb-10054657-n (PWN omw-en-10053808-n ↔ omw-en-10054657-n: employee/employer)	no		no	C	أَجِير	مُشغِّل	اجير	مشغل
+احبط	شجع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01819147-v / omw-arb-01818235-v (PWN omw-en-01819147-v ↔ omw-en-01818235-v: discourage/encourage)	no		no	C	أحْبط	شجّع	احبط	شجع
+احجم	اخذ	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01196037-v / omw-arb-01156834-v (PWN omw-en-01196037-v ↔ omw-en-01156834-v: abstain/consume)	no		no	C	أحْجم	أخذ	احجم	اخذ
+اختلف	عادل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02666239-v / omw-arb-02664769-v (PWN omw-en-02666239-v ↔ omw-en-02664769-v: differ/equal)	no		no	C	اِخْتلف	عادل	اختلف	عادل
+اخفق	فاز	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02528380-v / omw-arb-02524171-v (PWN omw-en-02528380-v ↔ omw-en-02524171-v: fail/succeed)	no		no	C	أخْفق	فاز	اخفق	فاز
+اخفي	اري	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02144835-v / omw-arb-02137132-v (PWN omw-en-02144835-v ↔ omw-en-02137132-v: hide/show)	no		no	C	أخْفى	أرى	اخفي	راوند
+ادراك	غيبوبه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05675130-n / omw-arb-05678932-n (PWN omw-en-05675130-n ↔ omw-en-05678932-n: consciousness/unconsciousness)	no		no	C	إِدْراك	غيْبُوبة	ادراك	غيبوبه
+ادعي	ضيع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02275365-v / omw-arb-02303331-v (PWN omw-en-02275365-v ↔ omw-en-02303331-v: claim/forfeit)	no		no	C	اِدّعى	ضيّع	دعا	ضيع
+اذن	انكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02255462-v / omw-arb-02212825-v (PWN omw-en-02255462-v ↔ omw-en-02212825-v: allow/deny)	no		no	C	أذِن	أنْكر	اذن	انكر
+ارتباط	استقلاليه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13791389-n / omw-arb-13794226-n (PWN omw-en-13791389-n ↔ omw-en-13794226-n: connectedness/unconnectedness)	no		no	C	اِرْتِباط	اِسْتِقْلالِيّة	ارتباط	استقلالي
+ارتقي	انحدر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01969216-v / omw-arb-01970826-v (PWN omw-en-01969216-v ↔ omw-en-01970826-v: ascend/descend)	no		no	C	إِرْتقى	اِنْحدر	ارتقي	انحدر
+ارستقراطيه	ارستقراطي	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-10083823-n / omw-arb-10285135-n (PWN omw-en-10083823-n ↔ omw-en-10285135-n: female aristocrat/male aristocrat)	no		no	C	أَرِسْتُقْرَاطِيّة	أرِسْتُقْراطِيّ	ارستقراطي	ارستقراطي
+ازاح	شد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01528522-v / omw-arb-01528069-v (PWN omw-en-01528522-v ↔ omw-en-01528069-v: dislodge/lodge)	no		no	C	أزاح	شدّ	ازاح	شد
+استحاله	امكان	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14483126-n / omw-arb-14481929-n (PWN omw-en-14483126-n ↔ omw-en-14481929-n: impossibility/possibility)	no		no	C	إِسْتِحالة	إِمْكان	استحاله	امكان
+استحسان	شجب	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-06686736-n / omw-arb-06709533-n (PWN omw-en-06686736-n ↔ omw-en-06709533-n: approval/disapproval)	no		no	C	اِسْتِحْسان	شَجْب	استحسان	شجب
+استخدام	بطاله	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13968092-n / omw-arb-13968308-n (PWN omw-en-13968092-n ↔ omw-en-13968308-n: employment/unemployment)	no		no	C	اِسْتِخْدام	بطالة	استخدام	بطاله
+استرجع	فقد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02285629-v / omw-arb-02287618-v (PWN omw-en-02285629-v ↔ omw-en-02287618-v: find/lose)	no		no	C	اِسْترْجع	فقد	استرجع	قد
+استسلم	شارك	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01083044-v / omw-arb-01082606-v (PWN omw-en-01083044-v ↔ omw-en-01082606-v: drop out/enter)	no		no	C	اِسْتسْلم	شارك	استسلم	شارك
+استقر	تحرك	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01848355-v / omw-arb-01835496-v (PWN omw-en-01848355-v ↔ omw-en-01835496-v: stay in place/travel)	no		no	C	اِسْتقرّ	تحرّك	استقر	تحرك
+استلقي	نهض	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01547001-v / omw-arb-01546111-v (PWN omw-en-01547001-v ↔ omw-en-01546111-v: lie/stand)	no		no	C	اِستلْقى	نهض	استلقي	نهض
+استلقي	جلس	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01547001-v / omw-arb-01543123-v (PWN omw-en-01547001-v ↔ omw-en-01543123-v: lie/sit)	no		no	C	اِستلْقى	جلس	استلقي	جلس
+استمر	انسحب	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01992503-v / omw-arb-01994442-v (PWN omw-en-01992503-v ↔ omw-en-01994442-v: advance/recede)	no		no	C	إِسْتمرّ	اِنْسحب	استمر	انسحب
+استيقظ	رقد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00018158-v / omw-arb-00017865-v (PWN omw-en-00018158-v ↔ omw-en-00017865-v: get up/go to bed)	yes	badi-008 أيقاظ/رقود	no	C	اِسْتيْقظ	رقد	استيقظ	راقد
+اسرع	تباطا	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00438178-v / omw-arb-00439958-v (PWN omw-en-00438178-v ↔ omw-en-00439958-v: accelerate/decelerate)	no		no	C	أسْرع	تباطأ	اسرع	تباطا
+اسود	ابيض	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00392812-a / omw-arb-00393105-a (PWN omw-en-00392812-a ↔ omw-en-00393105-a: black/white)	no		yes	C	أسْود	أبْيض	ساد	ابيض
+اشترط	تحاشي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02627934-v / omw-arb-02629256-v (PWN omw-en-02627934-v ↔ omw-en-02629256-v: necessitate/obviate)	no		no	C	اِشترط	تحاشى	اشترط	تحاشي
+اشتري	باع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02207206-v / omw-arb-02242464-v (PWN omw-en-02207206-v ↔ omw-en-02242464-v: buy/sell)	no		no	C	اِشْترى	باع	اشتري	باع
+اضاف	اخرج	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00182406-v / omw-arb-00179311-v (PWN omw-en-00182406-v ↔ omw-en-00179311-v: add/take away)	no		no	C	أضاف	أخْرج	اضاف	خرج
+اضطراب	نظام	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13972797-n / omw-arb-13968547-n (PWN omw-en-13972797-n ↔ omw-en-13968547-n: disorder/order)	no		no	C	اِضْطِراب	نِظام	اضطراب	نظام
+اطفا	شغل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01510576-v / omw-arb-01510399-v (PWN omw-en-01510576-v ↔ omw-en-01510399-v: switch off/switch on)	no		no	C	أطْفأ	شغّل	اطفا	شغل
+اظهر	فقد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02630189-v / omw-arb-02632353-v (PWN omw-en-02630189-v ↔ omw-en-02632353-v: have/lack)	no		no	C	أظهر	فقد	اظهر	قد
+اعطي	اخذ	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02199590-v / omw-arb-02205272-v (PWN omw-en-02199590-v ↔ omw-en-02205272-v: give/take)	no		no	C	أعْطى	أخذ	اعطي	اخذ
+اعفا	ادان	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00904046-v / omw-arb-00906367-v (PWN omw-en-00904046-v ↔ omw-en-00906367-v: acquit/convict)	no		no	C	أعْفا	أدان	اعف	ادني
+اغار	دافع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01119169-v / omw-arb-01127795-v (PWN omw-en-01119169-v ↔ omw-en-01127795-v: attack/defend)	no		no	C	أغار	دافع	اغار	دافع
+اغضب	سر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01817130-v / omw-arb-01815628-v (PWN omw-en-01817130-v ↔ omw-en-01815628-v: displease/please)	no		no	C	أغْضب	سرّ	اغضب	سر
+اغلق	انفتح	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01346978-v / omw-arb-01346804-v (PWN omw-en-01346978-v ↔ omw-en-01346804-v: close/open)	no		no	C	أُغْلِق	اِنْفتح	اغلق	انفتح
+اغلق	اسس	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02426395-v / omw-arb-02426171-v (PWN omw-en-02426395-v ↔ omw-en-02426171-v: close/open)	no		no	C	أغْلق	أسّس	اغلق	اساس
+اغني	اضعف	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02318648-v / omw-arb-02317661-v (PWN omw-en-02318648-v ↔ omw-en-02317661-v: enrich/impoverish)	no		no	C	أغْنى	أضْعف	غني	اضعف
+افرغ	ضخم	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00562720-v / omw-arb-00562882-v (PWN omw-en-00562720-v ↔ omw-en-00562882-v: deflate/inflate)	no		no	C	أفْرغ	ضخّم	افرغ	ضخم
+افرغ	اشبع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00449692-v / omw-arb-00452512-v (PWN omw-en-00449692-v ↔ omw-en-00452512-v: empty/fill)	no		no	C	أفْرغ	أشْبع	افرغ	اشبع
+افضليه	عيب	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05155821-n / omw-arb-05161614-n (PWN omw-en-05155821-n ↔ omw-en-05161614-n: advantage/disadvantage)	no		no	C	أفْضلِيّة	عيْب	افضليه	عيب
+اقال	استخدم	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02402825-v / omw-arb-02409412-v (PWN omw-en-02402825-v ↔ omw-en-02409412-v: fire/hire)	no		no	C	أّقال	اِسْتخْدم	قال	استخدم
+اقر	انكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00817311-v / omw-arb-00816556-v (PWN omw-en-00817311-v ↔ omw-en-00816556-v: admit/deny)	no		no	C	أقرّ	أنْكر	اقر	انكر
+اكتسب	انقص	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00046151-v / omw-arb-00045817-v (PWN omw-en-00046151-v ↔ omw-en-00045817-v: gain/reduce)	no		no	C	اِكْتسب	أنْقص	اكتسب	نقص
+الشمال	يمين	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-08625462-n / omw-arb-08625073-n (PWN omw-en-08625462-n ↔ omw-en-08625073-n: left/right)	no		no	C	الشّمال	يَمِين	شمال	يمين
+الشمال	الجنوب	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05079180-n / omw-arb-05079309-n (PWN omw-en-05079180-n ↔ omw-en-05079309-n: northernness/southernness)	no		no	C	الشّمال	الجنُوب	شمال	جنوب
+الطالح	صلاح	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05144079-n / omw-arb-05142180-n (PWN omw-en-05144079-n ↔ omw-en-05142180-n: bad/good)	no		no	C	الطالِح	صلاح	طالح	صلاح
+الغي	مكن	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00512186-v / omw-arb-00512877-v (PWN omw-en-00512186-v ↔ omw-en-00512877-v: disable/enable)	no		no	C	ألْغى	مكّن	الغي	مكن
+الم	سرور	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07494363-n / omw-arb-07490713-n (PWN omw-en-07494363-n ↔ omw-en-07490713-n: pain/pleasure)	no		no	C	ألم	سُرُور	الم	سرور
+المدني	عسكري	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-09924742-n / omw-arb-10582746-n (PWN omw-en-09924742-n ↔ omw-en-10582746-n: civilian/serviceman)	no		no	C	المَدَنيّ	عسْكرِي	مدني	عسكري
+امال	نفر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00680841-v / omw-arb-00681125-v (PWN omw-en-00680841-v ↔ omw-en-00681125-v: dispose/indispose)	no		no	C	أمال	نفّر	امل	فر
+امتص	اصدر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02765464-v / omw-arb-02767308-v (PWN omw-en-02765464-v ↔ omw-en-02767308-v: absorb/emit)	no		no	C	اِمْتصّ	أصْدر	امتص	اصدر
+امتنان	جحود	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07504343-n / omw-arb-07504711-n (PWN omw-en-07504343-n ↔ omw-en-07504711-n: gratitude/ingratitude)	no		no	C	اِمْتِنان	جُحُود	امتن	جحود
+امسك	حل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01327816-v / omw-arb-01328340-v (PWN omw-en-01327816-v ↔ omw-en-01328340-v: hitch/unhitch)	no		no	C	أمْسك	حلّ	امس	حل
+امسك	اطلق	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01216670-v / omw-arb-01474550-v (PWN omw-en-01216670-v ↔ omw-en-01474550-v: hold/let go of)	no		no	C	أمْسك	أطْلق	امس	اطلق
+انتباه	غفله	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05702275-n / omw-arb-05706228-n (PWN omw-en-05702275-n ↔ omw-en-05706228-n: attention/inattention)	no		no	C	اِنْتِباه	غفْلة	انتباه	غفل
+انتحب	ضحك	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00066191-v / omw-arb-00031820-v (PWN omw-en-00066191-v ↔ omw-en-00031820-v: cry/laugh)	no		no	C	انْتحب	ضحِك	انتحب	ضحك
+انتقد	سبح	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00826509-v / omw-arb-00856824-v (PWN omw-en-00826509-v ↔ omw-en-00856824-v: criticize/praise)	no		no	C	اِنْتقد	سبّح	انتقد	سبح
+انثوي	ذكري	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01477806-a / omw-arb-01476685-a (PWN omw-en-01477806-a ↔ omw-en-01476685-a: female/male)	no		no	C	أنْثوِي	ذكرِي	انثوي	ذكري
+انحدر	انبعث	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01970826-v / omw-arb-01968569-v (PWN omw-en-01970826-v ↔ omw-en-01968569-v: fall/rise)	no		no	C	اِنْحدر	إِنْبعث	انحدر	انبعث
+انحطاط	تحسن	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14422488-n / omw-arb-14422179-n (PWN omw-en-14422488-n ↔ omw-en-14422179-n: decline/improvement)	no		no	C	اِنْحِطاط	تحسُّن	انحطاط	تحسن
+انطلق	توقف	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01864230-v / omw-arb-01860795-v (PWN omw-en-01864230-v ↔ omw-en-01860795-v: start/stop)	no		no	C	اِنْطلق	توقّف	انطلق	توقف
+انهي	ابتدا	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02425913-v / omw-arb-02425462-v (PWN omw-en-02425913-v ↔ omw-en-02425462-v: close/open)	no		no	C	أنْهى	اِبْتدّأ	انهي	ابتدا
+انوثه	ذكوره	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05008943-n / omw-arb-05008227-n (PWN omw-en-05008943-n ↔ omw-en-05008227-n: femaleness/maleness)	no		no	C	أنُوثة	ذُكُورة	انوثه	ذكر
+اوجز	شرح	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00243900-v / omw-arb-00955601-v (PWN omw-en-00243900-v ↔ omw-en-00955601-v: contract/expand)	no		no	C	أوْجز	شرح	اوجز	شرح
+اودع	سحب	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02310855-v / omw-arb-02311387-v (PWN omw-en-02310855-v ↔ omw-en-02311387-v: deposit/withdraw)	no		no	C	أوْدع	سحب	اودع	سحب
+اوصي	منكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02229055-v / omw-arb-02316097-v (PWN omw-en-02229055-v ↔ omw-en-02316097-v: bequeath/disinherit)	no		no	C	أوْصى	منكر	اوصي	منكر
+اوطا	انهض	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01973125-v / omw-arb-01974062-v (PWN omw-en-01973125-v ↔ omw-en-01974062-v: lower/raise)	no		no	C	أوْطأ	أنْهض	اوطا	نهض
+اول	اخير	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01010862-a / omw-arb-01013279-a (PWN omw-en-01010862-a ↔ omw-en-01013279-a: first/last)	no		no	C	أوّل	أخِير	اول	اخير
+ايراد	مصروف	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13255145-n / omw-arb-13275288-n (PWN omw-en-13255145-n ↔ omw-en-13275288-n: income/outgo)	no		no	C	إيراد	مصْرُوف	ايراد	مصروف
+بارك	شتم	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00866505-v / omw-arb-00865958-v (PWN omw-en-00866505-v ↔ omw-en-00865958-v: bless/curse)	no		no	C	بارك	شتم	باراك	شتم
+باطن	الخارج	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-08588294-n / omw-arb-08613593-n (PWN omw-en-08588294-n ↔ omw-en-08613593-n: inside/outside)	no		no	C	باطِن	الخارِج	باطن	خارج
+بالغ	حدث	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-09605289-n / omw-arb-09622049-n (PWN omw-en-09605289-n ↔ omw-en-09622049-n: adult/juvenile)	no		no	C	بالِغ	حدث	بالغ	حدث
+بدء	نهايه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07290905-n / omw-arb-07291312-n (PWN omw-en-07290905-n ↔ omw-en-07291312-n: beginning/ending)	no		no	C	بدْء	نِهاية	بدء	نهايه
+بدا	انهي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02608347-v / omw-arb-02609764-v (PWN omw-en-02608347-v ↔ omw-en-02609764-v: begin/end)	no		no	C	بدأ	أنْهى	بدا	انهي
+برد	احمي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00370412-v / omw-arb-00371264-v (PWN omw-en-00370412-v ↔ omw-en-00371264-v: cool/heat)	no		no	C	برْد	أحْمى	رد	حمي
+بغض	هوي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01774136-v / omw-arb-01775164-v (PWN omw-en-01774136-v ↔ omw-en-01775164-v: hate/love)	no		no	C	بغِض	هوِي	غض	هوه
+بليه	سعد	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14475405-n / omw-arb-14473655-n (PWN omw-en-14475405-n ↔ omw-en-14473655-n: bad luck/good luck)	no		no	C	بلِيّة	سعْد	بلي	سعد
+بهجه	حزن	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13987423-n / omw-arb-13988663-n (PWN omw-en-13987423-n ↔ omw-en-13988663-n: happiness/unhappiness)	no		no	C	بهْجة	حُزْن	بهج	حزن
+تابع	مرشد	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-10099375-n / omw-arb-09623038-n (PWN omw-en-10099375-n ↔ omw-en-09623038-n: follower/leader)	no		no	C	تابِع	مُرْشِد	تابع	مرشد
+تباين	تشابه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04748836-n / omw-arb-04742535-n (PWN omw-en-04748836-n ↔ omw-en-04742535-n: difference/sameness)	no		no	C	تبايُن	تشابُه	تباين	شابه
+تبدل	ظل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00109660-v / omw-arb-00117985-v (PWN omw-en-00109660-v ↔ omw-en-00117985-v: change/stay)	no		no	C	تبدّل	ظلّ	بدل	ظل
+تحسن	انحط	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00205046-v / omw-arb-00203866-v (PWN omw-en-00205046-v ↔ omw-en-00203866-v: better/worsen)	no		no	C	تحسّن	اِنْحطّ	تحسن	انحط
+تحول	استقرار	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04733640-n / omw-arb-04737934-n (PWN omw-en-04733640-n ↔ omw-en-04737934-n: changeableness/changelessness)	no		no	C	تَحَوُّل	اِسْتِقْرار	تحول	استقرار
+تصرف	امسك	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02367363-v / omw-arb-02725714-v (PWN omw-en-02367363-v ↔ omw-en-02725714-v: act/refrain)	no		no	C	تصرّف	أمْسك	تصرف	امس
+تكاسل	اجتهد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02417504-v / omw-arb-02413480-v (PWN omw-en-02417504-v ↔ omw-en-02413480-v: idle/work)	no		no	C	تكاسل	اِجْتهد	تكاسل	اجتهد
+تنقيص	ازدياد	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00351638-n / omw-arb-00363260-n (PWN omw-en-00351638-n ↔ omw-en-00363260-n: decrease/increase)	no		no	C	تنْقِيْص	إِزْدِياد	تنقيص	ازدياد
+تواضع	غرور	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07509131-n / omw-arb-07508486-n (PWN omw-en-07509131-n ↔ omw-en-07508486-n: humility/pride)	no		no	C	تواضُع	غُرُور	تواضع	غرور
+ثبات	شك	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05697135-n / omw-arb-05698247-n (PWN omw-en-05697135-n ↔ omw-en-05698247-n: certainty/uncertainty)	no		no	C	ثبات	شكّ	ثبات	شك
+جاف	مبلول	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02551380-a / omw-arb-02547317-a (PWN omw-en-02551380-a ↔ omw-en-02547317-a: dry/wet)	no		no	C	جاف	مبْلُول	جاف	مبلول
+جبهه	الخلف	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-08573472-n / omw-arb-08629508-n (PWN omw-en-08573472-n ↔ omw-en-08629508-n: front/rear)	no		no	C	جبْهة	الخَلْف	جبهه	خلف
+جر	دفع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01448100-v / omw-arb-01871979-v (PWN omw-en-01448100-v ↔ omw-en-01871979-v: pull/push)	no		no	C	جرّ	دفع	جر	دفع
+جفاف	بلل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14536438-n / omw-arb-14534696-n (PWN omw-en-14536438-n ↔ omw-en-14534696-n: dryness/wetness)	no		no	C	جفاف	بلل	جفاف	بله
+جفف	بلل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00218475-v / omw-arb-00214951-v (PWN omw-en-00218475-v ↔ omw-en-00214951-v: dry/wet)	no		no	C	جفّف	بلّل	جفف	بله
+جلس	نهض	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01543123-v / omw-arb-01546111-v (PWN omw-en-01543123-v ↔ omw-en-01546111-v: sit/stand)	no		no	C	جلس	نهض	جلس	نهض
+جمع	نشر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01380638-v / omw-arb-01378556-v (PWN omw-en-01380638-v ↔ omw-en-01378556-v: gather/spread)	no		no	C	جمع	نشر	جمع	نشر
+جميل	قبيح	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00217728-a / omw-arb-00220956-a (PWN omw-en-00217728-a ↔ omw-en-00220956-a: beautiful/ugly)	no		no	C	جمِيل	قبِيح	جميل	قبيح
+جهل	ادرك	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00595505-v / omw-arb-00594621-v (PWN omw-en-00595505-v ↔ omw-en-00594621-v: ignore/know)	no		no	C	جهِل	أدْرك	جهل	ادرك
+حامضي	قاعدي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00025238-a / omw-arb-00025728-a (PWN omw-en-00025238-a ↔ omw-en-00025728-a: acidic/alkaline)	no		no	C	حامِضِيّ	قاعِدِيّ	حامض	قاعد
+حبس	حرر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02495038-v / omw-arb-02421374-v (PWN omw-en-02495038-v ↔ omw-en-02421374-v: confine/free)	no		no	C	حبس	حرّر	حبس	حرر
+حرر	اعاق	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01475953-v / omw-arb-01476483-v (PWN omw-en-01475953-v ↔ omw-en-01476483-v: free/obstruct)	no		no	C	حرّر	أعاق	حرر	اعاق
+حرك	ثبت	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01831531-v / omw-arb-01834485-v (PWN omw-en-01831531-v ↔ omw-en-01834485-v: move/stand still)	no		no	C	حرّك	ثبت	حر	ثبت
+حرم	فوض	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02385372-v / omw-arb-02386388-v (PWN omw-en-02385372-v ↔ omw-en-02386388-v: divest/invest)	no		no	C	حرم	فوّض	حرم	فوض
+حزم	اخرج	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01482449-v / omw-arb-01485513-v (PWN omw-en-01482449-v ↔ omw-en-01485513-v: pack/unpack)	no		no	C	حزم	أخْرج	حزم	خرج
+حسن	بشاعه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04683814-n / omw-arb-04690196-n (PWN omw-en-04683814-n ↔ omw-en-04690196-n: beauty/ugliness)	no		no	C	حُسْن	بشاعة	حسن	بشاعه
+حسن	ازم	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00205885-v / omw-arb-00208210-v (PWN omw-en-00205885-v ↔ omw-en-00208210-v: better/worsen)	no		no	C	حسّن	أزّم	حسن	ازمه
+حقيقه	زيف	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13955461-n / omw-arb-13960117-n (PWN omw-en-13955461-n ↔ omw-en-13960117-n: reality/unreality)	no		no	C	حقِيقة	زَيْف	حقيقه	زيف
+حماقه	حكمه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04891333-n / omw-arb-04890112-n (PWN omw-en-04891333-n ↔ omw-en-04890112-n: folly/wisdom)	no		no	C	حماقة	حِكْمة	حماق	حكم
+حمض	قلون	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00264875-v / omw-arb-00265094-v (PWN omw-en-00264875-v ↔ omw-en-00265094-v: acidify/alkalize)	no		no	C	حمّض	قلْون	حمض	قلا
+حياد	انحياز	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-06202686-n / omw-arb-06201136-n (PWN omw-en-06202686-n ↔ omw-en-06201136-n: impartiality/partiality)	no		no	C	حِياد	اِنْحِياز	حياد	انحياز
+خسر	انتفع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02288828-v / omw-arb-02278830-v (PWN omw-en-02288828-v ↔ omw-en-02278830-v: lose/profit)	no		no	C	خَسِرَ	اِنْتفع	خسر	انتفع
+خصخصه	تاميم	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01152033-n / omw-arb-01151788-n (PWN omw-en-01152033-n ↔ omw-en-01151788-n: denationalization/nationalization)	no		no	C	خَصْخَصَة	تأمِيم	خصخصه	تاميم
+خطر	سلامه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14540765-n / omw-arb-14538472-n (PWN omw-en-14540765-n ↔ omw-en-14538472-n: danger/safety)	no		no	C	خَطَر	سلامة	خطر	سلام
+خطر	امن	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02058794-a / omw-arb-02057829-a (PWN omw-en-02058794-a ↔ omw-en-02057829-a: dangerous/safe)	no		no	C	خَطِر	آمِن	خطر	امن
+خنثوي	ذكري	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01478626-a / omw-arb-01476685-a (PWN omw-en-01478626-a ↔ omw-en-01476685-a: androgynous/male)	no		no	C	خُنْثَوِيّ	ذكرِي		ذكري
+خنثوي	انثوي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01478626-a / omw-arb-01477806-a (PWN omw-en-01478626-a ↔ omw-en-01477806-a: androgynous/female)	no		no	C	خُنْثَوِيّ	أنْثوِي		انثوي
+خيبه	نجاح	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07317764-n / omw-arb-07319103-n (PWN omw-en-07317764-n ↔ omw-en-07319103-n: failure/success)	no		no	C	خَيْبَة	نجاح	خيبه	نجاح
+دخل	ذهب	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02016523-v / omw-arb-02015598-v (PWN omw-en-02016523-v ↔ omw-en-02015598-v: enter/exit)	no		no	C	دخل	ذهب	دخل	ذهب
+دعر	شجاعه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07519253-n / omw-arb-07526182-n (PWN omw-en-07519253-n ↔ omw-en-07526182-n: fear/fearlessness)	no		no	C	دُعْر	شجاعة	دعر	شجاعه
+دفن	تذكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00610167-v / omw-arb-00609683-v (PWN omw-en-00610167-v ↔ omw-en-00609683-v: forget/remember)	no		no	C	دفن	تذكّر	دفن	ذكر
+ديمومه	عدم	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13954253-n / omw-arb-13959818-n (PWN omw-en-13954253-n ↔ omw-en-13959818-n: being/nonbeing) | omw-arb:omw-arb-13954253-n / omw-arb-13959931-n (PWN omw-en-13954253-n ↔ omw-en-13959931-n: existence/nonexistence)	no		no	C	ديْمُومة	عدم	ديمومه	عدم
+ذكر	امراه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-10287213-n / omw-arb-10787470-n (PWN omw-en-10287213-n ↔ omw-en-10787470-n: man/woman)	no		no	C	ذكر	إِمْرأة	ذكر	امر
+راءج	كاسد	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02061799-a / omw-arb-02062358-a (PWN omw-en-02061799-a ↔ omw-en-02062358-a: salable/unsalable)	no		no	C	رائِج	كاسِد	راءج	اسد
+راسماليه	اشتراكيه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-08364143-n / omw-arb-08366202-n (PWN omw-en-08364143-n ↔ omw-en-08366202-n: capitalism/socialism)	no		no	C	رَأْسمالِيَّة	اِشْتِراكِيّة	راسمالي	اشتراكي
+ربط	فصل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01354673-v / omw-arb-01356038-v (PWN omw-en-01354673-v ↔ omw-en-01356038-v: connect/disconnect)	no		no	C	ربط	فصل	ربط	فصل
+رخا	صلب	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00419375-v / omw-arb-00417596-v (PWN omw-en-00419375-v ↔ omw-en-00417596-v: loosen/stiffen)	no		no	C	رخا	صلّب	رخ	صلب
+ركب	مشي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01955984-v / omw-arb-01904930-v (PWN omw-en-01955984-v ↔ omw-en-01904930-v: ride/walk)	no		no	C	ركِب	مشى	ركبه	مشي
+زايد	ناقص	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02299552-v / omw-arb-02299687-v (PWN omw-en-02299552-v ↔ omw-en-02299687-v: overbid/underbid)	no		no	C	زَايَدَ	ناقص	زايد	ناقص
+ساء	شفي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00092293-v / omw-arb-00092690-v (PWN omw-en-00092293-v ↔ omw-en-00092690-v: deteriorate/recuperate)	no		no	C	ساء	شُفِي	ساء	شفي
+سرح	استنفر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01088192-v / omw-arb-01088381-v (PWN omw-en-01088192-v ↔ omw-en-01088381-v: demobilise/mobilise)	no		no	C	سرّح	اِسْتنْفر	سرح	استنفر
+سرع	بطا	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00439343-v / omw-arb-00438495-v (PWN omw-en-00439343-v ↔ omw-en-00438495-v: accelerate/decelerate)	no		no	C	سرّع	بطّأ	سرع	بط
+سعاده	تعاسه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07526757-n / omw-arb-07532440-n (PWN omw-en-07526757-n ↔ omw-en-07532440-n: happiness/sadness)	no		no	C	سعادة	تعاسة	سعاده	تعاسه
+سمح	منع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02423183-v / omw-arb-02450505-v (PWN omw-en-02423183-v ↔ omw-en-02450505-v: let/prevent)	no		no	C	سمح	منع	سمح	منع
+شاءع	فردي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00492677-a / omw-arb-00493460-a (PWN omw-en-00492677-a ↔ omw-en-00493460-a: common/individual)	no		no	C	شائِع	فرْدِي	شاءع	فرد
+شرع	انهي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00345761-v / omw-arb-00352826-v (PWN omw-en-00345761-v ↔ omw-en-00352826-v: begin/end) | omw-arb:omw-arb-00348746-v / omw-arb-00352826-v (PWN omw-en-00348746-v ↔ omw-en-00352826-v: begin/end)	no		no	C	شرع	أنْهى	شرع	انهي
+شرقي	غربا	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00823350-a / omw-arb-00824321-a (PWN omw-en-00823350-a ↔ omw-en-00824321-a: east/west)	no		no	C	شرْقِيّ	غرْباً	شرقي	غربا
+شغل	اوقف	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01857717-v / omw-arb-01859221-v (PWN omw-en-01857717-v ↔ omw-en-01859221-v: start/stop)	no		no	C	شغّل	أوْقف	شغل	اوقف
+شقيق	شقيقه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-09876454-n / omw-arb-10602985-n (PWN omw-en-09876454-n ↔ omw-en-10602985-n: brother/sister)	no		no	C	شقِيق	شقِيقة	شقيق	شقيق
+شكل	تخصص	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00436404-v / omw-arb-00437449-v (PWN omw-en-00436404-v ↔ omw-en-00437449-v: diversify/specialize)	no		no	C	شكّل	تخصّص	شكل	خصص
+شمالي	جنوبي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01600333-a / omw-arb-01602330-a (PWN omw-en-01600333-a ↔ omw-en-01602330-a: north/south) | omw-arb:omw-arb-01605753-a / omw-arb-01606648-a (PWN omw-en-01605753-a ↔ omw-en-01606648-a: northern/southern)	no		no	C	شمالِيّ	جنُوبِيّ	شمال	جنوب
+شنار	شرف	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14439447-n / omw-arb-14436875-n (PWN omw-en-14439447-n ↔ omw-en-14436875-n: dishonor/honor)	no		no	C	شنار	شرف	شنار	شرف
+شوش	نظم	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00276373-v / omw-arb-00277659-v (PWN omw-en-00276373-v ↔ omw-en-00277659-v: disorder/order)	no		no	C	شوّش	نظّم	شوش	نظم
+صاءب	طالح	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02034828-a / omw-arb-02035337-a (PWN omw-en-02034828-a ↔ omw-en-02035337-a: right/wrong)	no		no	C	صائِب	طالِح	صاءب	طالح
+صادرات	مستورد	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-03306207-n / omw-arb-03564667-n (PWN omw-en-03306207-n ↔ omw-en-03564667-n: export/import)	no		no	C	صادِرات	مُسْتورد	صادر	مستورد
+صدق	انكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00683280-v / omw-arb-00684645-v (PWN omw-en-00683280-v ↔ omw-en-00684645-v: believe/disbelieve)	no		no	C	صدّق	أنْكر	صدق	انكر
+صدق	باطل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04872236-n / omw-arb-04876053-n (PWN omw-en-04872236-n ↔ omw-en-04876053-n: truthfulness/untruthfulness)	no		no	C	صِدْق	باطِل	صدق	باطل
+صرخ	همس	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00912473-v / omw-arb-00915830-v (PWN omw-en-00912473-v ↔ omw-en-00915830-v: shout/whisper)	no		no	C	صرخ	همس	صرخ	همس
+صرف	طوع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01097743-v / omw-arb-01097500-v (PWN omw-en-01097743-v ↔ omw-en-01097500-v: discharge/enlist)	no		no	C	صرف	طوّع	صرف	طاعه
+ضرب	اخطا	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01236164-v / omw-arb-01237901-v (PWN omw-en-01236164-v ↔ omw-en-01237901-v: hit/miss)	no		no	C	ضرب	أخْطأ	ضرب	اخطا
+طلب	عرض	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13461162-n / omw-arb-13563522-n (PWN omw-en-13461162-n ↔ omw-en-13563522-n: demand/supply)	no		no	C	طلب	عرْض	طلب	عرض
+طهر	انجس	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01532589-v / omw-arb-01534147-v (PWN omw-en-01532589-v ↔ omw-en-01534147-v: clean/dirty)	no		no	C	طهّر	أنْجس	طهر	انجس
+طوي	فتح	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01277974-v / omw-arb-01579813-v (PWN omw-en-01277974-v ↔ omw-en-01579813-v: fold/unfold)	no		no	C	طوى	فتح	طوي	فتح
+ظهر	اختفي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00422090-v / omw-arb-00426958-v (PWN omw-en-00422090-v ↔ omw-en-00426958-v: appear/disappear)	no		no	C	ظهر	اِخْتفى	ظهر	اختفي
+ظهور	اختفاء	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07321772-n / omw-arb-07335716-n (PWN omw-en-07321772-n ↔ omw-en-07335716-n: appearance/disappearance)	no		no	C	ظُهُور	اِخْتِفاء	ظهور	اختفاء
+عاطل	اجير	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-09626031-n / omw-arb-09632518-n (PWN omw-en-09626031-n ↔ omw-en-09632518-n: nonworker/worker)	no		no	C	عاطِل	أجِير	عاطل	اجير
+عام	غاص	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01904293-v / omw-arb-01989873-v (PWN omw-en-01904293-v ↔ omw-en-01989873-v: float/sink)	no		no	C	عام	غاص	عام	غاص
+عام	خاص	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05818388-n / omw-arb-05818182-n (PWN omw-en-05818388-n ↔ omw-en-05818182-n: general/particular)	no		no	C	عام	خَاص	عام	خاص
+عتاد	برمجيات	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-03493333-n / omw-arb-06566077-n (PWN omw-en-03493333-n ↔ omw-en-06566077-n: hardware/software)	no		no	C	عتاد	برْمجِيّات	عتاد	برمجيات
+عداوه	حب	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07546465-n / omw-arb-07543288-n (PWN omw-en-07546465-n ↔ omw-en-07543288-n: hate/love)	no		no	C	عَدَاوَة	حُبّ	عداوه	حب
+عدم	غني	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14493145-n / omw-arb-14491271-n (PWN omw-en-14493145-n ↔ omw-en-14491271-n: poverty/wealth)	no		no	C	عدم	غِنى	عدم	غني
+عزل	التام	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02467662-v / omw-arb-02469835-v (PWN omw-en-02467662-v ↔ omw-en-02469835-v: divide/unite)	no		no	C	عزل	التأم	عزل	تام
+عمل	عطاله	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14006945-n / omw-arb-14010148-n (PWN omw-en-14006945-n ↔ omw-en-14010148-n: action/inaction)	no		no	C	عمل	عطالة	عمل	عطاله
+عميق	سطحي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00692762-a / omw-arb-00693356-a (PWN omw-en-00692762-a ↔ omw-en-00693356-a: deep/shallow)	no		no	C	عمِيق	سطْحي	عميق	سطح
+عيب	عصمه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14462666-n / omw-arb-14459422-n (PWN omw-en-14462666-n ↔ omw-en-14459422-n: imperfection/perfection)	no		no	C	عيْب	عِصْمة	عيب	عصمه
+غازي	صلب	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02262542-a / omw-arb-02260035-a (PWN omw-en-02262542-a ↔ omw-en-02260035-a: gaseous/solid)	no		no	C	غازِيّ	صلْب	غاز	صلب
+غازي	ماءع	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02262542-a / omw-arb-02261386-a (PWN omw-en-02262542-a ↔ omw-en-02261386-a: gaseous/liquid)	no		no	C	غازِيّ	مائِع	غاز	ماءع
+غش	اخلاص	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04874672-n / omw-arb-04871374-n (PWN omw-en-04874672-n ↔ omw-en-04871374-n: dishonesty/honesty)	no		no	C	غِشّ	إِخْلاص	غش	اخلاص
+غطي	عري	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01332730-v / omw-arb-01339505-v (PWN omw-en-01332730-v ↔ omw-en-01339505-v: cover/uncover)	no		no	C	غطّى	عرّى	غطي	عري
+غفا	افاق	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00017282-v / omw-arb-00018526-v (PWN omw-en-00017282-v ↔ omw-en-00018526-v: fall asleep/wake up)	no		no	C	غفا	أفاق	غفا	افق
+غلي	جلد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00375021-v / omw-arb-00374135-v (PWN omw-en-00375021-v ↔ omw-en-00374135-v: boil/freeze)	no		no	C	غلى	جلِد	غلي	جلد
+فرغ	امتلا	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00448680-v / omw-arb-00451838-v (PWN omw-en-00448680-v ↔ omw-en-00451838-v: empty/fill)	no		no	C	فرِغ	اِمْتلأ	فرغ	امتلا
+فساد	الفضيله	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04850589-n / omw-arb-04846770-n (PWN omw-en-04850589-n ↔ omw-en-04846770-n: immorality/morality)	no		no	C	فساد	الفضِيلة	ساد	فضيله
+فقد	فاءده	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13329322-n / omw-arb-13259917-n (PWN omw-en-13329322-n ↔ omw-en-13259917-n: losings/winnings)	no		no	C	فقْد	فائِدة	قد	فاءده
+قاطع	عاضد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02465494-v / omw-arb-02466134-v (PWN omw-en-02465494-v ↔ omw-en-02466134-v: boycott/patronize)	no		no	C	قاطع	عاضد	قاطع	عاضد
+قبل	ابي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02236124-v / omw-arb-02237338-v (PWN omw-en-02236124-v ↔ omw-en-02237338-v: accept/refuse) | omw-arb:omw-arb-00797697-v / omw-arb-00797430-v (PWN omw-en-00797697-v ↔ omw-en-00797430-v: accept/refuse)	no		no	C	قبِل	أبى	قبل	اب
+قدره	عجز	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05616246-n / omw-arb-05644922-n (PWN omw-en-05616246-n ↔ omw-en-05644922-n: ability/inability)	no		no	C	قُدْرة	عجْز	قدره	عجز
+قساوه	طراوه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04937848-n / omw-arb-04938228-n (PWN omw-en-04937848-n ↔ omw-en-04938228-n: hardness/softness)	no		no	C	قساوة	طراوة	قساوه	طراوه
+قسم	ضاعف	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00642098-v / omw-arb-00641672-v (PWN omw-en-00642098-v ↔ omw-en-00641672-v: divide/multiply)	no		no	C	قسّم	ضاعف	قسم	ضاعف
+قضي	احدث	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02427334-v / omw-arb-02427103-v (PWN omw-en-02427334-v ↔ omw-en-02427103-v: abolish/establish)	no		no	C	قضى	أحْدث	قضي	حدث
+قلب	رسخ	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00271711-v / omw-arb-00270826-v (PWN omw-en-00271711-v ↔ omw-en-00270826-v: destabilise/stabilise)	no		no	C	قلب	رسّخ	قلب	رسخ
+قلق	برود	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07504841-n / omw-arb-07505538-n (PWN omw-en-07504841-n ↔ omw-en-07505538-n: concern/unconcern)	no		no	C	قلق	بُرُود	قلق	رود
+قنط	امل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01810933-v / omw-arb-01811441-v (PWN omw-en-01810933-v ↔ omw-en-01811441-v: despair/hope)	no		no	C	قنط	أمل	قنط	امل
+قوه	تراجع	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14474556-n / omw-arb-14474718-n (PWN omw-en-14474556-n ↔ omw-en-14474718-n: strength/weakness)	no		no	C	قُوّة	تراجُع	قوه	تراجع
+قوي	اضعف	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00220869-v / omw-arb-00224901-v (PWN omw-en-00220869-v ↔ omw-en-00224901-v: strengthen/weaken)	no		no	C	قوّى	أضْعف	قوه	اضعف
+قيد	حل	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01285440-v / omw-arb-01284461-v (PWN omw-en-01285440-v ↔ omw-en-01284461-v: tie/untie)	no		no	C	قيّد	حلّ	قيد	حل
+كبير	دقيق	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01382086-a / omw-arb-01391351-a (PWN omw-en-01382086-a ↔ omw-en-01391351-a: big/little)	no		no	C	كبِير	دقِيق	كبير	دقيق
+كره	ميل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07501545-n / omw-arb-07497473-n (PWN omw-en-07501545-n ↔ omw-en-07497473-n: dislike/liking)	no		no	C	كُرْه	ميْل	كره	ميل
+كسب	مغرم	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05154517-n / omw-arb-05161436-n (PWN omw-en-05154517-n ↔ omw-en-05161436-n: asset/liability)	no		no	C	كسْب	مغْرم	كسب	مغرم
+كسب	خساره	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-13254805-n / omw-arb-13327231-n (PWN omw-en-13254805-n ↔ omw-en-13327231-n: gain/loss)	no		no	C	كسْب	خَسَارَة	كسب	خساره
+لاتماثل	تماثل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05065717-n / omw-arb-05064827-n (PWN omw-en-05065717-n ↔ omw-en-05064827-n: asymmetry/symmetry)	no		no	C	لاتماثُل	تماثُل	تماثل	تماثل
+لاتناغم	ايقاع	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04984514-n / omw-arb-04984180-n (PWN omw-en-04984514-n ↔ omw-en-04984180-n: dissonance/harmony)	no		no	C	لاتناغُم	إِيقاع		ايقاع
+لافقاري	فقاري	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02510273-a / omw-arb-02510062-a (PWN omw-en-02510273-a ↔ omw-en-02510062-a: invertebrate/vertebrate)	no		no	C	لافقارِيّ	فقارِيّ	افقار	قاري
+لاقي	تشعب	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02710402-v / omw-arb-02709906-v (PWN omw-en-02710402-v ↔ omw-en-02709906-v: converge/diverge)	no		no	C	لاقى	تشعّب	لاقي	تشعب
+لحق	علا	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01998432-v / omw-arb-01999218-v (PWN omw-en-01998432-v ↔ omw-en-01999218-v: follow/precede)	no		no	C	لحِق	علا	حق	علا
+مءخره	مقدمه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-08625846-n / omw-arb-08626080-n (PWN omw-en-08625846-n ↔ omw-en-08626080-n: back/front) | omw-arb:omw-arb-08482271-n / omw-arb-08482700-n (PWN omw-en-08482271-n ↔ omw-en-08482700-n: head/rear)	no		no	C	مُؤَخِّرَة	مُقدِّمة	مءخر	مقدم
+ماءع	صلب	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02261386-a / omw-arb-02260035-a (PWN omw-en-02261386-a ↔ omw-en-02260035-a: liquid/solid)	no		no	C	مائِع	صلْب	ماءع	صلب
+متفاعل	لاتفاعلي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01928608-a / omw-arb-01929600-a (PWN omw-en-01928608-a ↔ omw-en-01929600-a: reactive/unreactive)	no		no	C	مُتفاعِل	لاتفاعُلي		
+متناقص	متزايد	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02536740-a / omw-arb-02534877-a (PWN omw-en-02536740-a ↔ omw-en-02534877-a: decreasing/increasing)	no		no	C	مُتناقِص	مُتزايِد		متزايد
+محافظ	حر	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00574422-a / omw-arb-00575230-a (PWN omw-en-00574422-a ↔ omw-en-00575230-a: conservative/liberal)	no		no	C	مُحافِظ	حُرّ	محافظ	حر
+مخفض	متزايد	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00881735-a / omw-arb-00880207-a (PWN omw-en-00881735-a ↔ omw-en-00880207-a: decreased/increased)	no		no	C	مُخفّض	مُتزايِد	مخفض	متزايد
+مدني	عسكري	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01517921-a / omw-arb-01517081-a (PWN omw-en-01517921-a ↔ omw-en-01517081-a: civilian/military)	no		no	C	مدنِيّ	عسْكرِيّ	مدينه	عسكري
+مرتبط	حر	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01058854-a / omw-arb-01058363-a (PWN omw-en-01058854-a ↔ omw-en-01058363-a: bound/free)	no		no	C	مُرْتبِط	حُرّ	مرتبط	حر
+مستقبل	ماضي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01732270-a / omw-arb-01727926-a (PWN omw-en-01732270-a ↔ omw-en-01727926-a: future/past)	no		no	C	مُسْتقْبل	ماضِي	مستقبل	ماضي
+مستقبل	الماضي	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-15121625-n / omw-arb-15120823-n (PWN omw-en-15121625-n ↔ omw-en-15120823-n: future/past)	no		no	C	مُسْتقْبل	الماضِي	مستقبل	ماضي
+مستقبل	انصرام	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05049930-n / omw-arb-05049656-n (PWN omw-en-05049930-n ↔ omw-en-05049656-n: futurity/pastness)	no		no	C	مُسْتقْبل	اِنْصِرام	مستقبل	انصرام
+مسلح	اعزل	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00142407-a / omw-arb-00142917-a (PWN omw-en-00142407-a ↔ omw-en-00142917-a: armed/unarmed)	no		no	C	مُسلّح	أعْزل	مسلح	اعزل
+مشاركه	انسحاب	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01239064-n / omw-arb-01239487-n (PWN omw-en-01239064-n ↔ omw-en-01239487-n: engagement/non-engagement)	no		no	C	مُشاركة	اِنْسِحاب	مشاركه	انسحاب
+مضلل	حقيقي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02461723-a / omw-arb-02460502-a (PWN omw-en-02461723-a ↔ omw-en-02460502-a: false/true)	no		no	C	مُضلِّل	حقِيقِي	مضلل	حقيقي
+مضيف	طفيلي	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01385527-n / omw-arb-01384687-n (PWN omw-en-01385527-n ↔ omw-en-01384687-n: host/parasite)	no		no	C	مُضِيْف	طُفيْلِيّ	مضيف	طفيلي
+مقدمه	عجيزه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-03398467-n / omw-arb-04059701-n (PWN omw-en-03398467-n ↔ omw-en-04059701-n: front/rear)	no		no	C	مُقدِّمة	عجِيزة	مقدم	عجيزه
+منافسه	تضافر	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01168569-n / omw-arb-01202904-n (PWN omw-en-01168569-n ↔ omw-en-01202904-n: competition/cooperation)	no		no	C	مُنافسة	تضافُر	منافسه	تضافر
+منام	استيقاظ	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-05681117-n / omw-arb-05678300-n (PWN omw-en-05681117-n ↔ omw-en-05678300-n: sleeping/waking)	no		no	C	منام	إِسْتِيقاظ	منام	استيقاظ
+منتج	غيرمنتج	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01865197-a / omw-arb-01866535-a (PWN omw-en-01865197-a ↔ omw-en-01866535-a: productive/unproductive)	no		no	C	مُنْتِج	غيْرمُنْتِج	منتج	
+منشط	مثبط	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14723079-n / omw-arb-14724436-n (PWN omw-en-14723079-n ↔ omw-en-14724436-n: activator/inhibitor)	no		no	C	مُنشِّط	مُثَبِّط	منشط	
+مواطن	اعجمي	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-09923673-n / omw-arb-10103485-n (PWN omw-en-09923673-n ↔ omw-en-10103485-n: citizen/noncitizen)	no		no	C	مُواطِن	أعْجمِي	مواطن	اعجم
+مولد	ممات	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07320302-n / omw-arb-07355491-n (PWN omw-en-07320302-n ↔ omw-en-07355491-n: birth/death)	no		no	C	موْلِد	مَمات	مولد	ممات
+ناقل	عازل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-14821043-n / omw-arb-14821590-n (PWN omw-en-14821043-n ↔ omw-en-14821590-n: conductor/insulator)	no		no	C	ناقِل	عازل	ناقل	عازل
+نام	استيقظ	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00014742-v / omw-arb-00020133-v (PWN omw-en-00014742-v ↔ omw-en-00020133-v: sleep/wake)	yes	badi2-017 أيقظتك/نم	no	C	نام	اِسْتيْقظ	نام	استيقظ
+نسي	ذكر	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00609100-v / omw-arb-00607780-v (PWN omw-en-00609100-v ↔ omw-en-00607780-v: forget/remember)	no		no	C	نسِي	ذكر	نسي	ذكر
+نشاط	خمول	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00407535-n / omw-arb-01062583-n (PWN omw-en-00407535-n ↔ omw-en-01062583-n: activity/inactivity)	no		no	C	نشاط	خُمُول	نشاط	خمول
+نشط	اضطجع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00014549-v / omw-arb-00014405-v (PWN omw-en-00014549-v ↔ omw-en-00014405-v: be active/rest)	no		no	C	نشط	اِضْطجع	نشط	اضطجع
+نشط	ضعف	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00220461-v / omw-arb-00223500-v (PWN omw-en-00220461-v ↔ omw-en-00223500-v: strengthen/weaken)	no		no	C	نشِط	ضعُف	نشط	ضعف
+نشيط	فاتر	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-02278939-a / omw-arb-02281325-a (PWN omw-en-02278939-a ↔ omw-en-02281325-a: spirited/spiritless)	no		no	C	نشِيط	فاتِر	نشيط	فاتر
+نقص	ازدياد	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07355887-n / omw-arb-07356676-n (PWN omw-en-07355887-n ↔ omw-en-07356676-n: decrease/increase) | omw-arb:omw-arb-13458571-n / omw-arb-13497135-n (PWN omw-en-13458571-n ↔ omw-en-13497135-n: decrease/increase)	no		no	C	نقْص	إِزْدِيَاد	نقص	ازدياد
+نقص	ازداد	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00151689-v / omw-arb-00156601-v (PWN omw-en-00151689-v ↔ omw-en-00156601-v: decrease/increase)	no		no	C	نقص	اِزْداد	نقص	ازداد
+نقص	رفع	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00441445-v / omw-arb-00153263-v (PWN omw-en-00441445-v ↔ omw-en-00153263-v: decrease/increase)	no		no	C	نقص	رفع	نقص	رفع
+نهار	ظلام	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-15164957-n / omw-arb-15167027-n (PWN omw-en-15164957-n ↔ omw-en-15167027-n: day/night)	no		no	C	نهار	ظلام	نهار	ظلام
+نوعي	كمي	adj	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-01914521-a / omw-arb-01914930-a (PWN omw-en-01914521-a ↔ omw-en-01914930-a: qualitative/quantitative)	no		no	C	نوْعِي	كمّي	نوع	كم
+هاجر	اغترب	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00416135-v / omw-arb-00413432-v (PWN omw-en-00416135-v ↔ omw-en-00413432-v: emigrate/immigrate)	no		no	C	هاجر	اِغْترب	هاجر	اغترب
+هدا	اثار	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00022316-v / omw-arb-00022686-v (PWN omw-en-00022316-v ↔ omw-en-00022686-v: sedate/stimulate)	no		no	C	هدّأ	أثار	هدا	اثار
+هدوء	صوت	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-04982207-n / omw-arb-04981139-n (PWN omw-en-04982207-n ↔ omw-en-04981139-n: silence/sound)	no		no	C	هُدُوء	صوْت	هدوء	صوت
+وقار	طيش	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07512147-n / omw-arb-07511906-n (PWN omw-en-07512147-n ↔ omw-en-07511906-n: gravity/levity)	no		no	C	وَقار	طيْش	وقار	طيش
+ولاده	نهايه	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-15142167-n / omw-arb-15143477-n (PWN omw-en-15142167-n ↔ omw-en-15143477-n: birth/death)	no		no	C	وِلادَة	نِهاية	ولاده	نهايه
+ولد	انتهي	verb	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-00360932-v / omw-arb-00358431-v (PWN omw-en-00360932-v ↔ omw-en-00358431-v: be born/die)	no		no	C	وُلِدَ	إِنْتهى	ولد	انتهي
+ياس	امل	noun	Arabic WordNet (OMW omw-arb 1.4) via PWN 3.0 antonym	omw-arb:omw-arb-07541923-n / omw-arb-07541053-n (PWN omw-en-07541923-n ↔ omw-en-07541053-n: despair/hope)	no		no	C	يأْس	أمل	ياس	امل
