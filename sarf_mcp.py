@@ -5686,6 +5686,25 @@ def _ha_role(hemi: str, u: list, r: int):
     return "wasl" if any(c in VOW for c in (prev or "")) else "rawi"
 
 
+def _salb_verb_lemma(w: str):
+    """لمّة الفعل لطباق السلب، أو None إن لم تكن الكلمة فعلًا في أغلب تحليلاتها («إجابته» مصدر لا فعل).
+    والأمر الذي لا يعرفه المحلّل («اخشون»، «اعبدوا») يُحلَّل بصيغة المضارع («تخشون»، «تعبدوا»)."""
+    b = _strip_tashkeel(w)
+    try:
+        an = _analyzer().analyze(b)
+        if not an:
+            core = b[1:] if len(b) > 3 and b[0] in "وف" and b[1] == "ا" else b
+            if len(core) > 2 and core[0] in "اإ":
+                an = _analyzer().analyze("ت" + core[1:])
+    except Exception:
+        return None
+    verbs = [a for a in an if a.get("pos") == "verb"]
+    if not verbs or len(verbs) * 2 <= len(an):
+        return None
+    a = max(verbs, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99))
+    return _norm(_strip_tashkeel((a.get("lex") or "").split("_")[0].split("-")[0]))
+
+
 def _roots_of(w: str) -> set:
     try:
         return {a.get("root") for a in _analyzer().analyze(_strip_tashkeel(w)) if a.get("root") and "#" not in (a.get("root") or "")}
@@ -5776,8 +5795,10 @@ def detect_badi(text: str) -> dict:
                 if lemmas[j] in ant.get(lemmas[i], set()) or bare[j] in ant.get(bare[i], set()):
                     pairs.append((i, j))
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق إيجاب"})
-                elif lemmas[i] == lemmas[j] and len(bare[i]) > 2 and lemmas[i] not in STOPWORDS and \
-                        ((i > 0 and _is_neg(words[i - 1])) != (j > 0 and _is_neg(words[j - 1]))):
+                elif len(bare[i]) > 2 and lemmas[i] not in STOPWORDS and \
+                        ((i > 0 and _is_neg(words[i - 1])) != (j > 0 and _is_neg(words[j - 1]))) and \
+                        _salb_verb_lemma(words[i]) is not None and _salb_verb_lemma(words[i]) == _salb_verb_lemma(words[j]):
+                    # طباق السلب: فعل واحد مثبت ومنفي، أو مأمور به ومنهي عنه («فلا تخشوهم واخشون»)؛ لا مصدر مع فعل («فلا تجبه … إجابته»)
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق سلب (إثبات ونفي)"})
         # المقابلة: زوجان فأكثر في الجملة وما يليها، ولا تدخل الكلمة الواحدة في زوجين
         seen_muq = []
