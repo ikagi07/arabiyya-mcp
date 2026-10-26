@@ -5688,7 +5688,8 @@ def detect_badi(text: str) -> dict:
             s_, _, a_ = l.partition("*")
             units.append((s_.strip(), a_.strip()))
         else:
-            # الفاصلة تفصل الفقرتين في السجع، ولا تقطع الجملة في الجناس والطباق والمقابلة
+            # النثر: النقطة ونحوها حدّ الوحدة، والفاصلة تفصل الجمل داخلها. ويُقارَن في الجناس والطباق والمقابلة
+            # بين ألفاظ الجملة الواحدة والجملة التي تليها فقط (لا بين جمل متباعدة)، والفاصلة حدّ الفقرتين في السجع
             for seg in re.split(r"[.؛!?؟\n]+", l):
                 if seg.strip():
                     units.append((seg.strip(), ""))
@@ -5703,7 +5704,17 @@ def detect_badi(text: str) -> dict:
         w = _norm(_strip_tashkeel(w))
         return w in neg or (len(w) == 3 and w[0] in "وف" and w[1:] in {"لا", "لم", "لن"})
     for ui, (s_, a_) in enumerate(units, 1):
-        words = re.findall("[ء-يً-ْ]+", s_ + " " + a_)
+        if poetry:
+            words = re.findall("[ء-يً-ْ]+", s_ + " " + a_)
+            seg_of = [0] * len(words)
+        else:
+            words, seg_of = [], []
+            for k, seg in enumerate(re.split(r"[،,]+", s_)):
+                ws = re.findall("[ء-يً-ْ]+", seg)
+                words += ws; seg_of += [k] * len(ws)
+
+        def near(i, j):
+            return abs(seg_of[j] - seg_of[i]) <= 1
         bare = [_core_letters(w) for w in words]
         lemmas = [_lemma_bare(w) for w in words]
         where = f"البيت {ui}" if poetry else f"الجملة {ui}"
@@ -5713,6 +5724,8 @@ def detect_badi(text: str) -> dict:
         # الجناس
         for i in range(len(words)):
             for j in range(i + 1, len(words)):
+                if not near(i, j):
+                    continue
                 x, y = bare[i], bare[j]
                 if len(x) < 3 or len(y) < 3 or x in STOPWORDS or y in STOPWORDS:
                     continue
@@ -5738,19 +5751,28 @@ def detect_badi(text: str) -> dict:
         pairs = []
         for i in range(len(words)):
             for j in range(i + 1, len(words)):
+                if not near(i, j):
+                    continue
                 if lemmas[j] in ant.get(lemmas[i], set()) or bare[j] in ant.get(bare[i], set()):
                     pairs.append((i, j))
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق إيجاب"})
                 elif lemmas[i] == lemmas[j] and len(bare[i]) > 2 and lemmas[i] not in STOPWORDS and \
                         ((i > 0 and _is_neg(words[i - 1])) != (j > 0 and _is_neg(words[j - 1]))):
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق سلب (إثبات ونفي)"})
-        distinct = []
-        for i, j in pairs:
-            key = frozenset((lemmas[i], lemmas[j]))
-            if key not in [frozenset((lemmas[a], lemmas[b])) for a, b in distinct] and all(i != a and j != b for a, b in distinct):
-                distinct.append((i, j))
-        if len(distinct) >= 2:
-            found["المقابلة"].append({"الموضع": where, "الأزواج": [[words[i], words[j]] for i, j in distinct]})
+        # المقابلة: زوجان فأكثر في الجملة وما يليها، ولا تدخل الكلمة الواحدة في زوجين
+        seen_muq = []
+        for k in range(max(seg_of, default=0) + 1):
+            distinct, used = [], set()
+            for i, j in pairs:
+                if not ({seg_of[i], seg_of[j]} <= {k, k + 1}) or i in used or j in used:
+                    continue
+                key = frozenset((lemmas[i], lemmas[j]))
+                if key in [frozenset((lemmas[a], lemmas[b])) for a, b in distinct]:
+                    continue
+                distinct.append((i, j)); used |= {i, j}
+            if len(distinct) >= 2 and not any(set(distinct) <= prev for prev in seen_muq):
+                seen_muq.append(set(distinct))
+                found["المقابلة"].append({"الموضع": where, "الأزواج": [[words[i], words[j]] for i, j in distinct]})
         # ردّ العجز على الصدر
         if poetry and a_:
             last = _core_letters(a_.split()[-1])
