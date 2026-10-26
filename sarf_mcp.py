@@ -5612,6 +5612,20 @@ def _core_letters(w: str) -> str:
     return b
 
 
+def _harakat_differ(a: str, b: str, n: int) -> bool:
+    """الجناس المحرّف: حروف الكلمتين بعد السوابق واحدة (n حرفًا)، واختلفت حركة حرف ضُبط في الكلمتين كلتيهما.
+    لا يُقارن الحرف الأخير (حركته إعراب)، ولا يُحكم فيما لم يُضبط."""
+    def core(w):
+        lm = [m for ch, m in _letters_marks(w) if "ء" <= ch <= "ي"]
+        return lm[-n:] if n else []
+    def vowel(m):
+        return next((c for c in m if c in "\u064e\u064f\u0650\u0652"), None)
+    ca, cb = core(a), core(b)
+    if len(ca) != n or len(cb) != n:
+        return False
+    return any(vowel(p) and vowel(q) and vowel(p) != vowel(q) for p, q in zip(ca[:-1], cb[:-1]))
+
+
 def _roots_of(w: str) -> set:
     try:
         return {a.get("root") for a in _analyzer().analyze(_strip_tashkeel(w)) if a.get("root") and "#" not in (a.get("root") or "")}
@@ -5657,11 +5671,10 @@ def detect_badi(text: str) -> dict:
                     continue
                 kind = None
                 if x == y:
-                    if lemmas[i] != lemmas[j]:
-                        kind = "جناس تام (اتفقت الحروف واختلف المعنى)"
-                    elif _strip_tashkeel(words[i]) != _strip_tashkeel(words[j]) and any(c in HARAKAT for c in words[i] + words[j]) \
-                            and words[i].strip("ًٌٍَُِّْ") != words[j].strip("ًٌٍَُِّْ"):
+                    if _harakat_differ(words[i], words[j], len(x)):
                         kind = "جناس محرّف (اختلفت الحركات)"
+                    elif lemmas[i] != lemmas[j]:
+                        kind = "جناس تام (اتفقت الحروف واختلف المعنى)"
                 elif len(x) == len(y) and sum(1 for p, q in zip(x, y) if p != q) == 1:
                     p, q = next((p, q) for p, q in zip(x, y) if p != q)
                     rel = _letter_relation(p, q)

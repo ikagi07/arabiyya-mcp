@@ -32,5 +32,26 @@ class TestQalb(unittest.TestCase):
         self.assertEqual(qalb("قفا نبك من ذكرى حبيب ومنزل * بسقط اللوى بين الدخول فحومل"), [])
 
 
+def found(text, key):
+    f = M.detect_badi(text)["المحسنات"]
+    return f.get(key, []) if isinstance(f, dict) else []
+
+
+def jinas(text):
+    return {(tuple(x["اللفظان"]), x["نوعه"].split(" (")[0]) for x in found(text, "الجناس")}
+
+
+class TestBadiRound2(unittest.TestCase):
+    """شواهد الدورة الثانية (eval/gold/badi_round2_candidates.jsonl)."""
+
+    def test_muharraf(self):
+        # المهمة 09: بغية الإيضاح ج4 ص643
+        self.assertIn((("البُرد", "البَرد"), "جناس محرّف"), jinas("جُبَّة البُرد جُنَّة البَرد"))
+        self.assertIn((("الشِّعر", "الشَّعر"), "جناس محرّف"),
+                      jinas("والحسن يظهر في بيتين رونقه * بيت من الشِّعر أو بيت من الشَّعر"))
+        # بلا ضبط لا يُحكم بالتحريف
+        self.assertNotIn("جناس محرّف", {k for _, k in jinas("بيت من الشعر أو بيت من الشعر")})
+
+
 if __name__ == "__main__":
     unittest.main()
