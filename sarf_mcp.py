@@ -5638,6 +5638,20 @@ def _core_letters(w: str) -> str:
     return b
 
 
+def _core_hamza(w: str) -> str:
+    """مثل _core_letters، لكن الهمزة في وسط الكلمة وآخرها تبقى «ء» ولا تصير ألفًا («ينأون» = «ينءون»)،
+    لأن مخرج الهمزة غير مخرج الألف في الموازنة بين الحرفين المختلفين."""
+    b = _strip_tashkeel(w).translate(str.maketrans({"ى": "ي", "ة": "ه", "ٱ": "ا"}))
+    b = (b[:1].translate(str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا"})) + b[1:].translate(str.maketrans({"أ": "ء", "إ": "ء", "ؤ": "ء", "ئ": "ء"}))
+         ).translate(str.maketrans({"ؤ": "ء", "ئ": "ء"}))
+    for p in ("وال", "فال", "بال", "كال", "لل", "ال"):
+        if b.startswith(p) and len(b) - len(p) >= 2:
+            return b[len(p):]
+    if len(b) > 3 and b[0] in "وف":
+        return b[1:]
+    return b
+
+
 def _harakat_differ(a: str, b: str, n: int) -> bool:
     """الجناس المحرّف: حروف الكلمتين بعد السوابق واحدة (n حرفًا)، واختلفت حركة حرف ضُبط في الكلمتين كلتيهما.
     لا يُقارن الحرف الأخير (حركته إعراب)، ولا يُحكم فيما لم يُضبط."""
@@ -5776,6 +5790,9 @@ def detect_badi(text: str) -> dict:
                         kind = "جناس تام (اتفقت الحروف واختلف المعنى)"
                 elif len(x) == len(y) and sum(1 for p, q in zip(x, y) if p != q) == 1:
                     p, q = next((p, q) for p, q in zip(x, y) if p != q)
+                    hx, hy = _core_hamza(words[i]), _core_hamza(words[j])
+                    if len(hx) == len(x) and len(hy) == len(y):   # الهمزة تبقى همزة في الموازنة («ينهون/ينأون»: الهاء والهمزة)
+                        p, q = next(((p2, q2) for p2, q2 in zip(hx, hy) if p2 != q2), (p, q))
                     rel = _letter_relation(p, q)
                     kind = f"جناس {'مضارع' if rel == 'متقاربان' else 'لاحق'} (اختلفا في «{p}» و«{q}»)"
                 elif abs(len(x) - len(y)) == 1 and (x in y or y in x or x[1:] == y or y[1:] == x or x[:-1] == y or y[:-1] == x):
