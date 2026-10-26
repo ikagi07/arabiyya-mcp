@@ -112,5 +112,23 @@ class TestBadiRound2(unittest.TestCase):
         self.assertEqual(found("قل لمن ساد ثم ساد أبوه * قبله ثم قبل ذلك جده", "الطباق"), [])
 
 
+class TestAntonymFile(unittest.TestCase):
+    def test_missing_file_warns(self):
+        # مراجعة #15: غياب data/badi/antonyms_general.tsv لا يُسكت عنه
+        import io, contextlib
+        old = M._ANTONYMS_TSV
+        try:
+            M._ANTONYMS_TSV = "/nonexistent/antonyms_general.tsv"
+            M._antonym_index.cache_clear()
+            err = io.StringIO()
+            with contextlib.redirect_stderr(err):
+                r = M.detect_badi("ليل ونهار")
+            self.assertIn("قائمة الأضداد العامة", err.getvalue())
+            self.assertIn("تنبيه", r)
+        finally:
+            M._ANTONYMS_TSV = old; M._ANTONYM_FILE_WARNING = None
+            M._antonym_index.cache_clear()
+
+
 if __name__ == "__main__":
     unittest.main()

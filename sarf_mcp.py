@@ -5584,20 +5584,29 @@ _ANTONYMS = [("حياة", "موت"), ("حي", "ميت"), ("ليل", "نهار"),
 ANTONYM_TIERS = "A"    # A ويكاموس الإنجليزي (الافتراضي)؛ B ويكاموس العربي مقفلة حتى يراجعها بليغ بيده؛ C الشبكة الدلالية العربية (أضعفها)
 
 
+_ANTONYM_FILE_WARNING = None
+_ANTONYMS_TSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "badi", "antonyms_general.tsv")
+
+
 def _general_antonyms(tiers: str = None) -> list:
     """أزواج الأضداد العامة من data/badi/antonyms_general.tsv (CC BY-SA، انظر DATA_LICENSES.md): العمودان word1/word2 وحدهما.
     وعمودا word*_lex تحليل آلي للاطلاع فقط، وفيهما أصول غلط («بخيل» ← «خيل»)، فلا يُحمَّلان."""
     import csv
     tiers = ANTONYM_TIERS if tiers is None else tiers
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "badi", "antonyms_general.tsv")
+    import sys
+    path = _ANTONYMS_TSV
     out = []
     try:
         with open(path, encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 if r.get("tier") in tiers:
                     out.append((r["word1"], r["word2"]))
-    except OSError:
-        pass
+    except OSError as e:
+        # لا يُسكت عن غياب الملف: الطباق يرجع إلى المعجم الداخلي وحده، ويُنبَّه في stderr وفي مخرَج detect_badi
+        global _ANTONYM_FILE_WARNING
+        _ANTONYM_FILE_WARNING = (f"تنبيه: لم يُعثر على قائمة الأضداد العامة ({path}): {e.strerror or e}. "
+                                 "فالطباق يُرصد بالمعجم الداخلي وحده؛ أعد التثبيت أو انسخ data/badi/ بجانب sarf_mcp.py.")
+        print(_ANTONYM_FILE_WARNING, file=sys.stderr)
     return out
 
 
@@ -5876,9 +5885,12 @@ def detect_badi(text: str) -> dict:
     except Exception:
         pass
     found = {k: v for k, v in found.items() if v}
-    return {"المحسنات": found or "لم يظهر محسّن بديعي من الأنواع المرصودة.",
-            "ملاحظة": "الجناس يُرصد بالموازنة الحرفية والصرفية، والطباق بمعجم أضداد مختار وبالنفي؛ فهي مرشحات يُحكم فيها المعنى. "
-                      "والتورية والاستخدام والتوجيه ونحوها مما يقوم على المعنى الخفي لا يُرصد آليًّا."}
+    out = {"المحسنات": found or "لم يظهر محسّن بديعي من الأنواع المرصودة.",
+           "ملاحظة": "الجناس يُرصد بالموازنة الحرفية والصرفية، والطباق بمعجم أضداد مختار وبالنفي؛ فهي مرشحات يُحكم فيها المعنى. "
+                     "والتورية والاستخدام والتوجيه ونحوها مما يقوم على المعنى الخفي لا يُرصد آليًّا."}
+    if _ANTONYM_FILE_WARNING:
+        out["تنبيه"] = _ANTONYM_FILE_WARNING
+    return out
 
 
 def _palindrome_letters(text: str) -> str:

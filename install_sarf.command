@@ -10,6 +10,8 @@ if [ "$SRC" != "$DIR" ]; then
   mkdir -p "$DIR/brand" && cp "$SRC"/brand/*.svg "$DIR/brand/" 2>/dev/null || true
   # سجلّ الخلاف ووجوه الإعراب (أداة wujuh_irab)
   mkdir -p "$DIR/data/khilaf" && cp "$SRC"/data/khilaf/*.jsonl "$DIR/data/khilaf/"
+  # قائمة الأضداد العامة (طباق detect_badi)
+  mkdir -p "$DIR/data/badi" && cp "$SRC"/data/badi/antonyms_general.tsv "$SRC"/data/badi/README.md "$DIR/data/badi/"
 fi
 SERVER="$DIR/sarf_mcp.py"
 CONFIG="$HOME/Library/Application Support/Claude/claude_desktop_config.json"
