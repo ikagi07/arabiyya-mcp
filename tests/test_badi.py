@@ -52,6 +52,10 @@ class TestBadiRound2(unittest.TestCase):
         # بلا ضبط لا يُحكم بالتحريف
         self.assertNotIn("جناس محرّف", {k for _, k in jinas("بيت من الشعر أو بيت من الشعر")})
 
+    def test_pronoun_not_extra_letter(self):
+        # المهمة 11: تحرير التحبير ص255، «قبله/قبل» ترديد لا جناس
+        self.assertEqual([k for k in jinas("قل لمن ساد ثم ساد أبوه * قبله ثم قبل ذلك جده") if "قبله" in k[0]], [])
+
 
 if __name__ == "__main__":
     unittest.main()

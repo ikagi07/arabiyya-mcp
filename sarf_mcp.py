@@ -5680,7 +5680,9 @@ def detect_badi(text: str) -> dict:
                     rel = _letter_relation(p, q)
                     kind = f"جناس {'مضارع' if rel == 'متقاربان' else 'لاحق'} (اختلفا في «{p}» و«{q}»)"
                 elif abs(len(x) - len(y)) == 1 and (x in y or y in x or x[1:] == y or y[1:] == x or x[:-1] == y or y[:-1] == x):
-                    kind = "جناس ناقص (زاد أحدهما حرفًا)"
+                    # الضمير المتصل ليس حرفًا زائدًا: «قبله/قبل» كلمة واحدة أُضيفت مرة إلى الضمير
+                    if not (lemmas[i] == lemmas[j] and max(x, y, key=len)[:-1] == min(x, y, key=len) and max(x, y, key=len)[-1] in "هكي"):
+                        kind = "جناس ناقص (زاد أحدهما حرفًا)"
                 elif lemmas[i] != lemmas[j] and _roots_of(words[i]) & _roots_of(words[j]):
                     kind = "جناس الاشتقاق (من جذر واحد)"
                 if kind:
