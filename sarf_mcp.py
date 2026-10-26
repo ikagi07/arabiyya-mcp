@@ -5652,18 +5652,38 @@ def _harakat_differ(a: str, b: str, n: int) -> bool:
     return any(vowel(p) and vowel(q) and vowel(p) != vowel(q) for p, q in zip(ca[:-1], cb[:-1]))
 
 
-def _tasri_rawi(hemi: str, u: list, r: int) -> int:
-    """موضع الروي للتصريع: الهاء الأخيرة غير المضبوطة بعد حرف غير مضبوط تُعدّ هاءَ وصل إذا كانت ضميرًا بعد غير حرف مدّ
-    («جدُّهُ»: الروي الدال)، وتبقى رويًّا إذا كانت من أصل الكلمة («وجه») أو بعد حرف مدّ («أبوه»)."""
+def _ha_role(hemi: str, u: list, r: int):
+    """دور الهاء الأخيرة في آخر الشطر للتصريع (قاعدة سقط الزند): None إن لم يكن الروي المرشَّح هاءً أخيرة؛
+    و«root» إن كانت من أصل الكلمة («وجه»، «الفقيه»، أو منوّنة)؛ و«wasl» إن كانت ضميرًا تحرّك ما قبله («جدُّهُ»: الروي الدال)؛
+    و«rawi» إن كانت ضميرًا سكن ما قبله أو كان حرف مدّ («أبوه»، «يلقاه»، «منْه»)، فتصلح رويًّا.
+    المضبوط يُحكم فيه بضبط النص، وغير المضبوط بأرجح تحليلات CAMeL."""
     n = len(u)
-    if r != n - 1 or n < 2 or u[r][0] != "ه" or u[r][1] or u[r - 1][1] or u[r - 1][0] in "اوي":
-        return r
+    if r != n - 1 or n < 2 or u[r][0] != "ه":
+        return None
+    VOW, SUK, TAN = "\u064e\u064f\u0650\u0651", "\u0652", "\u064b\u064c\u064d"
+    hm, pl, pm = u[r][1] or "", u[r - 1][0], u[r - 1][1] or ""
+    if any(c in TAN for c in hm):
+        return "root"
+    if (pl in "اوي" and not any(c in VOW for c in pm)) or SUK in pm:
+        return "rawi"
+    w = _strip_tashkeel(hemi.split()[-1])
     try:
-        an = _analyzer().analyze(_strip_tashkeel(hemi.split()[-1]))
-        a = max(an, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99)) if an else {}
+        an = _analyzer().analyze(w)
     except Exception:
-        return r
-    return r - 1 if str(a.get("enc0", "0")).startswith("3ms") else r
+        return None
+    if not an:
+        return None
+    pron = [x for x in an if str(x.get("enc0", "0")).startswith("3ms")]
+    top = max(an, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99))
+    if not pron or (not any(c in VOW for c in pm) and not str(top.get("enc0", "0")).startswith("3ms")):
+        return "root"
+    if any(c in VOW for c in pm):
+        return "wasl"
+    # غير مضبوط: حركة ما قبل الهاء من أرجح قراءات الضمير
+    best = max(pron, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99))
+    lm = [m for ch, m in _letters_marks(best.get("diac") or "") if "ء" <= ch <= "ي"]
+    prev = lm[-2] if len(lm) >= 2 else ""
+    return "wasl" if any(c in VOW for c in (prev or "")) else "rawi"
 
 
 def _roots_of(w: str) -> set:
@@ -5787,10 +5807,13 @@ def detect_badi(text: str) -> dict:
         if poetry and a_:
             us, hs = _qafiya_hypotheses(s_)
             ua, ha = _qafiya_hypotheses(a_)
-            if hs:
-                hs = [_tasri_rawi(s_, us, hs[0])]
-            if ha:
-                ha = [_tasri_rawi(a_, ua, ha[0])]
+            if hs and ha:
+                # هاء الضمير بعد متحرك وصلٌ والروي ما قبلها؛ وإذا كانت الهاء في أحد الشطرين أصلية («وجه»)
+                # فالتي تقابلها في الآخر لا تُجعل وصلًا («شبه» وإن قُرئ «شَبَّهُ»)، لأن الروي في الشطرين واحد
+                rs, ra = _ha_role(s_, us, hs[0]), _ha_role(a_, ua, ha[0])
+                if "root" not in (rs, ra):
+                    hs = [hs[0] - 1] if rs == "wasl" else hs
+                    ha = [ha[0] - 1] if ra == "wasl" else ha
             if us and ua and hs and ha and us[hs[0]][0] == ua[ha[0]][0] and (us[hs[0]][1] == ua[ha[0]][1] or not us[hs[0]][1] or not ua[ha[0]][1]):
                 found["التصريع"].append({"الموضع": where, "آخر الصدر": s_.split()[-1], "آخر العجز": a_.split()[-1]})
     # لزوم ما لا يلزم: التزام حرف قبل الروي في القصيدة
