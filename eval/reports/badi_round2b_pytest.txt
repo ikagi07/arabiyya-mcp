@@ -1,0 +1,8 @@
+>       self.assertGreaterEqual(b[0]["عدد الكتب"], 4)
+E       AssertionError: 3 not greater than or equal to 4
+
+tests/test_takhrij.py:38: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_takhrij.py::TestAttribution::test_hemistich_goes_to_books_poet
+FAILED tests/test_takhrij.py::TestAttributionInBooks::test_full_name_and_early_books
+2 failed, 121 passed, 1 xfailed, 44 subtests passed in 54.34s
