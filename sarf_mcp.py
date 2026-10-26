@@ -1832,10 +1832,49 @@ def _diacritize_verse(text: str) -> str:
     return _diacritize(text)
 
 
+_RATIO_PREFIX = set("وفبكل")
+
+
+def _tashkeel_ratio(text: str) -> float:
+    """نسبة الحروف المشكولة إلى الحروف التي تُشكل في البيت التام الضبط.
+
+    لا يدخل المقامَ ما لا يحمل حركةً في الضبط التام إذا جاء غير مشكول (قائمة سقط الزند):
+    (1) ألف المد بعد فتحة، وألف «ال»، وألف همزة الوصل في أول الكلمة (ابن، اسم، افتعل، استفعل) إذا كُتبت بلا همزة؛
+    (2) واو المد بعد ضمة، وياء المد بعد كسرة؛ (3) لام «ال» الشمسية إذا تلاها حرف شمسي مشدَّد؛
+    (4) الألف الفارقة بعد واو الجماعة (كتبوا)؛ (5) الألف المقصورة آخر الكلمة.
+    والبسط عدد الحروف الباقية التي عليها علامة واحدة على الأقل، فلا تتجاوز النسبة 1."""
+    total = marked = 0
+    for w in text.split():
+        lm = []
+        for ch in w:
+            if ch in HARAKAT and lm:
+                lm[-1][1] += ch
+            elif "ء" <= ch <= "ي" and ch != "ـ":
+                lm.append([ch, ""])
+        n = len(lm)
+        # أول الكلمة بعد سابقة حرفية واحدة (و، ف، ب، ك، ل) تليها ألف غير مشكولة: «وَالظلام»، «بِالمودة»، «بِاسم»
+        start = 1 if n > 2 and lm[0][0] in _RATIO_PREFIX and lm[1][0] == "ا" and not lm[1][1] else 0
+        for i, (c, m) in enumerate(lm):
+            if not m:
+                prev = lm[i - 1][1] if i else ""
+                if c == "ا" and (i == start or "\u064e" in prev or "\u064b" in prev):
+                    continue  # (1)
+                if (c == "و" and "\u064f" in prev) or (c == "ي" and "\u0650" in prev):
+                    continue  # (2)
+                if c == "ل" and i == start + 1 and lm[start][0] == "ا" and i + 1 < n \
+                        and lm[i + 1][0] in _SUN_LETTERS and "\u0651" in lm[i + 1][1]:
+                    continue  # (3)
+                if c == "ا" and i == n - 1 and i and lm[i - 1][0] == "و":
+                    continue  # (4)
+                if c == "ى" and i == n - 1:
+                    continue  # (5)
+            total += 1
+            marked += bool(m)
+    return marked / total if total else 0
+
+
 def _prepare_verse_text0(text: str):
-    letters = sum(1 for c in text if "ء" <= c <= "ي")
-    marks = sum(1 for c in text if c in HARAKAT)
-    ratio = marks / letters if letters else 0
+    ratio = _tashkeel_ratio(text)
     if ratio < 0.3:
         return _diacritize_verse(text), "البيت غير مشكول فشُكِّل آليًّا."
     if ratio < 0.85:
