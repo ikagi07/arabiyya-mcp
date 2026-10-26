@@ -66,7 +66,7 @@ jobs:
           zip -q dist/sarf-windows.zip install_sarf_windows.bat install_sarf_windows.ps1 train_diacritizer.bat \
             sarf_mcp.py sarf_ilal.py diac_model.py train_diacritizer.py build_poetry_index.py build_lexicon_index.py \
             build_corpus_index.py setup_sarf_data.py import_shamela.py khilaf.py openiti_catalog.tsv \
-            data/khilaf/*.jsonl brand/*.svg
+            data/khilaf/*.jsonl data/badi/antonyms_general.tsv data/badi/README.md brand/*.svg
           ls -la dist
       - uses: softprops/action-gh-release@v2
         with:

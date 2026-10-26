@@ -5581,12 +5581,47 @@ _ANTONYMS = [("حياة", "موت"), ("حي", "ميت"), ("ليل", "نهار"),
              ("سعيد", "شقي"), ("ربح", "خسر"), ("ربح", "خساره"), ("بدايه", "نهايه"), ("كثير", "قليل"), ("كثره", "قله"), ("ملك", "مملوك")]
 
 
+ANTONYM_TIERS = "A"    # A ويكاموس الإنجليزي (الافتراضي)؛ B ويكاموس العربي مقفلة حتى يراجعها بليغ بيده؛ C الشبكة الدلالية العربية (أضعفها)
+
+
+_ANTONYM_FILE_WARNING = None
+_ANTONYMS_TSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "badi", "antonyms_general.tsv")
+
+
+def _general_antonyms(tiers: str = None) -> list:
+    """أزواج الأضداد العامة من data/badi/antonyms_general.tsv (CC BY-SA، انظر DATA_LICENSES.md): العمودان word1/word2 وحدهما.
+    وعمودا word*_lex تحليل آلي للاطلاع فقط، وفيهما أصول غلط («بخيل» ← «خيل»)، فلا يُحمَّلان."""
+    import csv
+    tiers = ANTONYM_TIERS if tiers is None else tiers
+    import sys
+    path = _ANTONYMS_TSV
+    out = []
+    try:
+        with open(path, encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                if r.get("tier") in tiers:
+                    out.append((r["word1"], r["word2"]))
+    except OSError as e:
+        # لا يُسكت عن غياب الملف: الطباق يرجع إلى المعجم الداخلي وحده، ويُنبَّه في stderr وفي مخرَج detect_badi
+        global _ANTONYM_FILE_WARNING
+        _ANTONYM_FILE_WARNING = (f"تنبيه: لم يُعثر على قائمة الأضداد العامة ({path}): {e.strerror or e}. "
+                                 "فالطباق يُرصد بالمعجم الداخلي وحده؛ أعد التثبيت أو انسخ data/badi/ بجانب sarf_mcp.py.")
+        print(_ANTONYM_FILE_WARNING, file=sys.stderr)
+    return out
+
+
 @lru_cache(maxsize=1)
 def _antonym_index():
     idx = {}
-    for a, b in _ANTONYMS:
-        idx.setdefault(_norm(a), set()).add(_norm(b))
-        idx.setdefault(_norm(b), set()).add(_norm(a))
+    for a, b in list(_ANTONYMS) + _general_antonyms():
+        a, b = _norm(a), _norm(b)
+        if len(a) < 2 or len(b) < 2 or a == b:
+            continue
+        # الألف في آخر الناقص تُكتب ياءً في لمّة CAMeL («احيا» = «احيي»)
+        for x in {a, a[:-1] + "ي" if a.endswith("ا") and len(a) > 2 else a}:
+            for y in {b, b[:-1] + "ي" if b.endswith("ا") and len(b) > 2 else b}:
+                idx.setdefault(x, set()).add(y)
+                idx.setdefault(y, set()).add(x)
     return idx
 
 
@@ -5612,6 +5647,91 @@ def _core_letters(w: str) -> str:
     return b
 
 
+def _core_hamza(w: str) -> str:
+    """مثل _core_letters، لكن الهمزة في وسط الكلمة وآخرها تبقى «ء» ولا تصير ألفًا («ينأون» = «ينءون»)،
+    لأن مخرج الهمزة غير مخرج الألف في الموازنة بين الحرفين المختلفين."""
+    b = _strip_tashkeel(w).translate(str.maketrans({"ى": "ي", "ة": "ه", "ٱ": "ا"}))
+    b = (b[:1].translate(str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا"})) + b[1:].translate(str.maketrans({"أ": "ء", "إ": "ء", "ؤ": "ء", "ئ": "ء"}))
+         ).translate(str.maketrans({"ؤ": "ء", "ئ": "ء"}))
+    for p in ("وال", "فال", "بال", "كال", "لل", "ال"):
+        if b.startswith(p) and len(b) - len(p) >= 2:
+            return b[len(p):]
+    if len(b) > 3 and b[0] in "وف":
+        return b[1:]
+    return b
+
+
+def _harakat_differ(a: str, b: str, n: int) -> bool:
+    """الجناس المحرّف: حروف الكلمتين بعد السوابق واحدة (n حرفًا)، واختلفت هيئة حرف ضُبط في الكلمتين كلتيهما.
+    والهيئة الحركة والشدة معًا: «المشدد في هذا الباب يقوم مقام المخفف نظرًا إلى الصورة» (بغية الإيضاح ج4 ص643)،
+    فالشدة لا تُعدّ حرفًا في عدّ الحروف، لكنها تغيّر الهيئة («مُفْرِط/مُفَرِّط»، «قَدَر/قَدَّر»).
+    لا يُقارن الحرف الأخير (حركته إعراب)، ولا يُحكم فيما لم يُضبط."""
+    def core(w):
+        lm = [m for ch, m in _letters_marks(w) if "ء" <= ch <= "ي"]
+        return lm[-n:] if n else []
+    def vowel(m):
+        return next((c for c in (m or "") if c in "\u064e\u064f\u0650\u0652"), None)
+    def hay(m):
+        return (vowel(m), "\u0651" in (m or ""))
+    ca, cb = core(a), core(b)
+    if len(ca) != n or len(cb) != n:
+        return False
+    return any(vowel(p) and vowel(q) and hay(p) != hay(q) for p, q in zip(ca[:-1], cb[:-1]))
+
+
+def _ha_role(hemi: str, u: list, r: int):
+    """دور الهاء الأخيرة في آخر الشطر للتصريع (قاعدة سقط الزند): None إن لم يكن الروي المرشَّح هاءً أخيرة؛
+    و«root» إن كانت من أصل الكلمة («وجه»، «الفقيه»، أو منوّنة)؛ و«wasl» إن كانت ضميرًا تحرّك ما قبله («جدُّهُ»: الروي الدال)؛
+    و«rawi» إن كانت ضميرًا سكن ما قبله أو كان حرف مدّ («أبوه»، «يلقاه»، «منْه»)، فتصلح رويًّا.
+    المضبوط يُحكم فيه بضبط النص، وغير المضبوط بأرجح تحليلات CAMeL."""
+    n = len(u)
+    if r != n - 1 or n < 2 or u[r][0] != "ه":
+        return None
+    VOW, SUK, TAN = "\u064e\u064f\u0650\u0651", "\u0652", "\u064b\u064c\u064d"
+    hm, pl, pm = u[r][1] or "", u[r - 1][0], u[r - 1][1] or ""
+    if any(c in TAN for c in hm):
+        return "root"
+    if (pl in "اوي" and not any(c in VOW for c in pm)) or SUK in pm:
+        return "rawi"
+    w = _strip_tashkeel(hemi.split()[-1])
+    try:
+        an = _analyzer().analyze(w)
+    except Exception:
+        return None
+    if not an:
+        return None
+    pron = [x for x in an if str(x.get("enc0", "0")).startswith("3ms")]
+    top = max(an, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99))
+    if not pron or (not any(c in VOW for c in pm) and not str(top.get("enc0", "0")).startswith("3ms")):
+        return "root"
+    if any(c in VOW for c in pm):
+        return "wasl"
+    # غير مضبوط: حركة ما قبل الهاء من أرجح قراءات الضمير
+    best = max(pron, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99))
+    lm = [m for ch, m in _letters_marks(best.get("diac") or "") if "ء" <= ch <= "ي"]
+    prev = lm[-2] if len(lm) >= 2 else ""
+    return "wasl" if any(c in VOW for c in (prev or "")) else "rawi"
+
+
+def _salb_verb_lemma(w: str):
+    """لمّة الفعل لطباق السلب، أو None إن لم تكن الكلمة فعلًا في أغلب تحليلاتها («إجابته» مصدر لا فعل).
+    والأمر الذي لا يعرفه المحلّل («اخشون»، «اعبدوا») يُحلَّل بصيغة المضارع («تخشون»، «تعبدوا»)."""
+    b = _strip_tashkeel(w)
+    try:
+        an = _analyzer().analyze(b)
+        if not an:
+            core = b[1:] if len(b) > 3 and b[0] in "وف" and b[1] == "ا" else b
+            if len(core) > 2 and core[0] in "اإ":
+                an = _analyzer().analyze("ت" + core[1:])
+    except Exception:
+        return None
+    verbs = [a for a in an if a.get("pos") == "verb"]
+    if not verbs or len(verbs) * 2 <= len(an):
+        return None
+    a = max(verbs, key=lambda x: float(x.get("pos_lex_logprob", -99) or -99))
+    return _norm(_strip_tashkeel((a.get("lex") or "").split("_")[0].split("-")[0]))
+
+
 def _roots_of(w: str) -> set:
     try:
         return {a.get("root") for a in _analyzer().analyze(_strip_tashkeel(w)) if a.get("root") and "#" not in (a.get("root") or "")}
@@ -5628,21 +5748,39 @@ def detect_badi(text: str) -> dict:
     import re
     lines = [l.strip() for l in text.strip().splitlines() if l.strip()]
     poetry = sum(1 for l in lines if "*" in l) >= max(1, len(lines) // 2)
-    units = []
+    units, saj_units = [], []
     for l in lines:
         if poetry and "*" in l:
             s_, _, a_ = l.partition("*")
             units.append((s_.strip(), a_.strip()))
         else:
-            for seg in re.split(r"[.،؛!?؟\n]+", l):
+            # النثر: النقطة ونحوها حدّ الوحدة، والفاصلة تفصل الجمل داخلها. ويُقارَن في الجناس والطباق والمقابلة
+            # بين ألفاظ الجملة الواحدة والجملة التي تليها فقط (لا بين جمل متباعدة)، والفاصلة حدّ الفقرتين في السجع
+            for seg in re.split(r"[.؛!?؟\n]+", l):
                 if seg.strip():
                     units.append((seg.strip(), ""))
+            saj_units += [(seg.strip(), "") for seg in re.split(r"[.،؛!?؟\n]+", l) if seg.strip()]
     found = {"الجناس": [], "الطباق": [], "المقابلة": [], "التصريع": [], "ردّ العجز على الصدر": [], "السجع": [], "لزوم ما لا يلزم": [], "الاقتباس": [],
              "ما لا يستحيل بالانعكاس (القلب)": []}
     ant = _antonym_index()
     neg = {"لا", "لم", "لن", "ما", "ليس", "غير"}
+
+    def _is_neg(w):
+        # أداة النفي وحدها، أو «لا/لم/لن» بعد واو العطف أو فائه: «ولا»، «فلم» («وما» تلتبس بالموصولة فلا تدخل)
+        w = _norm(_strip_tashkeel(w))
+        return w in neg or (len(w) == 3 and w[0] in "وف" and w[1:] in {"لا", "لم", "لن"})
     for ui, (s_, a_) in enumerate(units, 1):
-        words = re.findall("[ء-يً-ْ]+", s_ + " " + a_)
+        if poetry:
+            words = re.findall("[ء-يً-ْ]+", s_ + " " + a_)
+            seg_of = [0] * len(words)
+        else:
+            words, seg_of = [], []
+            for k, seg in enumerate(re.split(r"[،,]+", s_)):
+                ws = re.findall("[ء-يً-ْ]+", seg)
+                words += ws; seg_of += [k] * len(ws)
+
+        def near(i, j):
+            return abs(seg_of[j] - seg_of[i]) <= 1
         bare = [_core_letters(w) for w in words]
         lemmas = [_lemma_bare(w) for w in words]
         where = f"البيت {ui}" if poetry else f"الجملة {ui}"
@@ -5652,22 +5790,35 @@ def detect_badi(text: str) -> dict:
         # الجناس
         for i in range(len(words)):
             for j in range(i + 1, len(words)):
+                if not near(i, j):
+                    continue
                 x, y = bare[i], bare[j]
-                if len(x) < 3 or len(y) < 3 or x in STOPWORDS or y in STOPWORDS:
+                if x in STOPWORDS or y in STOPWORDS:
+                    continue
+                if len(x) < 3 or len(y) < 3:
+                    # الكلمة القصيرة («الجَدّ/الجِدّ»): المحرّف وحده، إذا اتفقت الحروف وضُبطت الكلمتان واختلفتا في الهيئة
+                    if x == y and len(x) == 2 and _harakat_differ(words[i], words[j], len(x)):
+                        found["الجناس"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "جناس محرّف (اختلفت الحركات)"})
                     continue
                 kind = None
                 if x == y:
-                    if lemmas[i] != lemmas[j]:
-                        kind = "جناس تام (اتفقت الحروف واختلف المعنى)"
-                    elif _strip_tashkeel(words[i]) != _strip_tashkeel(words[j]) and any(c in HARAKAT for c in words[i] + words[j]) \
-                            and words[i].strip("ًٌٍَُِّْ") != words[j].strip("ًٌٍَُِّْ"):
+                    if _harakat_differ(words[i], words[j], len(x)):
                         kind = "جناس محرّف (اختلفت الحركات)"
+                    elif lemmas[i] != lemmas[j]:
+                        di, dj = (any("\u064b" <= c <= "\u0652" for c in w) for w in (words[i], words[j]))
+                        kind = "جناس تام (اتفقت الحروف واختلف المعنى)" if di == dj else \
+                            "جناس محتمل (اتفقت الحروف، وأحد اللفظين غير مضبوط فلا يُقطع بالتام)"
                 elif len(x) == len(y) and sum(1 for p, q in zip(x, y) if p != q) == 1:
                     p, q = next((p, q) for p, q in zip(x, y) if p != q)
+                    hx, hy = _core_hamza(words[i]), _core_hamza(words[j])
+                    if len(hx) == len(x) and len(hy) == len(y):   # الهمزة تبقى همزة في الموازنة («ينهون/ينأون»: الهاء والهمزة)
+                        p, q = next(((p2, q2) for p2, q2 in zip(hx, hy) if p2 != q2), (p, q))
                     rel = _letter_relation(p, q)
                     kind = f"جناس {'مضارع' if rel == 'متقاربان' else 'لاحق'} (اختلفا في «{p}» و«{q}»)"
                 elif abs(len(x) - len(y)) == 1 and (x in y or y in x or x[1:] == y or y[1:] == x or x[:-1] == y or y[:-1] == x):
-                    kind = "جناس ناقص (زاد أحدهما حرفًا)"
+                    # الضمير المتصل ليس حرفًا زائدًا: «قبله/قبل» كلمة واحدة أُضيفت مرة إلى الضمير
+                    if not (lemmas[i] == lemmas[j] and max(x, y, key=len)[:-1] == min(x, y, key=len) and max(x, y, key=len)[-1] in "هكي"):
+                        kind = "جناس ناقص (زاد أحدهما حرفًا)"
                 elif lemmas[i] != lemmas[j] and _roots_of(words[i]) & _roots_of(words[j]):
                     kind = "جناس الاشتقاق (من جذر واحد)"
                 if kind:
@@ -5676,19 +5827,30 @@ def detect_badi(text: str) -> dict:
         pairs = []
         for i in range(len(words)):
             for j in range(i + 1, len(words)):
+                if not near(i, j):
+                    continue
                 if lemmas[j] in ant.get(lemmas[i], set()) or bare[j] in ant.get(bare[i], set()):
                     pairs.append((i, j))
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق إيجاب"})
-                elif lemmas[i] == lemmas[j] and len(bare[i]) > 2 and lemmas[i] not in STOPWORDS and \
-                        ((i > 0 and _norm(words[i - 1]) in neg) != (j > 0 and _norm(words[j - 1]) in neg)):
+                elif len(bare[i]) > 2 and lemmas[i] not in STOPWORDS and \
+                        ((i > 0 and _is_neg(words[i - 1])) != (j > 0 and _is_neg(words[j - 1]))) and \
+                        _salb_verb_lemma(words[i]) is not None and _salb_verb_lemma(words[i]) == _salb_verb_lemma(words[j]):
+                    # طباق السلب: فعل واحد مثبت ومنفي، أو مأمور به ومنهي عنه («فلا تخشوهم واخشون»)؛ لا مصدر مع فعل («فلا تجبه … إجابته»)
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق سلب (إثبات ونفي)"})
-        distinct = []
-        for i, j in pairs:
-            key = frozenset((lemmas[i], lemmas[j]))
-            if key not in [frozenset((lemmas[a], lemmas[b])) for a, b in distinct] and all(i != a and j != b for a, b in distinct):
-                distinct.append((i, j))
-        if len(distinct) >= 2:
-            found["المقابلة"].append({"الموضع": where, "الأزواج": [[words[i], words[j]] for i, j in distinct]})
+        # المقابلة: زوجان فأكثر في الجملة وما يليها، ولا تدخل الكلمة الواحدة في زوجين
+        seen_muq = []
+        for k in range(max(seg_of, default=0) + 1):
+            distinct, used = [], set()
+            for i, j in pairs:
+                if not ({seg_of[i], seg_of[j]} <= {k, k + 1}) or i in used or j in used:
+                    continue
+                key = frozenset((lemmas[i], lemmas[j]))
+                if key in [frozenset((lemmas[a], lemmas[b])) for a, b in distinct]:
+                    continue
+                distinct.append((i, j)); used |= {i, j}
+            if len(distinct) >= 2 and not any(set(distinct) <= prev for prev in seen_muq):
+                seen_muq.append(set(distinct))
+                found["المقابلة"].append({"الموضع": where, "الأزواج": [[words[i], words[j]] for i, j in distinct]})
         # ردّ العجز على الصدر
         if poetry and a_:
             last = _core_letters(a_.split()[-1])
@@ -5703,6 +5865,13 @@ def detect_badi(text: str) -> dict:
         if poetry and a_:
             us, hs = _qafiya_hypotheses(s_)
             ua, ha = _qafiya_hypotheses(a_)
+            if hs and ha:
+                # هاء الضمير بعد متحرك وصلٌ والروي ما قبلها؛ وإذا كانت الهاء في أحد الشطرين أصلية («وجه»)
+                # فالتي تقابلها في الآخر لا تُجعل وصلًا («شبه» وإن قُرئ «شَبَّهُ»)، لأن الروي في الشطرين واحد
+                rs, ra = _ha_role(s_, us, hs[0]), _ha_role(a_, ua, ha[0])
+                if "root" not in (rs, ra):
+                    hs = [hs[0] - 1] if rs == "wasl" else hs
+                    ha = [ha[0] - 1] if ra == "wasl" else ha
             if us and ua and hs and ha and us[hs[0]][0] == ua[ha[0]][0] and (us[hs[0]][1] == ua[ha[0]][1] or not us[hs[0]][1] or not ua[ha[0]][1]):
                 found["التصريع"].append({"الموضع": where, "آخر الصدر": s_.split()[-1], "آخر العجز": a_.split()[-1]})
     # لزوم ما لا يلزم: التزام حرف قبل الروي في القصيدة
@@ -5715,8 +5884,8 @@ def detect_badi(text: str) -> dict:
         if before and len(set(before)) == 1 and before[0] not in "اوي":
             found["لزوم ما لا يلزم"].append({"الحرف الملتزم قبل الروي": before[0], "في الأبيات": len(before)})
     # السجع في النثر
-    if not poetry and len(units) >= 2:
-        ends = [(_core_letters(u.split()[-1]), u.split()[-1]) for u, _ in units if u.split()]
+    if not poetry and len(saj_units) >= 2:
+        ends = [(_core_letters(u.split()[-1]), u.split()[-1]) for u, _ in saj_units if u.split()]
         for (b1, w1), (b2, w2) in zip(ends, ends[1:]):
             if b1 and b2 and b1[-1] == b2[-1] and b1 != b2:
                 same_wazn = _wazn_of(w1) == _wazn_of(w2) and _wazn_of(w1)
@@ -5727,9 +5896,12 @@ def detect_badi(text: str) -> dict:
     except Exception:
         pass
     found = {k: v for k, v in found.items() if v}
-    return {"المحسنات": found or "لم يظهر محسّن بديعي من الأنواع المرصودة.",
-            "ملاحظة": "الجناس يُرصد بالموازنة الحرفية والصرفية، والطباق بمعجم أضداد مختار وبالنفي؛ فهي مرشحات يُحكم فيها المعنى. "
-                      "والتورية والاستخدام والتوجيه ونحوها مما يقوم على المعنى الخفي لا يُرصد آليًّا."}
+    out = {"المحسنات": found or "لم يظهر محسّن بديعي من الأنواع المرصودة.",
+           "ملاحظة": "الجناس يُرصد بالموازنة الحرفية والصرفية، والطباق بمعجم أضداد مختار وبالنفي؛ فهي مرشحات يُحكم فيها المعنى. "
+                     "والتورية والاستخدام والتوجيه ونحوها مما يقوم على المعنى الخفي لا يُرصد آليًّا."}
+    if _ANTONYM_FILE_WARNING:
+        out["تنبيه"] = _ANTONYM_FILE_WARNING
+    return out
 
 
 def _palindrome_letters(text: str) -> str:

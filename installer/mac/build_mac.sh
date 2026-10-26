@@ -9,6 +9,7 @@ osacompile -o "$APP" "$HERE/arabiyya_setup.applescript"
 P="$APP/Contents/Resources/payload"; mkdir -p "$P/brand"
 cp "$ROOT"/{sarf_mcp,sarf_ilal,diac_model,train_diacritizer,build_poetry_index,build_lexicon_index,build_corpus_index,setup_sarf_data,import_shamela,khilaf}.py "$ROOT/openiti_catalog.tsv" "$P/"
 mkdir -p "$P/data/khilaf"; cp "$ROOT"/data/khilaf/*.jsonl "$P/data/khilaf/"
+mkdir -p "$P/data/badi"; cp "$ROOT"/data/badi/antonyms_general.tsv "$ROOT"/data/badi/README.md "$P/data/badi/"
 cp "$ROOT"/brand/arabiyya-icon.svg "$ROOT"/brand/arabiyya-icon-small.svg "$ROOT"/brand/arabiyya-mark.svg "$P/brand/"
 cp "$HERE/install_wizard.sh" "$P/"; chmod +x "$P/install_wizard.sh"
 # أيقونة

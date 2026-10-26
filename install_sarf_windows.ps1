@@ -86,6 +86,9 @@ foreach ($f in 'sarf_ilal.py','diac_model.py','train_diacritizer.py','build_poet
 # سجلّ الخلاف ووجوه الإعراب (أداة wujuh_irab)
 New-Item -ItemType Directory -Force -Path (Join-Path $Dest 'data\khilaf') | Out-Null
 Copy-Item (Join-Path $Here 'data\khilaf\*.jsonl') (Join-Path $Dest 'data\khilaf') -Force
+# قائمة الأضداد العامة (طباق detect_badi)
+New-Item -ItemType Directory -Force -Path (Join-Path $Dest 'data\badi') | Out-Null
+Copy-Item (Join-Path $Here 'data\badi\antonyms_general.tsv'),(Join-Path $Here 'data\badi\README.md') (Join-Path $Dest 'data\badi') -Force
 $Server = Join-Path $Dest 'sarf_mcp.py'
 Write-Host $Server
 
