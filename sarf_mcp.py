@@ -5793,14 +5793,21 @@ def detect_badi(text: str) -> dict:
                 if not near(i, j):
                     continue
                 x, y = bare[i], bare[j]
-                if len(x) < 3 or len(y) < 3 or x in STOPWORDS or y in STOPWORDS:
+                if x in STOPWORDS or y in STOPWORDS:
+                    continue
+                if len(x) < 3 or len(y) < 3:
+                    # الكلمة القصيرة («الجَدّ/الجِدّ»): المحرّف وحده، إذا اتفقت الحروف وضُبطت الكلمتان واختلفتا في الهيئة
+                    if x == y and len(x) == 2 and _harakat_differ(words[i], words[j], len(x)):
+                        found["الجناس"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "جناس محرّف (اختلفت الحركات)"})
                     continue
                 kind = None
                 if x == y:
                     if _harakat_differ(words[i], words[j], len(x)):
                         kind = "جناس محرّف (اختلفت الحركات)"
                     elif lemmas[i] != lemmas[j]:
-                        kind = "جناس تام (اتفقت الحروف واختلف المعنى)"
+                        di, dj = (any("\u064b" <= c <= "\u0652" for c in w) for w in (words[i], words[j]))
+                        kind = "جناس تام (اتفقت الحروف واختلف المعنى)" if di == dj else \
+                            "جناس محتمل (اتفقت الحروف، وأحد اللفظين غير مضبوط فلا يُقطع بالتام)"
                 elif len(x) == len(y) and sum(1 for p, q in zip(x, y) if p != q) == 1:
                     p, q = next((p, q) for p, q in zip(x, y) if p != q)
                     hx, hy = _core_hamza(words[i]), _core_hamza(words[j])

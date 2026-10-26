@@ -158,6 +158,24 @@ class TestShaddaHayah(unittest.TestCase):
         self.assertIn((("قَدَر", "وقَدَّر"), "جناس محرّف"), jinas("قَدَر الله وقَدَّر"))
 
 
+class TestShortWords(unittest.TestCase):
+    def test_jadd_jidd(self):
+        # مراجعة #15: الكلمة القصيرة تُرصد محرّفًا إذا ضُبطت الكلمتان وحروفهما واحدة والاختلاف في الحركات وحدها
+        self.assertIn((("الجَدّ", "الجِدّ"), "جناس محرّف"), jinas("الجَدّ في الجِدّ"))
+        # وبلا ضبط لا يُرصد شيء في الكلمة القصيرة
+        self.assertEqual(jinas("الجد في الجد"), set())
+
+    def test_tam_needs_matching_diacritization(self):
+        # إذا ضُبطت إحدى الكلمتين دون الأخرى فلا يُقطع بالجناس التام، وإنما يُذكر «جناس محتمل»
+        # (اللمّة تُجعل اللفظ نفسه هنا ليختلف المعنى، فيُختبر حكم الضبط وحده)
+        from unittest import mock
+        with mock.patch.object(M, "_lemma_bare", lambda w: w):
+            mixed = {k for _, k in jinas("نظرت إلى العَيْن عند العين")}
+            plain = {k for _, k in jinas("نظرت إلى عين عند العين")}
+        self.assertEqual((("جناس تام" in mixed), ("جناس محتمل" in mixed)), (False, True))
+        self.assertIn("جناس تام", plain)
+
+
 class TestAntonymFile(unittest.TestCase):
     def test_missing_file_warns(self):
         # مراجعة #15: غياب data/badi/antonyms_general.tsv لا يُسكت عنه
