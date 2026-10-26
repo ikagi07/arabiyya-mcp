@@ -3258,7 +3258,8 @@ def _ibn_jinni_taqalib(perms: list, limit: int = 3) -> list:
                     continue
                 seen.add(pid)
                 plain = _strip_tashkeel(text)
-                if sum(c in "٠١٢٣٤٥٦٧٨٩" for c in plain) > 12:      # فهرس الطبعة
+                # فهرس الطبعة: أرقام كثيرة (هندية في الشاملة، وعربية «0-9» في OpenITI)، أو مداخل «عنوان 137.» متتابعة
+                if sum(c in "٠١٢٣٤٥٦٧٨٩0123456789" for c in plain) > 12 or len(re.findall(r"[٠-٩0-9]{1,4}\s*[.،]", plain)) >= 3:
                     continue
                 i = _norm(plain).find(_norm(spaced))
                 i = max(0, i if i >= 0 else 0)
