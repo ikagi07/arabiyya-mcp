@@ -5462,8 +5462,11 @@ def lughawiyyat(word: str, books: list[str] | None = None, limit: int = 12) -> d
         match = " AND ".join("(" + " OR ".join(f'"{v}"' for v in vs) + ")" for vs in vs_all)
         rows = con.execute("SELECT p.text, p.vol, p.page FROM paras p WHERE p.book = ? AND p.id IN (SELECT rowid FROM paras_fts WHERE paras_fts MATCH ?) "
                            "ORDER BY p.id LIMIT ?", (bid, match, int(limit))).fetchall()
+        # كتاب في مجلد واحد يُستشهد به بالصفحة وحدها («ص215»)، كما يفعل _cite لما لا أجزاء له: OpenITI يكتب V01
+        # لكل كتاب بلا أجزاء، والشاملة تتركه فارغًا، فلا يختلف الموضع باختلاف مصدر النص
+        multi = con.execute("SELECT COUNT(DISTINCT vol) FROM paras WHERE book = ? AND vol IS NOT NULL", (bid,)).fetchone()[0] > 1
         for text, vol, page in rows:
-            loc = (f"ج{vol} ص{page}" if vol and vol < 200 else f"ص{page}" if page else "")
+            loc = (f"ج{vol} ص{page}" if multi and vol and vol < 200 else f"ص{page}" if page else "")
             res.append({"الكتاب": n, "الموضع": loc, "النص": _strip_tashkeel(text).replace("AUTO", "").strip()[:900]})
     con.close()
     out = {"اللفظ": word, "المواضع": res or "لم يرد في الكتب المختارة."}
