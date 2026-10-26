@@ -5669,6 +5669,11 @@ def detect_badi(text: str) -> dict:
              "ما لا يستحيل بالانعكاس (القلب)": []}
     ant = _antonym_index()
     neg = {"لا", "لم", "لن", "ما", "ليس", "غير"}
+
+    def _is_neg(w):
+        # أداة النفي وحدها، أو «لا/لم/لن» بعد واو العطف أو فائه: «ولا»، «فلم» («وما» تلتبس بالموصولة فلا تدخل)
+        w = _norm(_strip_tashkeel(w))
+        return w in neg or (len(w) == 3 and w[0] in "وف" and w[1:] in {"لا", "لم", "لن"})
     for ui, (s_, a_) in enumerate(units, 1):
         words = re.findall("[ء-يً-ْ]+", s_ + " " + a_)
         bare = [_core_letters(w) for w in words]
@@ -5709,7 +5714,7 @@ def detect_badi(text: str) -> dict:
                     pairs.append((i, j))
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق إيجاب"})
                 elif lemmas[i] == lemmas[j] and len(bare[i]) > 2 and lemmas[i] not in STOPWORDS and \
-                        ((i > 0 and _norm(words[i - 1]) in neg) != (j > 0 and _norm(words[j - 1]) in neg)):
+                        ((i > 0 and _is_neg(words[i - 1])) != (j > 0 and _is_neg(words[j - 1]))):
                     found["الطباق"].append({"الموضع": where, "اللفظان": [words[i], words[j]], "نوعه": "طباق سلب (إثبات ونفي)"})
         distinct = []
         for i, j in pairs:
