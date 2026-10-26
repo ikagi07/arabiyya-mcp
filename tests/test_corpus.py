@@ -12,12 +12,37 @@ import os, sys, sqlite3, tempfile, types, unittest
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
-# ── عزل البيئة قبل استيراد أي وحدة تحسب مساراتها عند التحميل ──
+# ── عزل البيئة: يُوجَّه HOME إلى مجلد مؤقت مدةَ بناء القاعدة وحدها ثم يُعاد ──
+# (كان يُغيَّر عند الاستيراد ولا يُعاد، فيُفسد على pytest كل اختبار يُجمع بعد هذا الملف: Stanza يبحث عن نماذجه
+#  في ~/.cache/stanza من HOME المؤقت فلا يجدها، فتفشل اختبارات irab. ومن استورد sarf_mcp قبله ثبتت فيه
+#  CORPUS_DB على القاعدة الحقيقية، فلا تُغني إعادة توجيه HOME عنه، بل يُوجَّه المسار نفسه.)
+import contextlib  # noqa: E402
 TMP = tempfile.mkdtemp(prefix="arabiyya_test_")
-os.environ["HOME"] = TMP
-os.environ["USERPROFILE"] = TMP
 SARF = os.path.join(TMP, ".sarf")
 os.makedirs(SARF, exist_ok=True)
+
+
+@contextlib.contextmanager
+def _tmp_home():
+    old = {k: os.environ.get(k) for k in ("HOME", "USERPROFILE")}
+    os.environ["HOME"] = os.environ["USERPROFILE"] = TMP
+    try:
+        yield
+    finally:
+        for k, v in old.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+
+def _use_db(test, db):
+    """يوجّه sarf_mcp إلى القاعدة المؤقتة ويعيده بعد الاختبار، استُورد قبل هذا الملف أو لم يُستورد."""
+    import sarf_mcp
+    saved = sarf_mcp.CORPUS_DB
+    sarf_mcp.CORPUS_DB = db
+    test.addClassCleanup(setattr, sarf_mcp, "CORPUS_DB", saved) if isinstance(test, type) else test.addCleanup(setattr, sarf_mcp, "CORPUS_DB", saved)
+    return sarf_mcp
 
 
 def _stub(name, **attrs):
@@ -73,8 +98,8 @@ def _build_db():
     saved = bci.CORPUS
     bci.CORPUS = [("نحو", "x", "data/" + URI_A + ".Test-ara1"), ("نحو", "x", "data/" + URI_B + ".Test-ara1")]
     try:
-        import io, contextlib
-        with contextlib.redirect_stdout(io.StringIO()):
+        import io
+        with _tmp_home(), contextlib.redirect_stdout(io.StringIO()):
             bci.main(src)
     finally:
         bci.CORPUS = saved
@@ -112,9 +137,7 @@ class TestCorpusPipeline(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.db = _build_db()
-        import sarf_mcp
-        cls.S = sarf_mcp
-        assert sarf_mcp.CORPUS_DB == cls.db, (sarf_mcp.CORPUS_DB, cls.db)
+        cls.S = _use_db(cls, cls.db)
 
     def rows(self, word, clitics=True, **kw):
         con, _vs, rows = self.S._corpus_rows(word, clitics, kw.get("genre"), None, None, kw.get("book"), 50)
@@ -168,8 +191,7 @@ class TestAddRemove(unittest.TestCase):
 
     def setUp(self):
         self.db = _build_db()
-        import sarf_mcp
-        self.S = sarf_mcp
+        self.S = _use_db(self, self.db)
         meta, paras = bci.parse(_write("c.txt", BOOK_B.replace("0700", "0800").replace("قُرْطُبَانٌ", "")))
         con = sqlite3.connect(self.db)
         bid = con.execute("SELECT MAX(id) FROM books").fetchone()[0] + 1
