@@ -5656,15 +5656,17 @@ def detect_badi(text: str) -> dict:
     import re
     lines = [l.strip() for l in text.strip().splitlines() if l.strip()]
     poetry = sum(1 for l in lines if "*" in l) >= max(1, len(lines) // 2)
-    units = []
+    units, saj_units = [], []
     for l in lines:
         if poetry and "*" in l:
             s_, _, a_ = l.partition("*")
             units.append((s_.strip(), a_.strip()))
         else:
-            for seg in re.split(r"[.،؛!?؟\n]+", l):
+            # الفاصلة تفصل الفقرتين في السجع، ولا تقطع الجملة في الجناس والطباق والمقابلة
+            for seg in re.split(r"[.؛!?؟\n]+", l):
                 if seg.strip():
                     units.append((seg.strip(), ""))
+            saj_units += [(seg.strip(), "") for seg in re.split(r"[.،؛!?؟\n]+", l) if seg.strip()]
     found = {"الجناس": [], "الطباق": [], "المقابلة": [], "التصريع": [], "ردّ العجز على الصدر": [], "السجع": [], "لزوم ما لا يلزم": [], "الاقتباس": [],
              "ما لا يستحيل بالانعكاس (القلب)": []}
     ant = _antonym_index()
@@ -5753,8 +5755,8 @@ def detect_badi(text: str) -> dict:
         if before and len(set(before)) == 1 and before[0] not in "اوي":
             found["لزوم ما لا يلزم"].append({"الحرف الملتزم قبل الروي": before[0], "في الأبيات": len(before)})
     # السجع في النثر
-    if not poetry and len(units) >= 2:
-        ends = [(_core_letters(u.split()[-1]), u.split()[-1]) for u, _ in units if u.split()]
+    if not poetry and len(saj_units) >= 2:
+        ends = [(_core_letters(u.split()[-1]), u.split()[-1]) for u, _ in saj_units if u.split()]
         for (b1, w1), (b2, w2) in zip(ends, ends[1:]):
             if b1 and b2 and b1[-1] == b2[-1] and b1 != b2:
                 same_wazn = _wazn_of(w1) == _wazn_of(w2) and _wazn_of(w1)

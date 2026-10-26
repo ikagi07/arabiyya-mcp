@@ -65,6 +65,14 @@ class TestBadiRound2(unittest.TestCase):
         t = found("ونُنكر إن شئنا على الناس قولهم * ولا ينكرون القول حين نقول", "الطباق")
         self.assertIn((("ونُنكر", "ينكرون"), "طباق سلب (إثبات ونفي)"), {(tuple(x["اللفظان"]), x["نوعه"]) for x in t})
 
+    def test_comma_does_not_split_prose(self):
+        # المهمة 15: بغية الإيضاح ج4 ص645 وص582
+        t = "بيني وبين كِنِّي ليل دامس، وطريق طامس"
+        self.assertIn((("دامس", "طامس"), "جناس مضارع"), jinas(t))
+        self.assertTrue(found(t, "السجع"))      # والسجع باقٍ على الفاصلتين
+        tb = found("ما أجمد في حق، ولا أذوب في باطل", "الطباق")
+        self.assertIn(("حق", "باطل"), {tuple(x["اللفظان"]) for x in tb})
+
 
 if __name__ == "__main__":
     unittest.main()
