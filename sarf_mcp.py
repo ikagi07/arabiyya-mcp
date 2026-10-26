@@ -297,13 +297,24 @@ def _is_diacritized(text: str) -> bool:
     return letters > 0 and marks / letters >= 0.3
 
 
+# القصر: حذف ساكن السبب الخفيف آخر «فاعلاتن» وإسكان متحركه (1011010 ← 101100 «فاعلانْ»). يسمّيه PyArud «القطع»
+# (والقطع لا يكون إلا في وتد مجموع) أو «التسبيغ» (وهو «فاعلاتان» 10110100)؛ فيُردّ إلى اسمه (بيان سقط الزند).
+_QASR = {"101100": "مقصورة (القصر)", "111100": "مقصورة مخبونة"}
+
+
+def _hal(f) -> str:
+    if f.base_tafeela == "فاعلاتن" and f.actual_segment in _QASR:
+        return _QASR[f.actual_segment]
+    return f.zihaf_name_ar
+
+
 def _shatr(s) -> dict:
     return {
         "النص": s.text,
         "الكتابة العروضية": s.arudi_text,
         "الرموز": s.pattern,
         "التفعيلات": [
-            {"التفعيلة": f.base_tafeela, "الحال": f.zihaf_name_ar, "سليمة": f.status == "ok"}
+            {"التفعيلة": f.base_tafeela, "الحال": _hal(f), "سليمة": f.status == "ok"}
             for f in s.feet
         ],
         "موزون": s.is_valid,
@@ -467,9 +478,18 @@ def _verse_score(parts, meter):
 
 @lru_cache(maxsize=1)
 def _patch_pyarud():
-    """تصحيح علّة في PyArud: قاعدة «يس ← ياسين» تُطبَّق على آخر «ليس» و«وليس» فتفسد وزنهما."""
+    """تصحيح علّتين في PyArud: (1) قاعدة «يس ← ياسين» تُطبَّق على آخر «ليس» و«وليس» فتفسد وزنهما.
+    (2) المديد: العروض الثانية المحذوفة «فاعلن» لها ثلاثة أضرب: مقصور «فاعلانْ» ومحذوف «فاعلن» وأبتر «فعْلن»؛ وليس فيه المقصور."""
     import gc
+    import pyarud
+    from pyarud import processor
     from pyarud.core import phonetics as ph
+    from pyarud.meters import bahr, engine, zihaf as z
+    bahr.Madeed.arod_dharbs_map = {**bahr.Madeed.arod_dharbs_map, z.Hadhf: (z.Qasar, z.Hadhf, z.Batr)}
+    engine.ALL_GRAMMARS[:] = [engine.build_meter_grammar(bahr.Madeed) if g.bahr_cls is bahr.Madeed else g
+                              for g in engine.ALL_GRAMMARS]
+    processor._GLOBAL_PRECOMPUTED_PATTERNS = processor._GLOBAL_SADR_EXACT_MAPS = processor._GLOBAL_AJUZ_EXACT_MAPS = None
+    pyarud._DEFAULT_PROCESSOR = None
     ph.DEFAULT_ARUDI_REPLACEMENTS.pop("يس", None)
     for o in gc.get_objects():
         if isinstance(o, ph.ArudiConverter):
@@ -481,6 +501,7 @@ def _patch_pyarud():
 def _meter_grammars():
     """أنماط الأشطر الصحيحة لكل بحر وفروعه، وبادئاتها، من نحو PyArud."""
     from pyarud.meters.engine import ALL_GRAMMARS
+    _patch_pyarud()
     out = []
     for g in ALL_GRAMMARS:
         def prefixes(pats):
