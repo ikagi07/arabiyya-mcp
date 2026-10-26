@@ -1873,8 +1873,20 @@ def _prepare_poem(poem: str, meter: str | None, auto_diacritize: bool):
             prepared.append((s2, a2))
         else:
             prepared.append((s_, a_))
-    r = pyarud.analyze_poem(prepared, forced_meter=meter) if meter else pyarud.analyze_poem(prepared)
     fixed = {}
+    if auto_diacritize and not meter:
+        # البحر الغالب يُختار من الأبيات بعد التشكيل الآلي؛ فإن أفسد المشكِّل بيتًا («وَعَهْدِيٌّ») جرّ القصيدة كلها إلى بحر آخر
+        # (المتدارك)، ثم لا يُصلَح البيت إلا على ذلك البحر. فيُضبط كل بيت مختل أولًا كما يضبطه scan_verse، بلا بحر مفروض.
+        for i, (s2, a2) in enumerate(prepared):
+            v1 = pyarud.analyze_verse(s2, a2 or "")
+            if not (v1.is_valid and v1.score >= 0.99):
+                o = [verses[i][0], verses[i][1]] if verses[i][1] else [verses[i][0]]
+                b_ = [s2, a2] if verses[i][1] else [s2]
+                f, ch, r2 = _fit_meter(o, b_, None)
+                if ch and r2 is not None and (r2.is_valid, r2.score) > (v1.is_valid, v1.score):
+                    prepared[i] = (f[0], f[1] if len(f) > 1 else "")
+                    fixed[i + 1] = ch
+    r = pyarud.analyze_poem(prepared, forced_meter=meter) if meter else pyarud.analyze_poem(prepared)
     if auto_diacritize:
         dom = meter or r.meter_key
         for i, v in enumerate(r.verses):
