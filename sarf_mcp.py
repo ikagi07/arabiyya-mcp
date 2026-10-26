@@ -5662,17 +5662,21 @@ def _core_hamza(w: str) -> str:
 
 
 def _harakat_differ(a: str, b: str, n: int) -> bool:
-    """الجناس المحرّف: حروف الكلمتين بعد السوابق واحدة (n حرفًا)، واختلفت حركة حرف ضُبط في الكلمتين كلتيهما.
+    """الجناس المحرّف: حروف الكلمتين بعد السوابق واحدة (n حرفًا)، واختلفت هيئة حرف ضُبط في الكلمتين كلتيهما.
+    والهيئة الحركة والشدة معًا: «المشدد في هذا الباب يقوم مقام المخفف نظرًا إلى الصورة» (بغية الإيضاح ج4 ص643)،
+    فالشدة لا تُعدّ حرفًا في عدّ الحروف، لكنها تغيّر الهيئة («مُفْرِط/مُفَرِّط»، «قَدَر/قَدَّر»).
     لا يُقارن الحرف الأخير (حركته إعراب)، ولا يُحكم فيما لم يُضبط."""
     def core(w):
         lm = [m for ch, m in _letters_marks(w) if "ء" <= ch <= "ي"]
         return lm[-n:] if n else []
     def vowel(m):
-        return next((c for c in m if c in "\u064e\u064f\u0650\u0652"), None)
+        return next((c for c in (m or "") if c in "\u064e\u064f\u0650\u0652"), None)
+    def hay(m):
+        return (vowel(m), "\u0651" in (m or ""))
     ca, cb = core(a), core(b)
     if len(ca) != n or len(cb) != n:
         return False
-    return any(vowel(p) and vowel(q) and vowel(p) != vowel(q) for p, q in zip(ca[:-1], cb[:-1]))
+    return any(vowel(p) and vowel(q) and hay(p) != hay(q) for p, q in zip(ca[:-1], cb[:-1]))
 
 
 def _ha_role(hemi: str, u: list, r: int):

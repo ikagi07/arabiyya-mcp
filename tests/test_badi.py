@@ -112,6 +112,52 @@ class TestBadiRound2(unittest.TestCase):
         self.assertEqual(found("قل لمن ساد ثم ساد أبوه * قبله ثم قبل ذلك جده", "الطباق"), [])
 
 
+# جمل بليغ العادية العشر (مراجعة #15، /workspace/review15/spot/cases.json): لا بديع فيها
+ORDINARY = {
+    "P1": "ذهب الطالب إلى المدرسة صباحا وقرأ درسه في المكتبة ثم عاد إلى بيته",
+    "P2": "اشترى أبي سيارة جديدة من المعرض، ودفع ثمنها نقدا، ثم أخذنا في نزهة إلى البحر",
+    "P3": "يعمل الفلاحون في الحقول منذ الفجر، ويسقون الزرع، ويجمعون الثمر قبل الغروب",
+    "P4": "كتب المؤلف هذا الكتاب في ثلاث سنين، وجمع فيه أخبار العلماء ورحلاتهم إلى المدن",
+    "P5": "قال المعلم للتلاميذ افتحوا كتبكم على الصفحة العاشرة واقرؤوا الفقرة الأولى بصوت واضح",
+    "P6": "وصل الوفد إلى المطار مساء الخميس، واستقبله الوزير، ثم انتقل إلى الفندق القريب من السوق",
+    "P7": "أقيموا بني أمي صدور مطيكم * فإني إلى قوم سواكم لأميل",
+    "P8": "ولما رأيت الجهل في الناس فاشيا * تجاهلت حتى ظن أني جاهل",
+    "P9": "العيد قريب، والناس يشترون الملابس والحلوى للأطفال",
+    "P10": "ركب الرجل الكريم الخيل وخرج إلى الصيد مع أصحابه",
+}
+# رصود سابقة على #15 (موجودة على main قبله) لم تُعالَج في هذه المراجعة: حدود معروفة
+ORDINARY_KNOWN = {"P1": "جناس ناقص المدرسة/درسه (من جذر واحد)", "P4": "سجع سنين/المدن",
+                  "P7": "جناس لاحق بني/فإني وأمي/فإني", "P8": "جناس الاشتقاق الجهل/تجاهلت/جاهل وردّ العجز (يحكم فيه بليغ)"}
+
+
+class TestOrdinarySentences(unittest.TestCase):
+    def test_no_tibaq_or_muqabala(self):
+        for k, t in ORDINARY.items():
+            with self.subTest(k):
+                self.assertEqual((found(t, "الطباق"), found(t, "المقابلة")), ([], []))
+
+    def test_no_badi_at_all(self):
+        for k, t in ORDINARY.items():
+            if k in ORDINARY_KNOWN:
+                continue
+            with self.subTest(k):
+                self.assertIsInstance(M.detect_badi(t)["المحسنات"], str)
+
+    @unittest.expectedFailure
+    def test_no_badi_known_limits(self):
+        for k in ORDINARY_KNOWN:
+            self.assertIsInstance(M.detect_badi(ORDINARY[k])["المحسنات"], str, k)
+
+
+class TestShaddaHayah(unittest.TestCase):
+    def test_bughya_643_shadda(self):
+        # منقول: بغية الإيضاح ج4 ص643، باب الجناس المحرّف، عن السكاكي: «الجهول إما مفرِط أو مفرِّط»،
+        # «والمشدد في هذا الباب يقوم مقام المخفف نظرًا إلى الصورة»: الشدة لا تُعدّ حرفًا، لكنها تغيّر الهيئة
+        self.assertIn((("مُفْرِط", "مُفَرِّط"), "جناس محرّف"), jinas("الجهول إما مُفْرِط أو مُفَرِّط"))
+        self.assertIn((("مفرِط", "مفرِّط"), "جناس محرّف"), jinas("الجهول إما مفرِط أو مفرِّط"))
+        self.assertIn((("قَدَر", "وقَدَّر"), "جناس محرّف"), jinas("قَدَر الله وقَدَّر"))
+
+
 class TestAntonymFile(unittest.TestCase):
     def test_missing_file_warns(self):
         # مراجعة #15: غياب data/badi/antonyms_general.tsv لا يُسكت عنه
