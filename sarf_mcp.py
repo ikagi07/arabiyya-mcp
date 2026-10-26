@@ -5581,12 +5581,12 @@ _ANTONYMS = [("حياة", "موت"), ("حي", "ميت"), ("ليل", "نهار"),
              ("سعيد", "شقي"), ("ربح", "خسر"), ("ربح", "خساره"), ("بدايه", "نهايه"), ("كثير", "قليل"), ("كثره", "قله"), ("ملك", "مملوك")]
 
 
-ANTONYM_TIERS = "AB"   # A ويكاموس الإنجليزي، B ويكاموس العربي (المتبادل)، C الشبكة الدلالية العربية (أضعفها)
+ANTONYM_TIERS = "A"    # A ويكاموس الإنجليزي (الافتراضي)؛ B ويكاموس العربي مقفلة حتى يراجعها بليغ بيده؛ C الشبكة الدلالية العربية (أضعفها)
 
 
 def _general_antonyms(tiers: str = None) -> list:
-    """أزواج الأضداد العامة من data/badi/antonyms_general.tsv (CC BY-SA، انظر DATA_LICENSES.md):
-    اللفظان ولمّتاهما كما يخرجهما CAMeL."""
+    """أزواج الأضداد العامة من data/badi/antonyms_general.tsv (CC BY-SA، انظر DATA_LICENSES.md): العمودان word1/word2 وحدهما.
+    وعمودا word*_lex تحليل آلي للاطلاع فقط، وفيهما أصول غلط («بخيل» ← «خيل»)، فلا يُحمَّلان."""
     import csv
     tiers = ANTONYM_TIERS if tiers is None else tiers
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "badi", "antonyms_general.tsv")
@@ -5596,8 +5596,6 @@ def _general_antonyms(tiers: str = None) -> list:
             for r in csv.DictReader(f, delimiter="\t"):
                 if r.get("tier") in tiers:
                     out.append((r["word1"], r["word2"]))
-                    if r.get("word1_lex") and r.get("word2_lex"):
-                        out.append((r["word1_lex"], r["word2_lex"]))
     except OSError:
         pass
     return out
