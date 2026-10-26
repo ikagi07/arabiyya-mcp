@@ -55,5 +55,26 @@ class TestScanPoem(unittest.TestCase):
         self.assertIn("التصريع", p["الأبيات"][0])
 
 
+class TestQasr(unittest.TestCase):
+    # القصر: «فاعلاتن» ← «فاعلانْ» (101100)، لا قطع ولا تسبيغ (بيان سقط الزند؛ الشواهد من «الكافي» للتبريزي)
+    def test_madeed_maqsur_darb(self):
+        r = M.scan_verse("لَا يَغُرَّنَّ امْرَأً عَيْشُهُ * كُلُّ عَيْشٍ صَائِرٌ لِلزَّوَالْ")  # الكافي ص32
+        self.assertEqual(r["البحر"], "بحر المديد")
+        self.assertTrue(r["موزون"])
+        self.assertEqual(r["الصدر"]["التفعيلات"][-1]["الحال"], "محذوفة (الحذف)")
+        self.assertEqual(r["العجز"]["التفعيلات"][-1]["الحال"], "مقصورة (القصر)")
+
+    def test_ramal_maqsur_darb(self):
+        r = M.scan_verse("أَبْلِغِ النُّعْمَانَ عَنِّي مَأْلُكًا * أَنَّهُ قَدْ طَالَ حَبْسِي وَانْتِظَارْ")  # الكافي ص84
+        self.assertEqual(r["البحر"], "بحر الرمل")
+        self.assertEqual(r["العجز"]["التفعيلات"][-1]["الحال"], "مقصورة (القصر)")
+
+    def test_kamel_maqtu_unchanged(self):
+        r = M.scan_verse("وَإِذَا افْتَقَرْتَ إِلَى الذَّخَائِرِ لَمْ تَجِدْ * ذُخْرًا يَكُونُ كَصَالِحِ الْأَعْمَالِ")  # الكافي ص69
+        self.assertEqual(r["البحر"], "بحر الكامل")
+        self.assertTrue(r["موزون"])
+        self.assertEqual(r["العجز"]["التفعيلات"][-1]["الحال"], "مقطوعة مضمرة")
+
+
 if __name__ == "__main__":
     unittest.main()
