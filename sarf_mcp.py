@@ -5218,7 +5218,19 @@ def takhrij_shahid(verse: str, limit: int = 8, citations: bool = True) -> dict:
         known = {}
         for _sc, _v, _t in (allc if "allc" in locals() else []):
             known.setdefault(_attr_key(_ntoks(_v[3] or "")), " ".join((_v[3] or "").split()))
-        books_attr = _attribution_in_books(ref, hits, known)
+        # في OpenITI كلُّ سطر فقرة: «وقال عبد الله بن معاوية: [من الطويل]» فقرةٌ، والبيت فقرة بعدها؛ وفي الشاملة الصفحة فقرة.
+        # فتُضمّ إلى كل موضع الفقرات الست قبله من الكتاب نفسه، للنسبة وحدها (لا للاستشهاد)، مفصولةً بـ«...»
+        # كما تُفصل أبيات القطعة في الشاملة، فتعمل قاعدة «أبيات من القطعة نفسها بين النسبة والبيت» كما تعمل هناك.
+        ctx = {}
+        if hits:
+            con = sqlite3.connect(f"file:{CORPUS_DB}?mode=ro", uri=True)
+            for pid, h in hits.items():
+                prev = [t for (t,) in con.execute(
+                    "SELECT text FROM paras WHERE id BETWEEN ? AND ? AND book = (SELECT book FROM paras WHERE id = ?) ORDER BY id",
+                    (pid - 6, pid - 1, pid))]
+                ctx[pid] = h[:6] + (" ... ".join(prev + [h[6]]),)
+            con.close()
+        books_attr = _attribution_in_books(ref, ctx or hits, known)
         if books_attr:
             out["قائله في كتب المدوّنة"] = books_attr
             top = books_attr[0]
